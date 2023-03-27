@@ -23,12 +23,12 @@ const Navbar = () => {
       </Link>
 
       <nav>
-        <div className="w-8 mr-4 md:hidden">
+        <div className="w-8 mr-4 lg:hidden">
           <img alt="ItemMenu" src={ItemMenu} className='scale-200'
           onClick={showMenu} 
           />
         </div>
-        <ul className="hidden md:flex gap-8 p-6 bg-black/10">
+        <ul className="hidden lg:flex gap-8 p-6 bg-black/10">
           <li>
             <Link to="/planAction" className="">PLAN D'ACTION</Link>
           </li>
