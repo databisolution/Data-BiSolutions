@@ -1,15 +1,15 @@
 import './App.css';
-import Navbar from './component/Navbar';
-import MainPage from './component/MainPage';
+import Navbar from './components/Navbar';
+import MainPage from './components/MainPage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Contact from './component/Contact';
-import Produit from './component/Produit';
-import Technologies from './component/Technologies'
-import Partenaires from './component/Partenaires'
-import Apropos from './component/Apropos'
-import PlanDActions from './component/PlanDAction'
-import NotFound from './component/NotFound'
-import Footer from './component/Footer';
+import Contact from './components/Contact';
+import Produit from './components/Produit';
+import Technologies from './components/Technologies'
+import Partenaires from './components/Partenaires'
+import Apropos from './components/Apropos'
+import PlanDActions from './components/PlanDAction'
+import NotFound from './components/NotFound'
+import Footer from './components/Footer';
 
 function App() {
   return (

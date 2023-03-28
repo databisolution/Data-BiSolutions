@@ -1,18 +1,17 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import ItemMenu from "./assets/images/icons8-menu.png";
 import logo from "./assets/images/logo.PNG"
-import MenuItems from "./MenuItems";
+import MenuItems from "../components/MenuItems";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
 
-  const showMenu = () => {
-    setActive(!active);
-  };
+//   const showMenu = () => {
+//     setActive(!active);
+//   };
  
   return (
-    <div className="fixed w-full flex justify-between items-center p-4 border-b-[1px] backdrop-blur-md z-10">
+    <div className="fixed w-full flex justify-between items-center p-4 border-b-[1px] sm:backdrop-blur-3xl backdrop-blur-xl z-50">
       <Link to="/">
       <div className="text 2-xl font-bold uppercase flex items-center">
         <img alt="logo" src={logo} className="w-16 h-16"/>
@@ -23,12 +22,12 @@ const Navbar = () => {
       </Link>
 
       <nav>
-        <div className="w-8 mr-4 lg:hidden">
+        {/* <div className="w-8 mr-4 lg:hidden">
           <img alt="ItemMenu" src={ItemMenu} className='scale-200'
           onClick={showMenu} 
           />
-        </div>
-        <ul className="hidden lg:flex gap-8 p-6 bg-black/10">
+        </div> */}
+        <ul className="hidden lg:flex gap-8 p-6 bg-black/10 w-full backdrop-blur-md ">
           <li>
             <Link to="/planAction" className="">PLAN D'ACTION</Link>
           </li>
@@ -48,7 +47,7 @@ const Navbar = () => {
             <Link to="/aPropos">À PROPOS</Link>
           </li>
         </ul>
-        <MenuItems showMenu={showMenu} active={active}/>
+        <MenuItems setActive={setActive} active={active}/>
       </nav>
     </div>
   );
