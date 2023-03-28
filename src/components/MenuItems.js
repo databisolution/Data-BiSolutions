@@ -14,6 +14,7 @@ const MenuItems = ({setActive, active}) => {
         ) : (
         
             <img  src={Cancel}
+            alt="cancel"
             className=' w-14 top-0 right-0 absolute m-5 z-20 '
             onClick={()=>setActive(!active)} />
             
