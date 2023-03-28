@@ -6,7 +6,7 @@ import Azure from "./assets/images/Azure.png"
 const Technologies = () => {
   return (
     <section className='pt-52' data-aos="">
-         {/* <div className=' mx-auto z-0'>
+         <div className=' mx-auto z-0'>
             <h1 className='text-3xl font-bold text-blue-800 capitalize' data-aos="zoom-in-down"  data-aos-duration="1500">Technologies</h1>
             <div className='border-b-[1px] mx-auto w-52 p-4'></div>
             <img className='mx-auto py-4' src={Techno} alt='technologies' data-aos="zoom-in-down"  data-aos-duration="1800"/>
@@ -35,7 +35,7 @@ const Technologies = () => {
               hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-300" data-aos="zoom-in-down"  
               data-aos-duration="1800">Contactez-nous</button>
             
-        </div> */}
+        </div>
     </section>
   )
 }

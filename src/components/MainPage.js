@@ -1,5 +1,5 @@
 import React from 'react'
-import MultiSecteurs from "./assets/images/MultiSecteurs.PNG"
+// import MultiSecteurs from "./assets/images/MultiSecteurs.PNG"
 import Indicateurs from "./assets/images/INDICATEURS.PNG"
 import MainImage from './assets/images/accueil.png'
 import { Link } from 'react-router-dom'
