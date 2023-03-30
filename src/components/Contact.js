@@ -11,7 +11,7 @@ const Contact = ({ name, subject, email, message }) => {
             <h1 className="text-3xl font-bold text-blue-800">Contact</h1>
             <div className="border-b-[1px] mx-auto w-52 p-4"></div>
           </div>
-          <p className="text-3xl mt-10 lg:hidden">
+          <p className="text-3xl mt-10 lg:hidden px-2">
             Un besoin, un projet… N’hésitez pas à nous contacter aux coordonnées
             ci-après ou envoyez-nous un message en remplissant le formulaire.
           </p>
@@ -23,16 +23,11 @@ const Contact = ({ name, subject, email, message }) => {
             email={email}
             message={message}
           />
-          <div className=" h-52">
+          <div className=" h-52 flex flex-col justify-center">
             <h2 className="text-3xl font-bold">Contactez-nous</h2>
             <p className="text-3xl">
               275 Chemin de Hurbé 33670 LA SAUVE France
             </p>
-            <button
-              onClick={() => (window.location = "g.ramu@databisolutions.fr")}
-            >
-              g.ramu@databisolutions.fr
-            </button>
           </div>
         </div>
       </div>
@@ -41,3 +36,5 @@ const Contact = ({ name, subject, email, message }) => {
 };
 
 export default Contact;
+
+

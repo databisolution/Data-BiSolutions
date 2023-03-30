@@ -28,24 +28,31 @@ const MainPage = () => {
             data-aos="zoom-in-down"
             data-aos-duration="1800"
           ></div>
-          <div data-aos="zoom-in-down" data-aos-duration="2000">
+          <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
             {/* <img className='mx-auto py-4' alt='multiSecteurs' src={MultiSecteurs}/> */}
-            <div className="flex flex-wrap h-[600px] xl:w-[1100px] border-2 mx-auto my-5 bg-cyan-100 z-0">
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[500px] border-5 mt-5 bg-red-500 mx-auto rounded"></div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[500px] border-5 mt-5 bg-green-300 mx-auto rounded"></div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[500px] border-5 mt-5 bg-gray-300 mx-auto rounded"></div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[500px] border-5 mt-5  bg-yellow-300 mx-auto rounded"></div>
+            <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] border-2 mx-auto my-5 p-10 bg-cyan-100 z-0">
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-red-500 mx-auto rounded relative">
+                <p className="mt-24">Finance</p>
+                <p className=" mt-10">Trésorerie</p>
+                <p className="mb-20">Charges</p>
+                <p className="mb-32">Rentabilité</p>
+                
+              </div>
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-green-300 mx-auto rounded"></div>
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-gray-300 mx-auto rounded"></div>
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5  bg-yellow-300 mx-auto rounded"></div>
             </div>
-            <p className="text-xl">
-              La centralisation de la donnée offre de grandes possibilités
-              d’analyse
-            </p>
+            
           </div>
           <div
             className="border-b-[2px] mx-auto w-52 p-4"
             data-aos="zoom-in-down"
             data-aos-duration="1800"
           ></div>
+          <p className="text-xl">
+              La centralisation de la donnée offre de grandes possibilités
+              d’analyse
+            </p>
         </div>
         <div className="h-full  mx-auto mb-10">
           {" "}
