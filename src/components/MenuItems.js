@@ -23,7 +23,7 @@ const MenuItems = ({ setActive, active }) => {
       )}
       <div className="">
         <ul
-          className={`text-black text-4xl flex flex-col justify-around items-center justify-center fixed w-full h-[100vh] bg-white/100 top-0 left-0 pt-20
+          className={`text-black text-4xl flex flex-col justify-around items-center fixed w-full h-[100vh] bg-white/100 top-0 left-0 py-20
         ${
           active ? "translate-x-0" : "translate-x-full"
         } ease-in-out duration-500

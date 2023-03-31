@@ -13,8 +13,9 @@ const MainPage = () => {
             src={MainImage}
             alt="mainImage"
             className=" mx-auto pb-8  sm:h-[250px] w-full md:w-full object-cover"
-          />{" "}
+          />
           {/*py-32 h-[600px] w-[1400px] object-cover*/}
+          <h1 className="absolute top-[220px] left-[100px] text-2xl text-blue-500">Data & BI Solutions</h1>
         </div>
         <div className="h-full mx-auto mb-10 ">
           {" "}
