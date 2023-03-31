@@ -1,8 +1,8 @@
 import React from "react";
-// import MultiSecteurs from "./assets/images/MultiSecteurs.PNG"
 import Indicateurs from "./assets/images/INDICATEURS.PNG";
-import MainImage from "./assets/images/accueil.png";
+import MainImage from "./assets/images/accueil.jpg";
 import { Link } from "react-router-dom";
+import logo from "./assets/images/logo.PNG"
 
 const MainPage = () => {
   return (
@@ -15,7 +15,9 @@ const MainPage = () => {
             className=" mx-auto pb-8  sm:h-[250px] w-full md:w-full object-cover"
           />
           {/*py-32 h-[600px] w-[1400px] object-cover*/}
-          <h1 className="absolute top-[220px] left-[100px] text-2xl text-blue-500">Data & BI Solutions</h1>
+          <h1 className="absolute top-[250px] left-[130px] text-4xl text-white font-semibold backdrop-blur-[.5px]">
+            Data & BI Solutions
+          </h1>
         </div>
         <div className="h-full mx-auto mb-10 ">
           {" "}
@@ -31,19 +33,33 @@ const MainPage = () => {
           ></div>
           <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
             {/* <img className='mx-auto py-4' alt='multiSecteurs' src={MultiSecteurs}/> */}
-            <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] border-2 mx-auto my-5 p-10 bg-cyan-100 z-0">
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-red-500 mx-auto rounded relative">
-                <p className="mt-24">Finance</p>
-                <p className=" mt-10">Trésorerie</p>
-                <p className="mb-20">Charges</p>
-                <p className="mb-32">Rentabilité</p>
-                
+            <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10">
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20">
+              <p className=" mt-10 relative bottom-5 left-10 text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500">Trésorerie</p>
+                <p className=" relative mr-[120px] text-2xl text-zinc-600 font-bold" data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="500">Rentabilité</p>
+                <p className=" relative mt-[20px] text-blue-900 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500">Finance</p>
+                <p className=" relative ml-[70px] mt-[30px] text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="500">Charges</p>
               </div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-green-300 mx-auto rounded"></div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-gray-300 mx-auto rounded"></div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5  bg-yellow-300 mx-auto rounded"></div>
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20">
+              <p className=" mt-10 relative bottom-5 right-10 text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="500">Achats</p>
+                <p className=" relative mr-[100px] text-2xl text-zinc-600 font-bold" data-aos="zoom-in" data-aos-delay="1300" data-aos-duration="500">Fournisseurs</p>
+                <p className=" relative mt-[20px] text-blue-900 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500">Productions</p>
+                <p className=" relative ml-[70px] mt-[30px] text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="1600" data-aos-duration="500">Délais</p>
+              </div>
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20">
+              <p className=" mt-10 relative bottom-5 left-10 text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="500">CA</p>
+                <p className=" relative mr-[120px] text-2xl text-zinc-600 font-bold" data-aos="zoom-in" data-aos-delay="1400" data-aos-duration="500">Marge</p>
+                <p className=" relative mt-[20px] text-blue-900 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="500">Commerce</p>
+                <p className=" relative ml-[20px] mt-[30px] xm:ml-[150px] text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="1700" data-aos-duration="500">Part de marché</p>
+              </div>
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5  bg-slate-100 opacity-75 mx-auto rounded z-20 backdrop-blur/10">
+              <p className=" mt-10 relative bottom-5 right-10 text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="1100" data-aos-duration="500">Frais</p>
+                <p className=" relative ml-[120px] text-2xl text-zinc-600 font-bold" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="500">Salaires</p>
+                <p className=" relative mt-[20px] text-blue-900 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500">Social</p>
+                <p className=" relative mr-[90px] mt-[30px] text-zinc-600 text-2xl font-bold"  data-aos-delay="1800" data-aos-duration="500">Turn-Over</p>
+              </div>
+              <img alt="logo" src={logo} className=" collapse xl:visible z-0 w-[100px] h-[100px] absolute ml-[460px] mt-[210px]"/>
             </div>
-            
           </div>
           <div
             className="border-b-[2px] mx-auto w-52 p-4"
@@ -51,9 +67,9 @@ const MainPage = () => {
             data-aos-duration="1800"
           ></div>
           <p className="text-xl">
-              La centralisation de la donnée offre de grandes possibilités
-              d’analyse
-            </p>
+            La centralisation de la donnée offre de grandes possibilités
+            d’analyse
+          </p>
         </div>
         <div className="h-full  mx-auto mb-10">
           {" "}
