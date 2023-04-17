@@ -35,7 +35,7 @@ const MainPage = () => {
             {/* <img className='mx-auto py-4' alt='multiSecteurs' src={MultiSecteurs}/> */}
             <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10">
               <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20">
-              <p className=" mt-10 relative bottom-5 left-10 text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500">Trésorerie</p>
+              <p className=" mt-10 relative bottom-5 left-8 text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500">Trésorerie</p>
                 <p className=" relative mr-[120px] text-2xl text-zinc-600 font-bold" data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="500">Rentabilité</p>
                 <p className=" relative mt-[20px] text-blue-900 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500">Finance</p>
                 <p className=" relative ml-[70px] mt-[30px] text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="500">Charges</p>
@@ -58,7 +58,7 @@ const MainPage = () => {
                 <p className=" relative mt-[20px] text-blue-900 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500">Social</p>
                 <p className=" relative mr-[90px] mt-[30px] text-zinc-600 text-2xl font-bold"  data-aos-delay="1800" data-aos-duration="500">Turn-Over</p>
               </div>
-              <img alt="logo" src={logo} className=" collapse xl:visible z-0 w-[100px] h-[100px] absolute ml-[460px] mt-[210px]"/>
+              <img alt="logo" src={logo} className=" collapse xl:visible z-0 w-[100px] h-[100px] absolute lg:ml-[460px] lg:mt-[210px]"/>
             </div>
           </div>
           <div
