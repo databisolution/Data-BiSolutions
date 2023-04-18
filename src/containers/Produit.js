@@ -9,6 +9,7 @@ const Produit = () => {
           <a
             className="w-full h-[1000px] "
             target="_blank"
+            rel="noreferrer"
             href="https://app.powerbi.com/reportEmbed?reportId=51d705c3-a1cb-4a1c-8d8c-c188106fd1ba&autoAuth=true&ctid=0976e342-5cad-4116-bf33-66b53eac0b2b"
           >
             ici
