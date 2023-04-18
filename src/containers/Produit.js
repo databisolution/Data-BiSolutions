@@ -15,15 +15,19 @@ const Produit = () => {
             ici
           </a>
           </button>
-          {/* <button>
+
+
+          <p>test de l'autre rapport</p>
+          <button>
           <a
             className="w-full h-[1000px]"
+            rel="noreferrer"
             target="_blank"
             href="https://app.powerbi.com/view?r=eyJrIjoiODVhYWMyMTQtMzc3MC00MjNiLThiMmEtZTA5MmEwNzFjM2JlIiwidCI6IjA5NzZlMzQyLTVjYWQtNDExNi1iZjMzLTY2YjUzZWFjMGIyYiJ9"
           >
             la
           </a>
-        </button> */}
+        </button>
       </div>
     </section>
   );
