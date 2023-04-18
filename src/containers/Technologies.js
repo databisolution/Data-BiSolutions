@@ -4,6 +4,7 @@ import pbi from "./assets/images/Pbi.png";
 import PowerBi from "./assets/images/PowerBi.png";
 import TechnoCard from "../components/TechnoCard";
 import Azure from "./assets/images/Azure.png";
+import TechnoGroup from "../components/TechnoGroup";
 
 const Technologies = () => {
   return (
@@ -18,15 +19,13 @@ const Technologies = () => {
         </h1>
         <div className="border-b-[1px] mx-auto w-52 p-4"></div>
         <img
-          className="mx-auto py-4 lg:w-0 lg:p-0"
+          className="mx-auto py-4 xlx:w-0 xlx:p-0"
           src={Techno}
           alt="technologies"
           data-aos="zoom-in-down"
           data-aos-duration="1800"
         />
-        <div>
-
-        </div>
+        <TechnoGroup/>
         <h2
           className="text-3xl"
           data-aos="zoom-in-down"
