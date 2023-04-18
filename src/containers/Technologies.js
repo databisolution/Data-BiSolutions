@@ -18,12 +18,15 @@ const Technologies = () => {
         </h1>
         <div className="border-b-[1px] mx-auto w-52 p-4"></div>
         <img
-          className="mx-auto py-4"
+          className="mx-auto py-4 lg:w-0 lg:p-0"
           src={Techno}
           alt="technologies"
           data-aos="zoom-in-down"
           data-aos-duration="1800"
         />
+        <div>
+
+        </div>
         <h2
           className="text-3xl"
           data-aos="zoom-in-down"
@@ -32,28 +35,13 @@ const Technologies = () => {
           Les apports de Microsoft POWER BI et Microsoft AZURE SYNAPSE
         </h2>
         <div className="border-b-[2px] mx-auto w-52 px-4 my-10"></div>
-        {/* <div className="flex flex-col lg:flex-row justify-center bgPbi py-20 h-[1050px] xm:h-[400px] shadow-xl">
-          <div className="my-auto max-lg:mx-auto">
-            <img className="w-[400px] lg:w-[400px]" src={pbi} alt="pbi" />
-            <p className="text-2xl text-yellow-400 font-semibold py-4 ">
-              Microsoft POWER BI
-            </p>
-          </div>
-          <p
-            className=" px-1 text-slate-200 font-semibold py-4 text-3xl 2xl:text-4xl lg:text-left leading-[60px] 2xl:leading-[60px] lg:w-[800px]"
-            // data-aos="zoom-in-down"
-            // data-aos-duration="2500"
-          >
-            Les avantages de Power BI sont nombreux pour aider les équipes de
-            direction à faire des choix rapides sans compromettre la rentabilité
-            de leur entreprise. Power BI facilite la visualisation des données.
-          </p>
-        </div> */}
-            <TechnoCard techTitle={<p>Microsoft POWER BI</p>}  techLogo={(pbi)} 
-            techDesc={<p>Les avantages de Power BI sont nombreux pour aider les équipes de
-            direction à faire des choix rapides sans compromettre la rentabilité
-            de leur entreprise. Power BI facilite la visualisation des données.</p>}
-            />
+        <TechnoCard
+          techTitle={"Microsoft POWER BI"}
+          techLogo={pbi}
+          techDesc={
+            "Les avantages de Power BI sont nombreux pour aider les équipes de direction à faire des choix rapides sans compromettre la rentabilité de leur entreprise. Power BI facilite la visualisation des données."
+          }
+        />
         <div>
           <div className="mx-auto flex flex-wrap lg:flex-nowrap xl:w-[1200px] 2xl:w-[1440px]">
             <p className="py-5 my-auto mx-auto leading-10 text-3xl lg:text-right px-5 text-center">
@@ -85,35 +73,11 @@ const Technologies = () => {
         <div>
           <TechnoCard
             techLogo={Azure}
-            techTitle={<h3>Microsoft AZURE SYNAPSE ANALYTICS</h3>}
+            techTitle={"Microsoft AZURE SYNAPSE ANALYTICS"}
             techDesc={
-              <p>
-                {" "}
-                C’est l’outil qui facilite le circuit de traitement de la
-                donnée. Il permettra de synchroniser l’ensemble de vos sources
-                de données (quelle qu’elle soit) et de réaliser avec précision
-                les calculs pour préparer la donnée à diffuser dans POWER BI.
-              </p>
+              "C’est l’outil qui facilite le circuit de traitement de la donnée. Il permettra de synchroniser l’ensemble de vos sources de données (quelle qu’elle soit) et de réaliser avec précision les calculs pour préparer la donnée à diffuser dans POWER BI."
             }
           />
-          {/* <h3>Microsoft AZURE SYNAPSE ANALYTICS</h3>
-          <img
-            className="mx-auto py-4 "
-            src={Azure}
-            alt="Azure"
-            data-aos="zoom-in-down"
-            data-aos-duration="00"
-          />
-          <p
-            className="mx-auto py-2 text-3xl"
-            data-aos="zoom-in-down"
-            data-aos-duration="1800"
-          >
-            C’est l’outil qui facilite le circuit de traitement de la donnée. Il
-            permettra de synchroniser l’ensemble de vos sources de données
-            (quelle qu’elle soit) et de réaliser avec précision les calculs pour
-            préparer la donnée à diffuser dans POWER BI.
-          </p> */}
           <p
             className="mx-auto py-6 text-3xl"
             data-aos="zoom-in-down"

@@ -12,7 +12,7 @@ const MainPage = () => {
           <img
             src={MainImage}
             alt="mainImage"
-            className=" mx-auto pb-8  sm:h-[250px] w-full md:w-full object-cover"
+            className=" mx-auto pb-8  sm:h-[300px] w-full md:w-full object-cover"
           />
           {/*py-32 h-[600px] w-[1400px] object-cover*/}
           <h1 className="absolute top-[250px] left-[130px] text-4xl text-white font-semibold backdrop-blur-[.5px]">
