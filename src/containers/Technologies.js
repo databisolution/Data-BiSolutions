@@ -1,6 +1,8 @@
 import React from "react";
 import Techno from "./assets/images/technologies.PNG";
+import pbi from "./assets/images/Pbi.png";
 import PowerBi from "./assets/images/PowerBi.png";
+import TechnoCard from "../components/TechnoCard";
 import Azure from "./assets/images/Azure.png";
 
 const Technologies = () => {
@@ -8,9 +10,9 @@ const Technologies = () => {
     <section className="pt-52" data-aos="">
       <div className=" mx-auto z-0">
         <h1
-          className="text-3xl font-bold text-blue-800 capitalize"
+          className="text-left text-3xl font-bold text-blue-800 capitalize"
           data-aos="zoom-in-down"
-          data-aos-duration="1500"
+          data-aos-duration="800"
         >
           Technologies
         </h1>
@@ -29,29 +31,46 @@ const Technologies = () => {
         >
           Les apports de Microsoft POWER BI et Microsoft AZURE SYNAPSE
         </h2>
-        <div className="border-b-[2px] mx-auto w-52 p-4"></div>
-        <div>
-          <h3>Microsoft POWER BI</h3>
+        <div className="border-b-[2px] mx-auto w-52 px-4 my-10"></div>
+        {/* <div className="flex flex-col lg:flex-row justify-center bgPbi py-20 h-[1050px] xm:h-[400px] shadow-xl">
+          <div className="my-auto max-lg:mx-auto">
+            <img className="w-[400px] lg:w-[400px]" src={pbi} alt="pbi" />
+            <p className="text-2xl text-yellow-400 font-semibold py-4 ">
+              Microsoft POWER BI
+            </p>
+          </div>
           <p
-            className="mx-auto py-4 text-3xl"
-            data-aos="zoom-in-down"
-            data-aos-duration="2500"
+            className=" px-1 text-slate-200 font-semibold py-4 text-3xl 2xl:text-4xl lg:text-left leading-[60px] 2xl:leading-[60px] lg:w-[800px]"
+            // data-aos="zoom-in-down"
+            // data-aos-duration="2500"
           >
             Les avantages de Power BI sont nombreux pour aider les équipes de
             direction à faire des choix rapides sans compromettre la rentabilité
             de leur entreprise. Power BI facilite la visualisation des données.
-            Avec ces options de présentation sous forme de tableaux, de
-            diagramme ou encore de jauges ou de cartes, il donne une vision
-            complète des données de l’entreprise sous forme visuelle pour
-            faciliter l’utilisation des données en équipe.
           </p>
-          <img
-            className="mx-auto py-4 "
-            src={PowerBi}
-            alt="powerBi"
-            data-aos="zoom-in-down"
-            data-aos-duration="1800"
-          />
+        </div> */}
+            <TechnoCard techTitle={<p>Microsoft POWER BI</p>}  techLogo={(pbi)} 
+            techDesc={<p>Les avantages de Power BI sont nombreux pour aider les équipes de
+            direction à faire des choix rapides sans compromettre la rentabilité
+            de leur entreprise. Power BI facilite la visualisation des données.</p>}
+            />
+        <div>
+          <div className="mx-auto flex flex-wrap lg:flex-nowrap xl:w-[1200px] 2xl:w-[1440px]">
+            <p className="py-5 my-auto mx-auto leading-10 text-3xl lg:text-right px-5 text-center">
+              Avec ces options de présentation sous forme de tableaux, de
+              diagramme ou encore de jauges ou de cartes, il donne une vision
+              complète des données de l’entreprise sous forme visuelle pour
+              faciliter l’utilisation des données en équipe.
+            </p>
+            <img
+              className="mx-auto py-4 "
+              src={PowerBi}
+              alt="powerBi"
+              data-aos="zoom-in-down"
+              data-aos-duration="1800"
+            />
+          </div>
+
           <p className="mx-auto py-4 text-3xl">
             Power BI est une plateforme unique disponible depuis l’ensemble de
             ses appareils avec une seule connexion.
@@ -64,7 +83,20 @@ const Technologies = () => {
           </p>
         </div>
         <div>
-          <h3>Microsoft AZURE SYNAPSE ANALYTICS</h3>
+          <TechnoCard
+            techLogo={Azure}
+            techTitle={<h3>Microsoft AZURE SYNAPSE ANALYTICS</h3>}
+            techDesc={
+              <p>
+                {" "}
+                C’est l’outil qui facilite le circuit de traitement de la
+                donnée. Il permettra de synchroniser l’ensemble de vos sources
+                de données (quelle qu’elle soit) et de réaliser avec précision
+                les calculs pour préparer la donnée à diffuser dans POWER BI.
+              </p>
+            }
+          />
+          {/* <h3>Microsoft AZURE SYNAPSE ANALYTICS</h3>
           <img
             className="mx-auto py-4 "
             src={Azure}
@@ -81,7 +113,7 @@ const Technologies = () => {
             permettra de synchroniser l’ensemble de vos sources de données
             (quelle qu’elle soit) et de réaliser avec précision les calculs pour
             préparer la donnée à diffuser dans POWER BI.
-          </p>
+          </p> */}
           <p
             className="mx-auto py-6 text-3xl"
             data-aos="zoom-in-down"
@@ -94,7 +126,7 @@ const Technologies = () => {
           </p>
         </div>
         <button
-          className="text-3xl p-8 bg-blue-400 rounded-full my-10 p-3 transition ease-in-out delay-150 
+          className="text-3xl p-8 bg-blue-400 rounded-full my-10 transition ease-in-out delay-150 
               hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-300"
           data-aos="zoom-in-down"
           data-aos-duration="1800"

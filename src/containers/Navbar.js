@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "./assets/images/logo.PNG";
-import MenuItems from "../components/MenuItems";
+import MenuItems from "../containers/MenuItems";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
   //   };
 
   return (
-    <div className="fixed w-full flex justify-between items-center p-4 border-b-[1px] bg-white/95 z-50">
+    <div className="fixed w-full flex justify-between items-center p-4 border-b-[1px] bg-white/95 z-50 shadow-lg">
       <Link to="/">
         <div className="text 2-xl font-bold uppercase flex items-center">
           <img alt="logo" src={logo} className="w-16 h-16" />

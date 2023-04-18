@@ -3,6 +3,13 @@
   inset;
 } */
 
+* {
+  font-family: 'Inter', sans-serif;
+}
 .App {
   text-align: center;
+}
+.bgPbi{
+  /* background-image: linear-gradient(251deg, rgb(4,60,108),rgb(37,219,225)); */
+  background-image: linear-gradient(0deg, rgba(35,127,141, 0.15) 0%,rgba(159, 153, 81, 0.15) 100%),linear-gradient(90deg, rgb(5, 10, 46),rgb(143,143,147));
 }

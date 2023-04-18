@@ -33,26 +33,26 @@ const MainPage = () => {
           ></div>
           <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
             {/* <img className='mx-auto py-4' alt='multiSecteurs' src={MultiSecteurs}/> */}
-            <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10">
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20">
+            <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10 shadow-lg">
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
               <p className=" mt-10 relative bottom-5 left-8 text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500">Trésorerie</p>
                 <p className=" relative mr-[120px] text-2xl text-zinc-600 font-bold" data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="500">Rentabilité</p>
                 <p className=" relative mt-[20px] text-blue-900 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="500">Finance</p>
                 <p className=" relative ml-[70px] mt-[30px] text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="500">Charges</p>
               </div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20">
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
               <p className=" mt-10 relative bottom-5 right-10 text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="500">Achats</p>
                 <p className=" relative mr-[100px] text-2xl text-zinc-600 font-bold" data-aos="zoom-in" data-aos-delay="1300" data-aos-duration="500">Fournisseurs</p>
                 <p className=" relative mt-[20px] text-blue-900 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500">Productions</p>
                 <p className=" relative ml-[70px] mt-[30px] text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="1600" data-aos-duration="500">Délais</p>
               </div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20">
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
               <p className=" mt-10 relative bottom-5 left-10 text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="500">CA</p>
                 <p className=" relative mr-[120px] text-2xl text-zinc-600 font-bold" data-aos="zoom-in" data-aos-delay="1400" data-aos-duration="500">Marge</p>
                 <p className=" relative mt-[20px] text-blue-900 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="500">Commerce</p>
                 <p className=" relative ml-[20px] mt-[30px] xm:ml-[150px] text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="1700" data-aos-duration="500">Part de marché</p>
               </div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5  bg-slate-100 opacity-75 mx-auto rounded z-20 backdrop-blur/10">
+              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5  bg-slate-100 opacity-75 mx-auto rounded z-20 backdrop-blur/10 shadow-md">
               <p className=" mt-10 relative bottom-5 right-10 text-zinc-600 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="1100" data-aos-duration="500">Frais</p>
                 <p className=" relative ml-[120px] text-2xl text-zinc-600 font-bold" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="500">Salaires</p>
                 <p className=" relative mt-[20px] text-blue-900 text-2xl font-bold" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500">Social</p>
