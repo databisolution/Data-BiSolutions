@@ -29,24 +29,24 @@ const Navbar = () => {
           />
         </div> */}
         <ul className="hidden lg:flex gap-8 p-6 bg-black/10 w-full backdrop-blur-md ">
-          <li>
-            <Link to="/planAction" className="">
+          <li  className="underlined">
+            <Link to="/planAction">
               PLAN D'ACTION
             </Link>
           </li>
-          <li>
+          <li className="underlined">
             <Link to="/produit">PRODUIT</Link>
           </li>
-          <li>
+          <li className="underlined">
             <Link to="/technologies">TECHNOLOGIES</Link>
           </li>
-          <li>
+          <li className="underlined">
             <Link to="/partenaires">PARTENAIRES</Link>
           </li>
-          <li>
+          <li className="underlined">
             <Link to="/contact">CONTACT</Link>
           </li>
-          <li>
+          <li className="underlined">
             <Link to="/aPropos">À PROPOS</Link>
           </li>
         </ul>

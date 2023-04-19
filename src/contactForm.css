@@ -39,7 +39,7 @@ input {
 
 ::placeholder
 {
-    color: white !important;
+    color: rgba(217, 217, 217, 0.886) !important;
     text-align: center;
     padding: 1px;
 }

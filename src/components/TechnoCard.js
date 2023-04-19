@@ -2,9 +2,9 @@ import React from "react";
 
 const TechnoCard = ({techTitle, techDesc, techLogo}) => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center bgPbi h-[1150px] xm:h-[900px] md:h-[700px] lg:h-[400px] shadow-xl pb-20 pt-5">
+    <div className="flex flex-col w-full lg:flex-row justify-center bgPbi h-[1150px] xm:h-[900px] md:h-[700px] lg:h-[400px] shadow-xl pb-20 pt-5 mt-20">
       <div className="my-auto max-lg:mx-auto">
-        <img className="w-[300px] lg:w-[400px]" src={techLogo} alt="pbi" />
+        <img className="w-[300px] lg:w-[300px] pl-24 object-fit" src={techLogo} alt="pbi" />
         <h3 className="text-2xl text-yellow-400 font-semibold py-4 w-[300px] lg:w-[400px]">
           {techTitle}
         </h3>
@@ -16,6 +16,7 @@ const TechnoCard = ({techTitle, techDesc, techLogo}) => {
       >
         {techDesc}
       </p>
+      {/* <TechDescription /> */}
     </div>
   );
 };
