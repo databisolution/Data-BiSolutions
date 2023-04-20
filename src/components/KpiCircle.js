@@ -1,13 +1,15 @@
 import React from "react";
 import Kpi from "../containers/assets/images/KPI.PNG";
 
+
+
 const KpiCircle = () => {
   return (
     <div className="h-[500px] flex flex-col justify-around z-10 w-[1440px] mx-auto">
       <div>
         <p>TEMPS DE PRODUCTIONS / EFFECTIF</p>
       </div>
-
+      
       <div className="flex flex-row justify-between">
 
       <div className="flex flex-col w-[440px] h-[300px] justify-between">
