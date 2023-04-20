@@ -1,20 +1,22 @@
-/* .cursor{
-    z-index: 1000;
-    width: 50px;
-    height: 50px;
-    cursor: none;
-    background: black;
-    border: 1px dashed white;
-    border-radius: 50%;
-    
-    z-index: 1000;
-} */
+.cursor {
+  pointer-events: none;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25%;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  z-index: 1000;
+}
 
 /* .cursor::before
 {
     content: '';
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  
+    
 } */
