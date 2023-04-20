@@ -29,6 +29,9 @@ const Navbar = () => {
           />
         </div> */}
         <ul className="hidden lg:flex gap-8 p-6 bg-black/10 w-full backdrop-blur-md ">
+        <li className="underlined">
+            <Link to="/">ACCUEIL</Link>
+          </li>
           <li  className="underlined">
             <Link to="/planAction">
               PLAN D'ACTION
@@ -39,9 +42,6 @@ const Navbar = () => {
           </li>
           <li className="underlined">
             <Link to="/technologies">TECHNOLOGIES</Link>
-          </li>
-          <li className="underlined">
-            <Link to="/partenaires">PARTENAIRES</Link>
           </li>
           <li className="underlined">
             <Link to="/contact">CONTACT</Link>

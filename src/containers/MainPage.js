@@ -5,6 +5,7 @@ import KpiCircle from "../components/KpiCircle";
 import MainImage from "./assets/images/accueil.jpg";
 import { Link } from "react-router-dom";
 import logo from "./assets/images/logo.PNG";
+import Swipers from "../components/Swipers";
 
 const MainPage = () => {
   return (
@@ -219,6 +220,7 @@ const MainPage = () => {
             Des entreprises comme la vôtre réalise chaque jour des projets BI
             pour améliorer leur quotidien
           </p>
+          <Swipers />
           <Link to="/contact">
             <button
               className=" text-3xl bg-blue-400 rounded-full my-10 p-8 px-20 transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-300"

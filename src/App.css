@@ -16,11 +16,14 @@
   background-image: linear-gradient(0deg, rgba(35,127,141, 0.15) 0%,rgba(159, 153, 81, 0.15) 100%),linear-gradient(90deg, rgb(5, 10, 46),rgb(143,143,147));
 }
 
+
+/* #################- Tech Global -############################### */
 #techGlobal
 {
   background-image: repeating-linear-gradient(310deg, rgba(35,127,141, 0.15) 0px, rgba(159, 153, 81, 0.15) 2px,transparent 2px, transparent 4px),linear-gradient(355deg, rgb(5, 10, 46),rgb(143,143,147));
 }
 
+/* #################- Underline Navbar -############################### */
 .underlined
 {
   display: inline;
@@ -39,7 +42,30 @@
     transition: transform 0.2s ease-in-out;
 }
 
+.underlinedNf{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: white;
+  transform: scale(0);
+  transition: transform 0.2s ease-in-out;
+}
+
 .underlined:hover::after
 {
   transform: scale(1);
 }
+
+
+/* ###############- Grayscale carousel -################ */
+
+.grayscale-carousel img {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  }
+  .grayscale-carousel img:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+  }
