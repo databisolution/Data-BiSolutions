@@ -9,7 +9,7 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 
 const Swipers = () => {
   return (
-    <div className="w-[300px] sm:w-[500px] md:w-[800px] mx-auto grayscale-carousel">
+    <div className="w-[300px] sm:w-[500px] md:w-[800px] mx-auto grayscale-carousel z-0 mt-[200px]">
     <Swiper
       effect={"coverflow"}
       grabCursor={true}

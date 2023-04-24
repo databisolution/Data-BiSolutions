@@ -2,6 +2,15 @@
   box-shadow:  0 0 0 3px red
   inset;
 } */
+body{
+-webkit-font-feature-smoothing: antialiased ;
+}
+
+/* 3D4057
+747677
+D00000
+EBFCFB
+E1BC29 */
 
 * {
   font-family: 'Inter', sans-serif;
@@ -9,7 +18,7 @@
 .App 
 {
   text-align: center;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .bgPbi
 {

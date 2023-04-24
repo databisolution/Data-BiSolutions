@@ -11,11 +11,11 @@ const MainPage = () => {
   return (
     <main>
       <div className=" mx-auto z-0 w-full px-1">
-        <div className="pt-32" data-aos="zoom-in" data-aos-duration="1000">
+        <div className="py-32 " data-aos="zoom-in" data-aos-duration="1000">
           <img
             src={MainImage}
             alt="mainImage"
-            className=" mx-auto pb-8  sm:h-[300px] w-full md:w-full object-cover"
+            className=" mx-auto sm:h-[300px] w-full md:w-full object-cover shadow-lg"
           />
           {/*py-32 h-[600px] w-[1400px] object-cover*/}
           <h1 className="absolute top-[250px] left-[130px] text-4xl text-white font-semibold backdrop-blur-[.5px]">
@@ -212,7 +212,7 @@ const MainPage = () => {
         >
           {" "}
           {/*h-full w-[1200px] border-2 mx-auto mb-10*/}
-          <p className="text-4xl" data-loc="imagetest">
+          <p className="text-4xl mt-[200px]" data-loc="imagetest">
             Réaliser votre projet
           </p>
           <div className="border-b-[2px] mx-auto w-52 p-4"></div>
