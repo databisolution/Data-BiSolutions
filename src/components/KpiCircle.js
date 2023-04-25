@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Kpi from "../containers/assets/images/KPI.PNG";
 import { Paraph } from "../fakeData/fakeData.js";
+import kpi from "../containers/assets/images/INDICATEURS.PNG"
 import "../kpi.css";
 
 const KpiCircle = () => {
@@ -24,13 +25,15 @@ const KpiCircle = () => {
   });
 
   return (
-    <div className="h-[500px] flex flex-col justify-around w-[1440px] mx-auto z-30 ">
+    <>
+    <div className="h-0 2xl:h-[500px] flex flex-col justify-around 2xl:w-[1440px] mx-auto z-30 w-0 collapse 2xl:visible 2xl:mt-20">
+      
       <div
         style={{ left: `${position.x}px`, top: `${position.y}px` }}
         className="cursor"
       ></div>
       <Paraph>
-        <span className="text-2xl font-extrabold">TEMPS DE PRODUCTIONS / EFFECTIF</span>
+        <span className="text-2xl font-extrabold collapse 2xl:visible">TEMPS DE PRODUCTIONS / EFFECTIF</span>
         <div className="img-cont">
           <img
             className="imgHover pl-[430px]"
@@ -40,7 +43,7 @@ const KpiCircle = () => {
         </div>
       </Paraph>
       <div className="flex flex-row justify-between">
-        <div className="flex flex-col w-[440px] h-[300px] justify-between">
+        <div className="flex flex-col w-0 2xl:w-[440px] h-[300px] justify-between collapse 2xl:visible">
           <Paraph>
             <span className="text-2xl font-extrabold">Délai de production / article</span>
             <div className="img-cont">
@@ -94,14 +97,14 @@ const KpiCircle = () => {
         </div>
         <div className="">
           <img
-            className="xl:w-[400px] z-0"
+            className="xl:w-[400px] z-0 w-0"
             alt="Kpi"
             src={Kpi}
             // data-aos="fade-up"
             // data-aos-duration="1500"
           />
         </div>
-        <div className="flex flex-col w-[440px] h-[300px] justify-between">
+        <div className="flex flex-col w-0 xl:w-[440px] h-[300px] justify-between collapse 2xl:visible">
           <Paraph>
             <span className="text-2xl font-extrabold">EVOLUTION MENSUELLE DU RESULTAT</span>
             <div className="img-cont">
@@ -154,7 +157,7 @@ const KpiCircle = () => {
           </Paraph>
         </div>
       </div>
-      <div className="flex justify-around">
+      <div className="flex justify-around w-0 2xl:w-[800px] xl:mx-auto collapse 2xl:visible">
       <Paraph>
           <span className="text-2xl font-extrabold">% répartition des charges</span>
           <div className="img-cont">
@@ -177,6 +180,10 @@ const KpiCircle = () => {
         </Paraph>
       </div>
     </div>
+    <div >
+        <img className="visible 2xl:collapse my-20 2xl:my-0 mx-auto"  src={kpi} alt=""/>
+      </div>
+    </>
   );
 };
 

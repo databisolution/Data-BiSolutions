@@ -1,44 +1,83 @@
 import React from "react";
-// import Indicateurs from "./assets/images/INDICATEURS.PNG";7
 import KpiCircle from "../components/KpiCircle";
-// import Kpi from "./assets/images/KPI.PNG";
 import MainImage from "./assets/images/accueil.jpg";
 import { Link } from "react-router-dom";
+import dashlogo from "../containers/assets/images/dashlogo.png";
+import rpa from "../containers/assets/images/rpa.png";
+import info from "../containers/assets/images/information.png";
+import arrow from "../containers/assets/images/arrow.png";
+import db from "../containers/assets/images/db.png";
+import smart from "../containers/assets/images/intelligence.png";
+import board from "../containers/assets/images/board.png";
+import auto from "../containers/assets/images/automatisation.png";
+import decision from "../containers/assets/images/decision.png";
 import logo from "./assets/images/logo.PNG";
 import Swipers from "../components/Swipers";
+import OrgCard from "../components/OrgCard";
+import Title from "../components/Title";
+import Border from "../components/Border";
+import EvolutionLogo from "../components/EvolutionLogo";
 
 const MainPage = () => {
   return (
     <main>
-      <div className=" mx-auto z-0 w-full px-1">
+      <div className=" mx-auto z-0 w-full px-1 flex flex-col">
         <div className="py-32 " data-aos="zoom-in" data-aos-duration="1000">
           <img
             src={MainImage}
             alt="mainImage"
             className=" mx-auto sm:h-[300px] w-full md:w-full object-cover shadow-lg"
           />
-          {/*py-32 h-[600px] w-[1400px] object-cover*/}
           <h1 className="absolute top-[250px] left-[130px] text-4xl text-white font-semibold backdrop-blur-[.5px]">
             Data & BI Solutions
           </h1>
         </div>
-        <div className="h-full mx-auto mb-10 ">
-          {" "}
-          {/*h-full w-[1200px] mx-auto mb-10*/}
-          <p className="text-xl" data-aos="zoom-in" data-aos-duration="1500">
-            Des informations multi-sources, multi-formats collectées et
-            centralisées pour une analyse précise et globale de votre activité
-          </p>
-          <div
-            className="border-b-[2px] mx-auto w-52 p-4"
-            data-aos="zoom-in-down"
-            data-aos-duration="1800"
-            // data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500"
-          ></div>
+        <div className="w-[0px] xl:w-[1500px] mx-auto relative my-20">
+          {/* <div className="parallax"></div>
+          <div className="absolute top-0 ">
+            <p className="parallax text-2xl text-justify p-2 text-white flex flex-col w-[700px] h-[300px] backdrop-blur-sm 2xl:leading-[70px]">
+              <span className="text-5xl text-yellow-400 font-semibold">
+                Une entreprise
+              </span>{" "}
+              créée avec une volonté de répondre aux besoins uniques à chaque
+              activité et d’apporter des solutions dédiées en analyse BI et en
+              applications automatisées pour les dirigeants et leurs équipes.
+            </p>
+          </div> */}
+        </div>
+        <Border />
+        <div className="h-[1500px] w-[300px] lg:w-[1020px] lg:h-[520px] mx-auto flex flex-col lg:flex-row justify-between items-center">
+          <OrgCard
+            cardLogo={dashlogo}
+            cardTitle={"Tableau de Bord"}
+            cardDesc={"Créer des tableaux de bords adaptés a vos besoins."}
+          />
+          <OrgCard
+            cardLogo={rpa}
+            cardTitle={"Automatisation"}
+            cardDesc={
+              "Apporter des outils automatisés pour faciliter la communication dans vos équipes."
+            }
+          />
+          <OrgCard
+            cardLogo={info}
+            cardTitle={"Fiabilité"}
+            cardDesc={"Fiabiliser l’information "}
+          />
+        </div>
+        <Border />
+          
+             <Title 
+              titleDesc={
+                "Des informations multi-sources, multi-formats collectées et centralisées pour une analyse précise et globale de votre activité"
+              }
+            /> 
+         
+        <div className="h-full w-full mx-auto mb-5 ">
+          <Border />
           <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
-            {/* <img className='mx-auto py-4' alt='multiSecteurs' src={MultiSecteurs}/> */}
             <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10 shadow-lg rounded-md">
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
+              <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
                 <p className="mt-10 relative bottom-5  text-zinc-600 text-2xl font-bold">
                   Trésorerie
                 </p>
@@ -67,7 +106,7 @@ const MainPage = () => {
                   Financement
                 </p>
               </div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
+              <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
                 <p
                   className=" mt-10 relative bottom-5 right-10 text-zinc-600 text-2xl font-bold"
                   data-aos="zoom-in"
@@ -93,7 +132,7 @@ const MainPage = () => {
                   Charges
                 </p>
                 <p
-                  className=" relative ml-[70px] mt-[30px] text-zinc-600 text-2xl font-bold"
+                  className=" relative md:ml-[70px] mt-[30px] text-zinc-600 text-xl xm:text-2xl font-bold"
                   data-aos="zoom-in"
                   data-aos-delay="1600"
                   data-aos-duration="500"
@@ -101,7 +140,7 @@ const MainPage = () => {
                   Délais de Rotation
                 </p>
               </div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
+              <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
                 <p
                   className=" mt-10 relative bottom-5 left-8 text-zinc-600 text-2xl font-bold"
                   data-aos="zoom-in"
@@ -135,7 +174,7 @@ const MainPage = () => {
                   Part de marché
                 </p>
               </div>
-              <div className="h-[230px] w-[600px] md:w-[750px] lg:w-[450px] border-5 mt-5  bg-slate-100 opacity-75 mx-auto rounded z-20 backdrop-blur/10 shadow-md">
+              <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5  bg-slate-100 opacity-75 mx-auto rounded z-20 backdrop-blur/10 shadow-md">
                 <p
                   className=" mt-10 relative bottom-5 right-8 text-zinc-600 text-2xl font-bold"
                   data-aos="zoom-in"
@@ -175,52 +214,91 @@ const MainPage = () => {
               />
             </div>
           </div>
-          <div
-            className="border-b-[2px] mx-auto w-52 p-4"
-            data-aos="zoom-in-down"
-            data-aos-duration="1800"
-          ></div>
-          <p className="text-xl">
-            La centralisation de la donnée offre de grandes possibilités
-            d’analyse
-          </p>
+          <Border />
+          {/* <Title
+            titleDesc={
+              " La centralisation de la donnée offre de grandes possibilités d’analyse."
+            }
+          /> */}
         </div>
-        <div className="h-full  mx-auto mb-10">
-          {" "}
-          {/*h-full w-[1200px] border-2 mx-auto mb-10*/}
-          <p className="text-xl" data-aos="fade-up" data-aos-duration="1000">
+        <Title
+          titleDesc={
+            "Faisons interagir vos données pour vous mettre à disposition des rapports précis. Développons ensemble les outils dédiés à votre activité et vos besoins." 
+            // pour vous accompagner dans votre stratégie et vos décisions."
+          }
+        />
+        <Border />
+        <div className="w-[300px] md:w-[650px] h-[1000px] lg:w-full xl:w-[1280px] lg:h-[600px] flex flex-col lg:flex-row justify-evenly border rounded-md mx-auto shadow-xl my-10">
+          <div className="relative lg:top-[50%]">
+            <EvolutionLogo imgEvo={db} txtEvo={"Centralisation des données"} />
+          </div>
+            <img className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:-rotate-45 lg:relative top-[45%] mx-auto" src={arrow} alt="" />
+
+          <div className="relative lg:top-[20%]">
+            <EvolutionLogo
+              imgEvo={auto}
+              txtEvo={"Automatisation des données"}
+            />
+              </div>
+            <img
+              className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:relative lg:top-[20%] lg:-rotate-45 mx-auto"
+              src={arrow}
+              alt="arrow"
+            />
+
+            <div className="">
+              <EvolutionLogo
+                imgEvo={smart}
+                txtEvo={"Transformation des données"}
+              />
+            </div>
+
+            <img className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[20%] mx-auto" src={arrow} alt="arrow" />
+            <div className="relative lg:top-[20%]">
+              <EvolutionLogo
+                imgEvo={board}
+                txtEvo={"Visualisation des données"}
+              />
+            </div>
+            <img
+              className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[48%] mx-auto"
+              src={arrow}
+              alt="arrow"
+            />
+          <div className="relative lg:top-[50%]">
+            <EvolutionLogo imgEvo={decision} txtEvo={"Prise de décision"} />
+          </div>
+        </div>
+        <Border />
+        {/* <p className="text-2xl pt-10">
             Evolution, répartition et autres indicateurs clés sont accessibles.
             Nous nous chargeons de faire interagir vos données pour vous mettre
             à disposition des rapports précis. Développons ensemble les outils
             dédiés à votre activité et vos besoins pour vous accompagner dans
             votre stratégie et vos décisions.
-          </p>
-          <div
-            className="border-b-[2px] mx-auto w-52 p-4"
-            data-aos="zoom-in-down"
-            data-aos-duration="1800"
-          ></div>
-        </div>
-        <div className="flex flex-row">
+          </p> */}
+        <Title
+          titleDesc={
+            " La centralisation de la donnée offre de grandes possibilités d’analyse. Evolution, répartition et autres indicateurs clés sont accessibles."
+          }
+        />
+        {/* <div className="flex flex-row  w-[0px] "> */}
           <KpiCircle />
-         
-        </div>
+        {/* </div> */}
         <div
-          className="h-full mx-auto mb-10"
+          className="h-full mx-auto"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          {" "}
-          {/*h-full w-[1200px] border-2 mx-auto mb-10*/}
-          <p className="text-4xl mt-[200px]" data-loc="imagetest">
-            Réaliser votre projet
-          </p>
-          <div className="border-b-[2px] mx-auto w-52 p-4"></div>
+          <Border />
           <p className="text-xl py-5">
             Des entreprises comme la vôtre réalise chaque jour des projets BI
             pour améliorer leur quotidien
           </p>
           <Swipers />
+          <p className="text-4xl mt-[200px]" data-loc="imagetest">
+            Réaliser votre projet
+          </p>
           <Link to="/contact">
             <button
               className=" text-3xl bg-blue-400 rounded-full my-10 p-8 px-20 transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-300"

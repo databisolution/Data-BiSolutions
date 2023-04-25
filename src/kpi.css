@@ -12,15 +12,9 @@ transform: translate(-50%, -50%);
 
 .img-cont{
   position: absolute;
-  width: 300px;
+  /* width: 300px;   translate-y-[17rem]  scale-[1.7]*/
   transform: translate(100px) scale(0.8);
   opacity:0;
   width: 30%;
   transition: 1s ease-in-out;
 }
-
-
-/* .imgHover:hover{
-  transform: translateX(0) scale(1);
-  opacity: 1;
-} */

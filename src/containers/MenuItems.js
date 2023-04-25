@@ -57,12 +57,6 @@ const MenuItems = ({ setActive, active }) => {
             className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110"
             onClick={() => setActive(!active)}
           >
-            <Link to="/partenaires">PARTENAIRES</Link>
-          </li>
-          <li
-            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110"
-            onClick={() => setActive(!active)}
-          >
             <Link to="/contact">CONTACT</Link>
           </li>
           <li

@@ -25,6 +25,9 @@ E1BC29 */
   /* background-image: linear-gradient(251deg, rgb(4,60,108),rgb(37,219,225)); */
   background-image: linear-gradient(0deg, rgba(35,127,141, 0.15) 0%,rgba(159, 153, 81, 0.15) 100%),linear-gradient(90deg, rgb(5, 10, 46),rgb(143,143,147));
 }
+.mainEvolution{
+  background-image: linear-gradient(359deg, rgb(255,255,255),rgb(185,195,203));
+}
 
 
 /* #################- Tech Global -############################### */
@@ -92,3 +95,58 @@ E1BC29 */
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
   }
+
+
+
+/* ###############- TITLE -################ */
+
+
+.title
+{
+  padding-top: 30px;
+  /* height: 350px; */
+  /* width: 3000px; */
+  background-image: linear-gradient(263deg, rgb(255,255,255),rgb(248,222,128));
+  clip-path: polygon(0 0%, 100% 32%, 100% 100%, 0% 100%);
+}
+/*
+.pageTitle{
+  text-transform: linear-gradient(35deg,#e1bc29,#ffffff,#94949a);
+  animation: gradient-animation 32s ease infinite;
+}
+.gradient-background {
+  background: linear-gradient(35deg,#94949a,#e1bc29,#ffffff);
+  background-size: 240% 240%;
+  animation: gradient-animation 32s ease infinite;
+} */
+
+/* @keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+
+.logoAccueil{
+  height: 30px;
+  width: 100px;
+  background-color: #e3ecf4;
+  border-radius: 50%;
+}
+
+/*======================== PARALLAX ========================*/
+
+.parallax{
+  background-image: url('./containers/assets/images/analytics.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
