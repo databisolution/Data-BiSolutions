@@ -13,19 +13,15 @@ import Mpa from "./assets/images/mpa.png";
 import Rpb from "./assets/images/rpb.jpeg";
 // import Analytics from "./assets/images/analytics.jpg";
 import TechDescription from "../components/TechDescription";
+import MainImage from "../containers/assets/images/accueil.jpg";
+import Header from "../components/Header";
 
 const Technologies = () => {
   return (
-    <section className="pt-52" data-aos="">
+    <section className="pt-10" data-aos="">
+        <Header namePage={"Produits"} MainImage={MainImage}/>
       <div className=" mx-auto z-0">
-        <h1
-          className="text-left text-3xl font-bold text-blue-800 capitalize"
-          data-aos="zoom-in-down"
-          data-aos-duration="800"
-        >
-          Technologies
-        </h1>
-        <div className="border-b-[1px] mx-auto w-52 p-4"></div>
+        
         <img
           className="mx-auto py-4 xlx:w-0 xlx:p-0"
           src={Techno}

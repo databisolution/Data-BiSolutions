@@ -1,10 +1,10 @@
 import React from "react";
 import KpiCircle from "../components/KpiCircle";
-import MainImage from "./assets/images/accueil.jpg";
 import { Link } from "react-router-dom";
 import dashlogo from "../containers/assets/images/dashlogo.png";
 import rpa from "../containers/assets/images/rpa.png";
 import info from "../containers/assets/images/information.png";
+import MainImage from "../containers/assets/images/accueil.jpg"
 import arrow from "../containers/assets/images/arrow.png";
 import db from "../containers/assets/images/db.png";
 import smart from "../containers/assets/images/intelligence.png";
@@ -15,14 +15,15 @@ import logo from "./assets/images/logo.PNG";
 import Swipers from "../components/Swipers";
 import OrgCard from "../components/OrgCard";
 import Title from "../components/Title";
-import Border from "../components/Border";
+// import Border from "../components/Border";
 import EvolutionLogo from "../components/EvolutionLogo";
+import Header from "../components/Header";
 
 const MainPage = () => {
   return (
     <main>
       <div className=" mx-auto z-0 w-full px-1 flex flex-col">
-        <div className="py-32 " data-aos="zoom-in" data-aos-duration="1000">
+        {/* <div className="py-32 " data-aos="zoom-in" data-aos-duration="1000">
           <img
             src={MainImage}
             alt="mainImage"
@@ -31,7 +32,8 @@ const MainPage = () => {
           <h1 className="absolute top-[250px] left-[130px] text-4xl text-white font-semibold backdrop-blur-[.5px]">
             Data & BI Solutions
           </h1>
-        </div>
+        </div> */}
+        <Header namePage={"Data & BI Solutions"} MainImage={MainImage}/>
         <div className="w-[300px] xl:w-[1500px] mx-auto relative my-20">
           <div className="parallax"></div>
           <div className="absolute top-0 ">
@@ -45,7 +47,7 @@ const MainPage = () => {
             </p>
           </div>
         </div>
-        <Border />
+        {/* <Border /> */}
         <div className="h-[1000px] w-[300px] lg:w-[1020px] lg:h-[320px] mx-auto flex flex-col lg:flex-row justify-between items-center my-20">
           <OrgCard
             cardLogo={dashlogo}
@@ -65,7 +67,7 @@ const MainPage = () => {
             cardDesc={"Fiabiliser l’information "}
           />
         </div>
-        <Border />
+        {/* <Border /> */}
 
         <Title
           titleDesc={
@@ -73,8 +75,8 @@ const MainPage = () => {
           }
         />
 
-        <div className="h-full w-full mx-auto mb-5 ">
-          <Border />
+        <div className="h-full w-full mx-auto my-10 ">
+          {/* <Border /> */}
           <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
             <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10 shadow-lg rounded-md">
               <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
@@ -214,7 +216,7 @@ const MainPage = () => {
               />
             </div>
           </div>
-          <Border />
+          {/* <Border /> */}
         </div>
         <Title
           titleDesc={
@@ -222,9 +224,9 @@ const MainPage = () => {
             // pour vous accompagner dans votre stratégie et vos décisions."
           }
         />
-        <Border />
+        {/* <Border /> */}
         <div
-          className="evol w-[300px] md:w-[650px] h-[1000px] lg:w-full xl:w-[1280px] lg:h-[600px] flex flex-col lg:flex-row justify-evenly border rounded-md mx-auto shadow-xl my-10"
+          className="evol w-[300px] md:w-[650px] h-[1000px] lg:w-full xl:w-[1280px] lg:h-[600px] flex flex-col lg:flex-row justify-evenly  mx-auto my-10"
           data-aos="fade-zoom-in"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out-cubic"
@@ -277,7 +279,7 @@ const MainPage = () => {
             <EvolutionLogo imgEvo={decision} txtEvo={"Prise de décision"} />
           </div>
         </div>
-        <Border />
+        {/* <Border /> */}
         <Title
           titleDesc={
             " La centralisation de la donnée offre de grandes possibilités d’analyse. Evolution, répartition et autres indicateurs clés sont accessibles."
@@ -291,7 +293,7 @@ const MainPage = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <Border />
+          {/* <Border /> */}
           <p className="text-xl my-20">
             Des entreprises comme la vôtre réalise chaque jour des projets BI
             pour améliorer leur quotidien
@@ -302,9 +304,9 @@ const MainPage = () => {
           </p>
           <Link to="/contact">
             <button
-              className=" text-3xl bg-blue-400 rounded-full my-10 p-8 px-20 transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-300"
-              data-aos="zoom-out"
-              data-aos-duration="1200"
+              className="text-3xl font-semibold bg-blue-500 shadow-lg shadow-blue-500/50 my-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
+              // data-aos="zoom-out"
+              // data-aos-duration="1200"
             >
               Allons-Y
             </button>

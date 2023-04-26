@@ -23,35 +23,31 @@ const Navbar = () => {
       </Link>
 
       <nav>
-        {/* <div className="w-8 mr-4 lg:hidden">
-          <img alt="ItemMenu" src={ItemMenu} className='scale-200'
-          onClick={showMenu} 
-          />
-        </div> */}
-        <ul className="hidden lg:flex gap-8 p-6 bg-black/10 w-full backdrop-blur-md ">
-        <li className="underlined">
+        <ul className="hidden lg:flex gap-8 p-6 text-slate-700 navbar w-full">
+        <li className="underlined transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110  xl:text-xl font-semibold ">
             <Link to="/">ACCUEIL</Link>
           </li>
-          <li  className="underlined">
+          <li  className="underlined xl:text-xl font-semibold transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 duration-500">
             <Link to="/planAction">
               PLAN D'ACTION
             </Link>
           </li>
-          <li className="underlined">
+          <li className="underlined xl:text-xl font-semibold transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 duration-500">
             <Link to="/produit">PRODUIT</Link>
           </li>
-          <li className="underlined">
+          <li className="underlined xl:text-xl font-semibold transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 duration-500">
             <Link to="/technologies">TECHNOLOGIES</Link>
           </li>
-          <li className="underlined">
+          <li className="underlined xl:text-xl font-semibold transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 duration-500">
             <Link to="/contact">CONTACT</Link>
           </li>
-          <li className="underlined">
+          <li className="underlined xl:text-xl font-semibold transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 duration-500">
             <Link to="/aPropos">À PROPOS</Link>
           </li>
         </ul>
         <MenuItems setActive={setActive} active={active} />
       </nav>
+      {/* <div className="w-50 h-20 border bg-red-500"></div> */}
     </div>
   );
 };

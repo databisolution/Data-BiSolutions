@@ -23,44 +23,44 @@ const MenuItems = ({ setActive, active }) => {
       )}
       <div className="">
         <ul
-          className={`text-black text-4xl flex flex-col justify-around items-center fixed w-full h-[100vh] bg-white/100 top-0 left-0 py-20
+          className={`text-black text-4xl flex flex-col justify-around items-center fixed mItems w-full h-[100vh] bg-white/100 top-0 left-0 py-20
         ${
           active ? "translate-x-0" : "translate-x-full"
         } ease-in-out duration-500
         `}
         >
           <li
-            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110"
+            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 font-semibold"
             onClick={() => setActive(!active)}
           >
             <Link to="/">ACCUEIL</Link>
           </li>
           <li
-            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110"
+            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 font-semibold"
             onClick={() => setActive(!active)}
           >
             <Link to="/planAction">PLAN D'ACTION</Link>
           </li>
           <li
-            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110"
+            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 font-semibold"
             onClick={() => setActive(!active)}
           >
             <Link to="/produit">PRODUIT</Link>
           </li>
           <li
-            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110"
+            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 font-semibold"
             onClick={() => setActive(!active)}
           >
             <Link to="/technologies">TECHNOLOGIES</Link>
           </li>
           <li
-            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110"
+            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 font-semibold"
             onClick={() => setActive(!active)}
           >
             <Link to="/contact">CONTACT</Link>
           </li>
           <li
-            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110"
+            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 font-semibold"
             onClick={() => setActive(!active)}
           >
             <Link to="/aPropos">À PROPOS</Link>

@@ -1,8 +1,11 @@
 import React from "react";
+import MainImage from "../containers/assets/images/accueil.jpg";
+import Header from "../components/Header";
 
 const Produit = () => {
   return (
-    <section className="pt-52" data-aos="zoom-in-out">
+    <section className="pt-10" data-aos="zoom-in-out">
+       <Header namePage={"Produits"} MainImage={MainImage}/>
       <div>
         <p>rapport global</p>
         <button>

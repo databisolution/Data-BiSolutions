@@ -17,7 +17,7 @@ const TechnoGroup = () => {
     <>
       <div
         id="techGlobal"
-        className="max-xlx:h-[0px] xlx:h-[800px] mb-16 relative mx-auto flex flex-wrap"
+        className="max-xlx:h-[0px] xlx:h-[800px] mb-16 relative mx-auto flex flex-wrap mt-28 shadow-2xl"
       >
         <div className="flex justify-evenly w-full">
           <div
