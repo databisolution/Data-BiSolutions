@@ -32,10 +32,10 @@ const MainPage = () => {
             Data & BI Solutions
           </h1>
         </div>
-        <div className="w-[0px] xl:w-[1500px] mx-auto relative my-20">
-          {/* <div className="parallax"></div>
+        <div className="w-[300px] xl:w-[1500px] mx-auto relative my-20">
+          <div className="parallax"></div>
           <div className="absolute top-0 ">
-            <p className="parallax text-2xl text-justify p-2 text-white flex flex-col w-[700px] h-[300px] backdrop-blur-sm 2xl:leading-[70px]">
+            <p className="parallax text-2xl text-justify p-2 text-white flex flex-col md:w-[700px] h-[300px] backdrop-blur-sm 2xl:leading-[70px]">
               <span className="text-5xl text-yellow-400 font-semibold">
                 Une entreprise
               </span>{" "}
@@ -43,14 +43,14 @@ const MainPage = () => {
               activité et d’apporter des solutions dédiées en analyse BI et en
               applications automatisées pour les dirigeants et leurs équipes.
             </p>
-          </div> */}
+          </div>
         </div>
         <Border />
-        <div className="h-[1500px] w-[300px] lg:w-[1020px] lg:h-[520px] mx-auto flex flex-col lg:flex-row justify-between items-center">
+        <div className="h-[1000px] w-[300px] lg:w-[1020px] lg:h-[320px] mx-auto flex flex-col lg:flex-row justify-between items-center my-20">
           <OrgCard
             cardLogo={dashlogo}
-            cardTitle={"Tableau de Bord"}
-            cardDesc={"Créer des tableaux de bords adaptés a vos besoins."}
+            cardTitle={"Tableaux de Bords"}
+            cardDesc={"Créer des tableaux de bords adaptés à vos besoins."}
           />
           <OrgCard
             cardLogo={rpa}
@@ -66,13 +66,13 @@ const MainPage = () => {
           />
         </div>
         <Border />
-          
-             <Title 
-              titleDesc={
-                "Des informations multi-sources, multi-formats collectées et centralisées pour une analyse précise et globale de votre activité"
-              }
-            /> 
-         
+
+        <Title
+          titleDesc={
+            "Des informations multi-sources, multi-formats collectées et centralisées pour une analyse précise et globale de votre activité"
+          }
+        />
+
         <div className="h-full w-full mx-auto mb-5 ">
           <Border />
           <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
@@ -215,75 +215,76 @@ const MainPage = () => {
             </div>
           </div>
           <Border />
-          {/* <Title
-            titleDesc={
-              " La centralisation de la donnée offre de grandes possibilités d’analyse."
-            }
-          /> */}
         </div>
         <Title
           titleDesc={
-            "Faisons interagir vos données pour vous mettre à disposition des rapports précis. Développons ensemble les outils dédiés à votre activité et vos besoins." 
+            "Faisons interagir vos données pour vous mettre à disposition des rapports précis. Développons ensemble les outils dédiés à votre activité et vos besoins."
             // pour vous accompagner dans votre stratégie et vos décisions."
           }
         />
         <Border />
-        <div className="w-[300px] md:w-[650px] h-[1000px] lg:w-full xl:w-[1280px] lg:h-[600px] flex flex-col lg:flex-row justify-evenly border rounded-md mx-auto shadow-xl my-10">
+        <div
+          className="evol w-[300px] md:w-[650px] h-[1000px] lg:w-full xl:w-[1280px] lg:h-[600px] flex flex-col lg:flex-row justify-evenly border rounded-md mx-auto shadow-xl my-10"
+          data-aos="fade-zoom-in"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out-cubic"
+        >
           <div className="relative lg:top-[50%]">
             <EvolutionLogo imgEvo={db} txtEvo={"Centralisation des données"} />
           </div>
-            <img className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:-rotate-45 lg:relative top-[45%] mx-auto" src={arrow} alt="" />
+          <img
+            className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:-rotate-45 lg:relative top-[45%] mx-auto"
+            src={arrow}
+            alt=""
+          />
 
           <div className="relative lg:top-[20%]">
             <EvolutionLogo
               imgEvo={auto}
               txtEvo={"Automatisation des données"}
             />
-              </div>
-            <img
-              className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:relative lg:top-[20%] lg:-rotate-45 mx-auto"
-              src={arrow}
-              alt="arrow"
-            />
+          </div>
+          <img
+            className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:relative lg:top-[20%] lg:-rotate-45 mx-auto"
+            src={arrow}
+            alt="arrow"
+          />
 
-            <div className="">
-              <EvolutionLogo
-                imgEvo={smart}
-                txtEvo={"Transformation des données"}
-              />
-            </div>
-
-            <img className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[20%] mx-auto" src={arrow} alt="arrow" />
-            <div className="relative lg:top-[20%]">
-              <EvolutionLogo
-                imgEvo={board}
-                txtEvo={"Visualisation des données"}
-              />
-            </div>
-            <img
-              className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[48%] mx-auto"
-              src={arrow}
-              alt="arrow"
+          <div className="">
+            <EvolutionLogo
+              imgEvo={smart}
+              txtEvo={"Transformation des données"}
             />
+          </div>
+
+          <img
+            className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[20%] mx-auto"
+            src={arrow}
+            alt="arrow"
+          />
+          <div className="relative lg:top-[20%]">
+            <EvolutionLogo
+              imgEvo={board}
+              txtEvo={"Visualisation des données"}
+            />
+          </div>
+          <img
+            className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[48%] mx-auto"
+            src={arrow}
+            alt="arrow"
+          />
           <div className="relative lg:top-[50%]">
             <EvolutionLogo imgEvo={decision} txtEvo={"Prise de décision"} />
           </div>
         </div>
         <Border />
-        {/* <p className="text-2xl pt-10">
-            Evolution, répartition et autres indicateurs clés sont accessibles.
-            Nous nous chargeons de faire interagir vos données pour vous mettre
-            à disposition des rapports précis. Développons ensemble les outils
-            dédiés à votre activité et vos besoins pour vous accompagner dans
-            votre stratégie et vos décisions.
-          </p> */}
         <Title
           titleDesc={
             " La centralisation de la donnée offre de grandes possibilités d’analyse. Evolution, répartition et autres indicateurs clés sont accessibles."
           }
         />
         {/* <div className="flex flex-row  w-[0px] "> */}
-          <KpiCircle />
+        <KpiCircle />
         {/* </div> */}
         <div
           className="h-full mx-auto"
@@ -291,7 +292,7 @@ const MainPage = () => {
           data-aos-duration="1000"
         >
           <Border />
-          <p className="text-xl py-5">
+          <p className="text-xl my-20">
             Des entreprises comme la vôtre réalise chaque jour des projets BI
             pour améliorer leur quotidien
           </p>
@@ -309,6 +310,7 @@ const MainPage = () => {
             </button>
           </Link>
         </div>
+       
       </div>
     </main>
   );
