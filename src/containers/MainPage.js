@@ -4,8 +4,12 @@ import { Link } from "react-router-dom";
 import dashlogo from "../containers/assets/images/dashlogo.png";
 import rpa from "../containers/assets/images/rpa.png";
 import info from "../containers/assets/images/information.png";
-import MainImage from "../containers/assets/images/accueil.jpg"
-import arrow from "../containers/assets/images/arrow.png";
+import MainImage from "../containers/assets/images/accueil.jpg";
+import idea from "../containers/assets/images/idea.png";
+import arrowLM from "../containers/assets/images/arrow-light-medium.png";
+import arrowM from "../containers/assets/images/arrow-medium.png";
+import arrowMH from "../containers/assets/images/arrow-medium-hard.png";
+import arrowH from "../containers/assets/images/arrow-hard.png";
 import db from "../containers/assets/images/db.png";
 import smart from "../containers/assets/images/intelligence.png";
 import board from "../containers/assets/images/board.png";
@@ -23,34 +27,13 @@ const MainPage = () => {
   return (
     <main>
       <div className=" mx-auto z-0 w-full px-1 flex flex-col">
-        {/* <div className="py-32 " data-aos="zoom-in" data-aos-duration="1000">
-          <img
-            src={MainImage}
-            alt="mainImage"
-            className=" mx-auto sm:h-[300px] w-full md:w-full object-cover shadow-lg"
-          />
-          <h1 className="absolute top-[250px] left-[130px] text-4xl text-white font-semibold backdrop-blur-[.5px]">
-            Data & BI Solutions
-          </h1>
-        </div> */}
         <Header
-         namePage={"Data & BI Solutions"}
+          namePage={"Data & BI Solutions"}
           MainImage={MainImage}
-           desc={"Une entreprise créée avec une volonté de répondre aux besoins uniques à chaque activité et d’apporter des solutions dédiées en analyse BI et en applications automatisées pour les dirigeants et leurs équipes."}/>
-        <div className="w-[300px] xl:w-[1500px] mx-auto relative my-20">
-          <div className="parallax"></div>
-          <div className="absolute top-0 ">
-            <p className="parallax text-2xl text-justify p-2 text-white flex flex-col md:w-[700px] h-[300px] backdrop-blur-sm 2xl:leading-[70px]">
-              <span className="text-5xl text-yellow-400 font-semibold">
-                Une entreprise
-              </span>{" "}
-              créée avec une volonté de répondre aux besoins uniques à chaque
-              activité et d’apporter des solutions dédiées en analyse BI et en
-              applications automatisées pour les dirigeants et leurs équipes.
-            </p>
-          </div>
-        </div>
-        {/* <Border /> */}
+          desc={
+            "Une entreprise créée avec une volonté de répondre aux besoins uniques à chaque activité et d’apporter des solutions dédiées en analyse BI et en applications automatisées pour les dirigeants et leurs équipes."
+          }
+        />
         <div className="h-[1000px] w-[300px] lg:w-[1020px] lg:h-[320px] mx-auto flex flex-col lg:flex-row justify-between items-center my-20">
           <OrgCard
             cardLogo={dashlogo}
@@ -70,8 +53,6 @@ const MainPage = () => {
             cardDesc={"Fiabiliser l’information "}
           />
         </div>
-        {/* <Border /> */}
-
         <Title
           titleDesc={
             "Des informations multi-sources, multi-formats collectées et centralisées pour une analyse précise et globale de votre activité"
@@ -79,7 +60,6 @@ const MainPage = () => {
         />
 
         <div className="h-full w-full mx-auto my-10 ">
-          {/* <Border /> */}
           <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
             <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10 shadow-lg rounded-md">
               <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
@@ -239,7 +219,7 @@ const MainPage = () => {
           </div>
           <img
             className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:-rotate-45 lg:relative top-[45%] mx-auto"
-            src={arrow}
+            src={arrowLM}
             alt=""
           />
 
@@ -250,8 +230,8 @@ const MainPage = () => {
             />
           </div>
           <img
-            className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:relative lg:top-[20%] lg:-rotate-45 mx-auto"
-            src={arrow}
+            className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:relative lg:top-[18%] lg:-rotate-45 mx-auto"
+            src={arrowM}
             alt="arrow"
           />
 
@@ -260,11 +240,17 @@ const MainPage = () => {
               imgEvo={smart}
               txtEvo={"Transformation des données"}
             />
+            <img className="relative top-[-200px] mx-auto w-20" src={idea} alt="" />
+            <div className="relative top-[-170px] font-semibold text-xl">
+              <p>une idée</p>
+              <p>un besoin</p>
+              <p>une solution</p>
+            </div>
           </div>
 
           <img
             className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[20%] mx-auto"
-            src={arrow}
+            src={arrowMH}
             alt="arrow"
           />
           <div className="relative lg:top-[20%]">
@@ -275,7 +261,7 @@ const MainPage = () => {
           </div>
           <img
             className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[48%] mx-auto"
-            src={arrow}
+            src={arrowH}
             alt="arrow"
           />
           <div className="relative lg:top-[50%]">
@@ -307,7 +293,7 @@ const MainPage = () => {
           </p>
           <Link to="/contact">
             <button
-              className="text-3xl font-semibold title2 shadow-lg shadow-blue-500/50 my-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
+              className="text-3xl font-semibold title2 shadow-xl shadow-blue-200/100 my-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
               // data-aos="zoom-out"
               // data-aos-duration="1200"
             >
@@ -315,7 +301,6 @@ const MainPage = () => {
             </button>
           </Link>
         </div>
-       
       </div>
     </main>
   );

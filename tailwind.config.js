@@ -24,6 +24,9 @@ module.exports = {
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
 
+      "2xls": "1630px",
+      // => @media (min-width: 1630px) { ... }
+
       "3xl": "2160px",
       // => @media (min-width: 2160px) { ... }
 
