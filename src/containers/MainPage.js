@@ -33,7 +33,10 @@ const MainPage = () => {
             Data & BI Solutions
           </h1>
         </div> */}
-        <Header namePage={"Data & BI Solutions"} MainImage={MainImage}/>
+        <Header
+         namePage={"Data & BI Solutions"}
+          MainImage={MainImage}
+           desc={"Une entreprise créée avec une volonté de répondre aux besoins uniques à chaque activité et d’apporter des solutions dédiées en analyse BI et en applications automatisées pour les dirigeants et leurs équipes."}/>
         <div className="w-[300px] xl:w-[1500px] mx-auto relative my-20">
           <div className="parallax"></div>
           <div className="absolute top-0 ">
@@ -300,11 +303,11 @@ const MainPage = () => {
           </p>
           <Swipers />
           <p className="text-4xl mt-[200px]" data-loc="imagetest">
-            Réaliser votre projet
+            Réalisons votre projet
           </p>
           <Link to="/contact">
             <button
-              className="text-3xl font-semibold bg-blue-500 shadow-lg shadow-blue-500/50 my-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
+              className="text-3xl font-semibold title2 shadow-lg shadow-blue-500/50 my-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
               // data-aos="zoom-out"
               // data-aos-duration="1200"
             >

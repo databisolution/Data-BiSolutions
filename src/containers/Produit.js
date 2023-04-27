@@ -13,7 +13,7 @@ const Produit = () => {
             className="w-full h-[1000px] "
             target="_blank"
             rel="noreferrer"
-            href="https://app.powerbi.com/view?r=eyJrIjoiNTBjMGJlZmYtMmRlZS00ZjczLThkZjgtYTlhMGRiZTllZTQ1IiwidCI6IjA5NzZlMzQyLTVjYWQtNDExNi1iZjMzLTY2YjUzZWFjMGIyYiJ9"
+            href="https://app.powerbi.com/view?r=eyJrIjoiNGQ4MDYxNzEtMzJlNy00MWYyLTkzMzEtYmRjOTZjZmE3NmM0IiwidCI6IjA5NzZlMzQyLTVjYWQtNDExNi1iZjMzLTY2YjUzZWFjMGIyYiJ9"
           >
             ici
           </a>

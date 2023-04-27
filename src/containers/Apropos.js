@@ -2,22 +2,26 @@ import React, { useState } from "react";
 import Gramu from "./assets/images/gRamu.jpg";
 import Jgriet from "./assets/images/jGriet.jpg";
 import Up from "./assets/images/up.png";
+import MainImage from "../containers/assets/images/accueil.jpg";
+import Header from "../components/Header";
+import Title from "../components/Title";
 
 const Apropos = () => {
   const [slide, setSlide] = useState(false);
   const [slide2, setSlide2] = useState(false);
 
   return (
-    <section id="aPropos" className="pt-52 mx-auto">
+    <section id="aPropos" className="mx-auto">
       <div className=" mx-auto">
-        <h1 className="text-3xl font-bold text-blue-800 pb-10">À propos</h1>
-        <div className="border-t-[1px] mx-auto w-52 p-4"></div>
-        <p className="my-10 mx-2 text-2xl">
+      <Header namePage={"À PROPOS"} MainImage={MainImage}/>
+    
+        {/* <p className="my-10 mx-2 text-2xl">
           Notre entreprise est le résultat d’une association de compétences et
           d’une approche commune. Notre objectif est de développer une solution
           optimale en dépit des difficultés rencontrées.
-        </p>
-        <div className="h-[1200px] md:h-[600px] flex flex-col justify-evenly my-10 md:flex-row lg:w-[800px] mx-auto md:justify-around">
+        </p> */}
+        <Title titleDesc={"Notre entreprise est le résultat d’une association de compétences et d’une approche commune. Notre objectif est de développer une solution optimale en dépit des difficultés rencontrées."}/>
+        <div className="h-[1200px] md:h-[600px] flex flex-col justify-evenly my-20 md:flex-row lg:w-[800px] mx-auto md:justify-around">
           <div className="card my-20">
             {!slide ? (
               <>

@@ -19,7 +19,7 @@ import Header from "../components/Header";
 const Technologies = () => {
   return (
     <section className="pt-10" data-aos="">
-        <Header namePage={"Produits"} MainImage={MainImage}/>
+        <Header namePage={"TECHNOLOGIES"} MainImage={MainImage}/>
       <div className=" mx-auto z-0">
         
         <img
@@ -126,13 +126,13 @@ const Technologies = () => {
           />
         </div>
         <Link to="/contact">
-          <button
-            className=" text-3xl bg-blue-400 rounded-full my-10 p-8 px-20 transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-300"
-            data-aos="zoom-out"
-            data-aos-duration="1200"
-          >
-            Contactez-Nous
-          </button>
+        <button
+              className="text-3xl font-semibold bg-blue-500 shadow-lg shadow-blue-500/50 my-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
+              // data-aos="zoom-out"
+              // data-aos-duration="1200"
+            >
+              Contactez-nous
+            </button>
         </Link>
       </div>
     </section>

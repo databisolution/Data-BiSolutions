@@ -33,7 +33,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="underlined xl:text-xl font-semibold transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 duration-500">
-            <Link to="/produit">PRODUIT</Link>
+            <Link to="/produit">PRODUITS</Link>
           </li>
           <li className="underlined xl:text-xl font-semibold transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 duration-500">
             <Link to="/technologies">TECHNOLOGIES</Link>

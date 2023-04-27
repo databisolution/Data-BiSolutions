@@ -184,7 +184,7 @@ const KpiCircle = () => {
             </span>
             <div className="img-cont">
               <img
-                className="imgHover -mt-[300px]"
+                className="imgHover -mt-[800px]"
                 alt="lorem picsum"
                 src="https://picsum.photos/600/900?random=15"
               />
@@ -196,7 +196,7 @@ const KpiCircle = () => {
             </span>
             <div className="img-cont">
               <img
-                className="imgHover -mt-[300px]"
+                className="imgHover -mt-[600px]"
                 alt="lorem picsum"
                 src="https://picsum.photos/600/900?random=15"
               />
