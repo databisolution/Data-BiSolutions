@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Gramu from "./assets/images/gRamu.jpg";
 import Jgriet from "./assets/images/jGriet.jpg";
+import user from "./assets/images/user.png"
 import Up from "./assets/images/up.png";
-import MainImage from "../containers/assets/images/accueil.jpg";
+
 import Header from "../components/Header";
 import Title from "../components/Title";
 
@@ -13,7 +14,7 @@ const Apropos = () => {
   return (
     <section id="aPropos" className="mx-auto">
       <div className=" mx-auto">
-      <Header namePage={"À PROPOS"} MainImage={MainImage}/>
+      <Header namePage={"À PROPOS"}/>
     
         {/* <p className="my-10 mx-2 text-2xl">
           Notre entreprise est le résultat d’une association de compétences et
@@ -31,8 +32,8 @@ const Apropos = () => {
                   src={Up}
                   onClick={() => setSlide(!slide)}
                 />
-                <img src={Jgriet} alt="Jérémy Griet" />
-                <h3 className="mt-5 font-bold text-lg translate-y-1 transition duration-[1500ms] delay-100 py-6">Jérémy Griet </h3>
+                <img className="w-[400px] z-0" src={user} alt="Jérémy Griet" />
+                <h3 className="mt-5 font-bold text-lg translate-y-1 transition duration-[1500ms] delay-100 py-6">Jérémy Griet</h3>
                 <p className="translate-y-1 transition duration-[1500ms] delay-100 h-[358px]">
                   « Ancien directeur de cabinet comptable et directeur d’une
                   société de financement, <span className="blur-[1px]">mon approche des besoins économiques
@@ -51,7 +52,7 @@ const Apropos = () => {
                   src={Up}
                   onClick={() => setSlide(!slide)}
                 />
-                <img className="z-0" src={Jgriet} alt="Jérémy Griet" />
+                <img className="z-0 w-[400px]" src={user} alt="Jérémy Griet" />
                 <h3 className=" py-14 font-bold text-lg -translate-y-72 transition duration-[1500ms] delay-100 bg-black/80 text-white">Jérémy Griet </h3>
                 <p className=" -translate-y-72 transition duration-[1500ms] h-[358px] delay-100 bg-black/80 text-white">
                   « Ancien directeur de cabinet comptable et directeur d’une
@@ -74,7 +75,7 @@ const Apropos = () => {
              src={Up}
              onClick={() => setSlide2(!slide2)}
             />
-            <img src={Gramu} alt="Grégory Ramu" />
+            <img className="w-[400px]" src={user} alt="Grégory Ramu" />
             <h3 className="mt-5 font-bold text-lg translate-y-1 transition duration-[1500ms] delay-100 py-6">Grégory Ramu</h3>
             <p className="translate-y-1 transition duration-[1500ms] delay-100 h-[358px]">
               « Des expériences accomplies dans le pilotage de la trésorerie et
@@ -93,7 +94,7 @@ const Apropos = () => {
                src={Up}
                onClick={() => setSlide2(!slide2)}
               />
-              <img className="z-0" src={Gramu} alt="Grégory Ramu" />
+              <img className="z-0 w-[400px]" src={user} alt="Grégory Ramu" />
               <h3 className="py-14 font-bold text-lg -translate-y-72 transition duration-[1500ms] delay-100 bg-black/80 text-white">Grégory Ramu</h3>
               <p className="-translate-y-72 transition duration-[1500ms] h-[358px] delay-100 bg-black/80 text-white">
                 « Des expériences accomplies dans le pilotage de la trésorerie et

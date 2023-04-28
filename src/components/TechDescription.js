@@ -8,7 +8,7 @@ const TechDescription = ({techObjectif,imgDesc}) => {
             {techObjectif}
             </p>
             <img
-              className="mx-auto py-4 "
+              className="mx-auto py-4"
               src={imgDesc}
               alt="imgDesc"
               data-aos="zoom-in-down"

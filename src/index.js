@@ -4,6 +4,9 @@ import './index.css';
 import './card.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import posthog from 'posthog-js'
+
+posthog.init('phc_ooU4VAPx8aUKdHijmOXVzQ9b0g7vOHvoLLEBEsQlfTY', { api_host: 'https://eu.posthog.com' })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

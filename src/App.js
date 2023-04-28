@@ -5,11 +5,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contact from "./containers/Contact";
 import Produit from "./containers/Produit";
 import Technologies from "./containers/Technologies";
-// import Partenaires from "./containers/Partenaires";
+import CookieBanner from "./components/CookieBanner"
 import Apropos from "./containers/Apropos";
 import PlanDActions from "./containers/PlanDAction";
 import NotFound from "./containers/NotFound";
 import Footer from "./containers/Footer";
+import { posthog } from 'posthog-js'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
           <Route exact path="/" element={<MainPage />}></Route>
         </Routes>
+        {posthog.has_opted_in_capturing() || posthog.has_opted_out_capturing() ? null : <CookieBanner/>}
         <Footer />
       </Router>
     </div>

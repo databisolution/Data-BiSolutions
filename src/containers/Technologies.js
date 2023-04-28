@@ -10,16 +10,14 @@ import Rbuilder from "./assets/images/reportBuilder.png";
 import TechnoGroup from "../components/TechnoGroup";
 import Asa from "./assets/images/asa.png";
 import Mpa from "./assets/images/mpa.png";
-import Rpb from "./assets/images/rpb.jpeg";
-// import Analytics from "./assets/images/analytics.jpg";
+import Rpb from "./assets/images/rpb.png";
 import TechDescription from "../components/TechDescription";
-import MainImage from "../containers/assets/images/accueil.jpg";
 import Header from "../components/Header";
 
 const Technologies = () => {
   return (
     <section className="pt-10" data-aos="">
-        <Header namePage={"TECHNOLOGIES"} MainImage={MainImage}/>
+        <Header namePage={"TECHNOLOGIES"}/>
       <div className=" mx-auto z-0">
         
         <img
@@ -127,7 +125,7 @@ const Technologies = () => {
         </div>
         <Link to="/contact">
         <button
-              className="text-3xl font-semibold bg-blue-500 shadow-lg shadow-blue-500/50 my-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
+              className="text-3xl buttonContact font-semibold bg-blue-500 shadow-lg shadow-blue-500/50 my-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
               // data-aos="zoom-out"
               // data-aos-duration="1200"
             >

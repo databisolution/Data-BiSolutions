@@ -41,11 +41,11 @@ const KpiCircle = () => {
             TEMPS DE PRODUCTIONS / EFFECTIF
           </span>
           <div className="img-cont">
-            <img
+            {/* <img
               className="imgHover pl-[430px]"
               alt="Peugeot 508"
               src="https://picsum.photos/600/900?random=1"
-            />
+            /> */}
           </div>
         </Paraph>
         <div className="flex flex-row justify-between">
@@ -55,11 +55,11 @@ const KpiCircle = () => {
                 Délai de production / article
               </span>
               <div className="img-cont">
-                <img
+                {/* <img
                   className="imgHover pl-[430px] -mt-[100px]"
                   alt="lorem picsum"
                   src="https://picsum.photos/600/900?random=2"
-                />
+                /> */}
               </div>
             </Paraph>
             <Paraph>
@@ -67,11 +67,11 @@ const KpiCircle = () => {
                 MARGE NETTE / COMMERCIAL
               </span>
               <div className="img-cont">
-                <img
+                {/* <img
                   className="imgHover pl-[430px] -mt-[200px]"
                   alt="lorem picsum"
                   src="https://picsum.photos/600/900?random=3"
-                />
+                /> */}
               </div>
             </Paraph>
             <Paraph>
@@ -79,11 +79,11 @@ const KpiCircle = () => {
                 TOP 10 Fournisseurs
               </span>
               <div className="img-cont">
-                <img
+                {/* <img
                   className="imgHover pl-[430px] -mt-[200px]"
                   alt="lorem picsum"
                   src="https://picsum.photos/600/900?random=4"
-                />
+                /> */}
               </div>
             </Paraph>
             <Paraph>
@@ -91,11 +91,11 @@ const KpiCircle = () => {
                 Taux de conversion
               </span>
               <div className="img-cont">
-                <img
+                {/* <img
                   className="imgHover pl-[430px] -mt-[300px]"
                   alt="lorem picsum"
                   src="https://picsum.photos/600/900?random=5"
-                />
+                /> */}
               </div>
             </Paraph>
             <Paraph>
@@ -103,11 +103,11 @@ const KpiCircle = () => {
                 Coût moyen par embauche
               </span>
               <div className="img-cont">
-                <img
+                {/* <img
                   className="imgHover pl-[430px] -mt-[400px]"
                   alt="lorem picsum"
                   src="https://picsum.photos/600/900?random=6"
-                />
+                /> */}
               </div>
             </Paraph>
           </div>
@@ -116,8 +116,6 @@ const KpiCircle = () => {
               className="xl:w-[400px] z-0 w-0"
               alt="Kpi"
               src={Kpi}
-              // data-aos="fade-up"
-              // data-aos-duration="1500"
             />
           </div>
           <div className="flex flex-col w-0 xl:w-[440px] h-[300px] justify-between collapse 2xl:visible">
@@ -126,11 +124,11 @@ const KpiCircle = () => {
                 EVOLUTION MENSUELLE DU RESULTAT
               </span>
               <div className="img-cont">
-                <img
+                {/* <img
                   className="imgHover -mt-[200px]"
                   alt="lorem picsum"
                   src="https://picsum.photos/600/900?random=7"
-                />
+                /> */}
               </div>
             </Paraph>
             <Paraph>
@@ -138,41 +136,41 @@ const KpiCircle = () => {
                 Ticket moyen / dépense frais
               </span>
               <div className="img-cont">
-                <img
+                {/* <img
                   className="imgHover -mt-[300px]"
                   alt="lorem picsum"
                   src="https://picsum.photos/600/900?random=8"
-                />
+                /> */}
               </div>
             </Paraph>
             <Paraph>
               <span className="text-2xl font-extrabold">MARGE / ARTICLE</span>
               <div className="img-cont">
-                <img
+                {/* <img
                   className="imgHover -mt-[300px]"
                   alt="lorem picsum"
                   src="https://picsum.photos/600/900?random=9"
-                />
+                /> */}
               </div>
             </Paraph>
             <Paraph>
               <span className="text-2xl font-extrabold">Taux de rotation</span>
               <div className="img-cont">
-                <img
+                {/* <img
                   className="imgHover -mt-[300px]"
                   alt="lorem picsum"
                   src="https://picsum.photos/600/900?random=10"
-                />
+                /> */}
               </div>
             </Paraph>
             <Paraph>
               <span className="text-2xl font-extrabold">Age moyen / poste</span>
               <div className="img-cont">
-                <img
+                {/* <img
                   className="imgHover -mt-[300px]"
                   alt="lorem picsum"
                   src="https://picsum.photos/600/900?random=11"
-                />
+                /> */}
               </div>
             </Paraph>
           </div>
@@ -180,14 +178,14 @@ const KpiCircle = () => {
         <div className="flex justify-around w-0 2xl:w-[800px] xl:mx-auto collapse 2xl:visible">
           <Paraph>
             <span className="text-2xl font-extrabold">
-              % répartition des charges
+             Evolution de la trésorerie
             </span>
             <div className="img-cont">
-              <img
+              {/* <img
                 className="imgHover -mt-[800px]"
                 alt="lorem picsum"
                 src="https://picsum.photos/600/900?random=15"
-              />
+              /> */}
             </div>
           </Paraph>
           <Paraph>
@@ -195,11 +193,11 @@ const KpiCircle = () => {
               % répartition des charges
             </span>
             <div className="img-cont">
-              <img
+              {/* <img
                 className="imgHover -mt-[600px]"
                 alt="lorem picsum"
                 src="https://picsum.photos/600/900?random=15"
-              />
+              /> */}
             </div>
           </Paraph>
         </div>
