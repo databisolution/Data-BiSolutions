@@ -17,7 +17,7 @@ const Produit = () => {
             rel="noreferrer"
             href="https://app.powerbi.com/view?r=eyJrIjoiNGQ4MDYxNzEtMzJlNy00MWYyLTkzMzEtYmRjOTZjZmE3NmM0IiwidCI6IjA5NzZlMzQyLTVjYWQtNDExNi1iZjMzLTY2YjUzZWFjMGIyYiJ9"
           >
-           Cliquez ici pour consulter notre rapport global
+           Cliquez ici pour consulter notre rapport intercatif.
           </a>
           </button>
       

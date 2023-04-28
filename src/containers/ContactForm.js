@@ -103,8 +103,7 @@ const ContactForm = () => {
       <div className="flex justify-evenly border-1 py-5">
         <div className="collapse absolute block lg:sticky lg:visible">
           <p className="flex text-3xl mt-10 lg:w-[600px] text-left mb-10">
-            Un besoin, un projet… N’hésitez pas à nous contacter aux coordonnées
-            ci-après ou envoyez-nous un message en remplissant le formulaire.
+          Un besoin, un projet… N’hésitez pas à nous contacter via le formulaire de contact.
           </p>
         </div>
         <form

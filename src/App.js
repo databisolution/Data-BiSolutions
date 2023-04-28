@@ -10,7 +10,9 @@ import Apropos from "./containers/Apropos";
 import PlanDActions from "./containers/PlanDAction";
 import NotFound from "./containers/NotFound";
 import Footer from "./containers/Footer";
+import Mentions from "./containers/Mentions";
 import { posthog } from 'posthog-js'
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           <Route path="/technologies" element={<Technologies />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/aPropos" element={<Apropos />}></Route>
+          <Route path="/mentions" element={<Mentions />}></Route>
           <Route path="*" element={<NotFound />} />
           <Route exact path="/" element={<MainPage />}></Route>
         </Routes>

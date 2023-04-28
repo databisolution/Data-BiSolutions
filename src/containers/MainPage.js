@@ -233,7 +233,7 @@ const MainPage = () => {
               txtEvo={"Transformation des données"}
             />
             <img
-              className="relative border lg:top-[-200px] xl:top-[-200px] mx-auto w-20"
+              className="relative lg:top-[-200px] xl:top-[-200px] mx-auto w-20"
               src={idea}
               alt=""
             />

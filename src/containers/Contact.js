@@ -10,8 +10,7 @@ const Contact = ({ name, subject, email, message }) => {
       <div className=" mx-auto shadow-xl" data-aos="fade-left">
         <div className=" mx-auto mb-10">
           <p className="text-3xl mt-10 lg:hidden px-2">
-            Un besoin, un projet… N’hésitez pas à nous contacter aux coordonnées
-            ci-après ou envoyez-nous un message en remplissant le formulaire.
+            Un besoin, un projet… N’hésitez pas à nous contacter via le formulaire de contact.
           </p>
         </div>
         <div className="flex flex-col justify-around py-10">

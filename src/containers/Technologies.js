@@ -33,9 +33,9 @@ const Technologies = () => {
           data-aos="zoom-in-down"
           data-aos-duration="2100"
         >
-          Voici les technologies clés que nous utilisons :
+          Les technologies clés que nous utilisons :
         </h2>
-        <div className="border-b-[2px] mx-auto w-52 px-4 my-10"></div>
+       
         <TechnoCard
           techTitle={"Microsoft POWER BI"}
           techLogo={pbi}
@@ -51,18 +51,17 @@ const Technologies = () => {
           <TechDescription
             imgDesc={PowerBi}
             techObjectif={
-              "Avec ces options de présentation sous forme de tableaux, de diagramme ou encore de jauges ou de cartes, il donne une vision complète des données de l’entreprise sous forme visuelle pour faciliter l’utilisation des données en équipe."
+              "Avec ces options de présentation sous forme de tableaux, de diagrammes ou encore de jauges ou de cartes, ils donnent une vision complète des données de l’entreprise sous forme visuelle pour faciliter l’utilisation des données en équipe."
             }
           />
           <p className="mx-auto py-4 text-3xl">
             Power BI est une plateforme unique disponible depuis l’ensemble de
-            ses appareils avec une seule connexion.
+            ces appareils avec une seule connexion.
           </p>
           <p className="mx-auto py-4 text-3xl">
             Grâce à l’accessibilité et la présentation visuelle, Power BI est un
-            outil d’aide à la décision de taille qui fait la différence entre
-            une entreprise normale et une entreprise productive, agile et
-            réactive.
+            outil de taille d’aide à la décision qui fera la différence pour
+            votre entreprise . La BI permettra une plus grande agilité et réactivité.
           </p>
         </div>
         <div>
