@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import Gramu from "./assets/images/gRamu.jpg";
-import Jgriet from "./assets/images/jGriet.jpg";
 import user from "./assets/images/user.png"
 import Up from "./assets/images/up.png";
 
