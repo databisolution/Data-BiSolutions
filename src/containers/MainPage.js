@@ -52,7 +52,7 @@ const MainPage = () => {
             "Des informations multi-sources, multi-formats collectées et centralisées pour une analyse précise et globale de votre activité"
           }
         />
-        <div className="h-full w-full mx-auto mt-10 sm:-top-[220px] md:-top-[320px] lg:-top-[300px] relative 2xl:-top-[400px] 2xl:left-[200px] 3xl:left-[400px]">
+        <div className="h-full w-full mx-auto mt-10 sm:-top-[220px] md:-top-[320px] lg:-top-[300px] relative 2xl:-top-[400px] 2xl:left-[200px] 3xl:left-[400px] -mb-32">
           <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
             <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10 shadow-lg rounded-md">
               <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">

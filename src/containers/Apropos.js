@@ -13,13 +13,10 @@ const Apropos = () => {
     <section id="aPropos" className="mx-auto">
       <div className=" mx-auto">
       <Header namePage={"À PROPOS"}/>
-    
-        {/* <p className="my-10 mx-2 text-2xl">
-          Notre entreprise est le résultat d’une association de compétences et
-          d’une approche commune. Notre objectif est de développer une solution
-          optimale en dépit des difficultés rencontrées.
-        </p> */}
-        <Title titleDesc={"Notre entreprise est le résultat d’une association de compétences et d’une approche commune. Notre objectif est de développer une solution optimale en dépit des difficultés rencontrées."}/>
+    <div className="my-20">
+
+        <Title titleDesc={"Notre entreprise est le résultat d’une association de compétences et d’une approche commune."}/>
+    </div>
         <div className="h-[1200px] md:h-[600px] flex flex-col justify-evenly my-20 md:flex-row lg:w-[800px] mx-auto md:justify-around">
           <div className="card my-20">
             {!slide ? (
@@ -106,6 +103,8 @@ const Apropos = () => {
             )}
           </div>
         </div>
+        <p>Notre objectif est de développer une solution
+          optimale en dépit des difficultés rencontrées.</p>
       </div>
     </section>
   );
