@@ -113,7 +113,7 @@ const KpiCircle = () => {
           </div>
           <div className="">
             <img
-              className="xl:w-[400px] z-0 w-0"
+              className="xl:w-[400px] z-0 w-0 rounded-3xl shadow-2xl"
               alt="Kpi"
               src={Kpi}
             />

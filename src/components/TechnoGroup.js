@@ -26,7 +26,7 @@ const TechnoGroup = () => {
             data-aos-delay="500"
             data-aos-duration="500"
           >
-            <img className="max-xlx:h-[0px]" src={saleforce} alt="" />
+            <img className="max-xlx:h-[0px]" src={saleforce} alt="saleforce" />
           </div>
           <div
             className="xlx:h-[150px] xl:w-[150px] top-8 relative"
@@ -34,7 +34,7 @@ const TechnoGroup = () => {
             data-aos-delay="650"
             data-aos-duration="500"
           >
-            <img className="max-xlx:h-[0px]" src={Azure} alt="" />
+            <img className="max-xlx:h-[0px]" src={Azure} alt="microsoft azure" />
           </div>
           <div
             className="xlx:h-[150px] xl:w-[150px] top-8 relative"
@@ -42,7 +42,7 @@ const TechnoGroup = () => {
             data-aos-delay="650"
             data-aos-duration="500"
           >
-            <img className="max-xlx:h-[0px]" src={Rbuilder} alt="" />
+            <img className="max-xlx:h-[0px]" src={Rbuilder} alt="report builder" />
           </div>
         </div>
         <div
@@ -52,7 +52,7 @@ const TechnoGroup = () => {
           data-aos-duration="500"
         >
           <div className="xlx:h-[150px] xl:w-[150px]  relative">
-            <img className="max-xlx:h-[0px]" src={sharepoint} alt="" />
+            <img className="max-xlx:h-[0px]" src={sharepoint} alt="sharepoint" />
           </div>
           <div
             className="xlx:h-[150px] xl:w-[170px] bottom-5 relative flex"
@@ -60,7 +60,7 @@ const TechnoGroup = () => {
             data-aos-delay="1700"
             data-aos-duration="500"
           >
-            <img className="max-xlx:h-[0px]" src={synapse} alt="" />
+            <img className="max-xlx:h-[0px]" src={synapse} alt="microsoft synapse" />
             <p className="max-xlx:collapse text-blue-400 font-semibold text-lg mt-9">
               Azure Synapse ANALYTICS
             </p>
@@ -71,7 +71,7 @@ const TechnoGroup = () => {
             data-aos-delay="1700"
             data-aos-duration="500"
           >
-            <img className="max-xlx:h-[0px]" src={Automate} alt="" />
+            <img className="max-xlx:h-[0px]" src={Automate} alt="power automate" />
             <p className="max-xlx:collapse text-blue-400 font-semibold text-lg mt-9">
               Power Automate
             </p>
@@ -82,7 +82,7 @@ const TechnoGroup = () => {
             data-aos-delay="1850"
             data-aos-duration="500"
           >
-            <img className="max-xlx:h-[0px]" src={pbi} alt="" />
+            <img className="max-xlx:h-[0px]" src={pbi} alt="power BI" />
             <p className="max-xlx:collapse text-yellow-400 font-semibold pt-7">
               POWER BI Desktop
             </p>
@@ -93,7 +93,7 @@ const TechnoGroup = () => {
             data-aos-delay="800"
             data-aos-duration="500"
           >
-            <img className="max-xlx:h-[0px] max-md:-ml-20" src={sage} alt="" />
+            <img className="max-xlx:h-[0px] max-md:-ml-20" src={sage} alt="sage" />
           </div>
         </div>
         <div className="flex justify-around w-full">
@@ -103,7 +103,7 @@ const TechnoGroup = () => {
             data-aos-delay="1400"
             data-aos-duration="500"
           >
-            <img className="max-xlx:h-[0px]" src={oracle} alt="" />
+            <img className="max-xlx:h-[0px]" src={oracle} alt="oracle" />
           </div>
           <div
             className="xlx:h-[150px] w-[150px] top-20 relative"
@@ -111,7 +111,7 @@ const TechnoGroup = () => {
             data-aos-delay="1250"
             data-aos-duration="500"
           >
-            <img className="max-xlx:h-[0px]" src={mooncard} alt="" />
+            <img className="max-xlx:h-[0px]" src={mooncard} alt="mooncard" />
             <p className="max-xlx:collapse text-blue-400 font-semibold text-xl">
               Mooncard
             </p>
@@ -122,7 +122,7 @@ const TechnoGroup = () => {
             data-aos-delay="1100"
             data-aos-duration="500"
           >
-            <img className="max-xlx:h-[0px]" src={verizon} alt="" />
+            <img className="max-xlx:h-[0px]" src={verizon} alt="verizon" />
           </div>
           <div
             className="xlx:h-[150px] xl:w-[150px] bottom-20 relative"
@@ -130,7 +130,7 @@ const TechnoGroup = () => {
             data-aos-delay="950"
             data-aos-duration="500"
           >
-            <img className="max-xlx:h-[0px]" src={sql} alt="" />
+            <img className="max-xlx:h-[0px]" src={sql} alt="sql" />
           </div>
         </div>
       </div>

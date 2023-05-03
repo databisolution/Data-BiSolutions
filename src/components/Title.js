@@ -3,8 +3,8 @@ import React from "react";
 const Title = ({titleDesc}) => {
   return (
     <>
-      <div className="title gradient-background w-[300px] sm:w-[320px] xm:w-[500px] h-[500px] md:w-[700px] lg:w-full md:h-[250px] mx-auto mt-10">
-        <p className="lg:w-[1000px] font-semibold 2xl:leading-[50px] relative text-lg leading-[40px] lg:text-2xl top-32 md:top-20 xl:top-10 mx-auto text-slate-200 ">{titleDesc}</p>
+      <div className="title gradient-background w-full h-[500px] md:h-[700px]">
+        <p className="lg:mx-auto lg:w-[1000px] font-semibold 2xl:leading-[50px] relative text-lg leading-[30px] 3xl:w-[550px] lg:text-3xl top-[10px] sm:top-10 md:top-44 lg:top-44 2xl:right-[550px] 2xl:w-[400px] 2xl:-top-[60px] 3xl:top-[20px]">{titleDesc}</p>
       </div>
     </>
   );

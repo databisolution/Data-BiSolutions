@@ -11,10 +11,10 @@ const Navbar = () => {
   //   };
 
   return (
-    <div className="fixed w-full flex justify-between items-center p-4 border-b-[1px] bg-white/95 z-50 shadow-lg">
+    <div className="fixed w-full flex justify-between items-center p-4 border-b-[1px] bg-white/95 z-50 shadow-lg navbar">
       <Link to="/">
         <div className="text 2-xl font-bold uppercase flex items-center">
-          <img alt="logo" src={logo} className="w-16 h-16" />
+          <img alt="logo" src={logo} className="w-16 h-16 shadow-2xl rounded-xl opacity-80"/>
           <h1 className="">
             data & bi
             <span className="block text-2xl uppercase ml-2">solutions</span>
@@ -23,7 +23,7 @@ const Navbar = () => {
       </Link>
 
       <nav>
-        <ul className="hidden lg:flex gap-8 p-6 text-slate-700 navbar w-full">
+        <ul className="hidden lg:flex gap-8 p-6 text-slate-700 w-full">
         <li className="underlined transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110  xl:text-xl font-semibold ">
             <Link to="/">ACCUEIL</Link>
           </li>

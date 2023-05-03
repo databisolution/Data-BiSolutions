@@ -10,9 +10,7 @@ const TechnoCard = ({techTitle, techDesc, techLogo}) => {
         </h3>
       </div>
       <p
-        className=" px-1 text-slate-200 font-semibold lg:py-4 text-2xl lg:text-3xl 2xl:text-3xl lg:text-left leading-[60px] 2xl:leading-[50px] lg:w-[800px] 2xl:left-0"
-        // data-aos="zoom-in-down"
-        // data-aos-duration="2500"
+        className="titleText px-1 text-slate-200 font-semibold lg:py-4 text-2xl lg:text-3xl 2xl:text-3xl lg:text-left leading-[60px] 2xl:leading-[50px] lg:w-[800px] 2xl:left-0"
       >
         {techDesc}
       </p>

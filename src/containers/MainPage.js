@@ -5,10 +5,7 @@ import dashlogo from "../containers/assets/images/dashlogo.png";
 import rpa from "../containers/assets/images/rpa.png";
 import info from "../containers/assets/images/information.png";
 import idea from "../containers/assets/images/idea.png";
-import arrowLM from "../containers/assets/images/arrow-light-medium.png";
-import arrowM from "../containers/assets/images/arrow-medium.png";
-import arrowMH from "../containers/assets/images/arrow-medium-hard.png";
-import arrowH from "../containers/assets/images/arrow-hard.png";
+import arrow from "../containers/assets/images/arrow.png";
 import db from "../containers/assets/images/db.png";
 import smart from "../containers/assets/images/intelligence.png";
 import board from "../containers/assets/images/board.png";
@@ -24,7 +21,7 @@ import Header from "../components/Header";
 const MainPage = () => {
   return (
     <main>
-      <div className=" mx-auto z-0 w-full px-1 flex flex-col">
+      <div className=" mx-auto z-0 w-full px-1 flex flex-col ">
         <Header
           namePage={"Data & BI Solutions"}
           desc={
@@ -55,7 +52,7 @@ const MainPage = () => {
             "Des informations multi-sources, multi-formats collectées et centralisées pour une analyse précise et globale de votre activité"
           }
         />
-        <div className="h-full w-full mx-auto my-10 ">
+        <div className="h-full w-full mx-auto mt-10 sm:-top-[220px] md:-top-[320px] lg:-top-[300px] relative 2xl:-top-[400px] 2xl:left-[200px] 3xl:left-[400px]">
           <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
             <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10 shadow-lg rounded-md">
               <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
@@ -147,7 +144,7 @@ const MainPage = () => {
                   Résultats
                 </p>
                 <p
-                  className=" relative ml-[20px] mt-[30px] xm:ml-[150px] text-zinc-600 text-2xl font-bold"
+                  className=" relative ml-[20px] mt-[30px] xm:ml-[150px] text-zinc-600 xm:text-2xl font-bold"
                   data-aos="zoom-in"
                   data-aos-delay="1700"
                   data-aos-duration="500"
@@ -181,7 +178,7 @@ const MainPage = () => {
                   Social
                 </p>
                 <p
-                  className=" relative mr-[90px] mt-[30px] text-zinc-600 text-2xl font-bold"
+                  className=" relative mr-[90px] mt-[30px] text-zinc-600 xm:text-2xl font-bold"
                   data-aos-delay="1800"
                   data-aos-duration="500"
                 >
@@ -191,7 +188,7 @@ const MainPage = () => {
               <img
                 alt="logo"
                 src={logo}
-                className=" collapse xl:visible z-0 w-[100px] h-[100px] absolute lg:ml-[460px] lg:mt-[210px]"
+                className=" collapse xl:visible z-30 w-[100px] h-[100px] absolute lg:ml-[460px] lg:mt-[210px] rounded-lg opacity-70"
               />
             </div>
           </div>
@@ -212,7 +209,7 @@ const MainPage = () => {
           </div>
           <img
             className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:-rotate-45 lg:relative top-[45%] mx-auto"
-            src={arrowLM}
+            src={arrow}
             alt=""
           />
           <div className="relative lg:top-[20%]">
@@ -223,7 +220,7 @@ const MainPage = () => {
           </div>
           <img
             className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:relative lg:top-[18%] lg:-rotate-45 mx-auto"
-            src={arrowM}
+            src={arrow}
             alt="arrow"
           />
 
@@ -233,11 +230,11 @@ const MainPage = () => {
               txtEvo={"Transformation des données"}
             />
             <img
-              className="relative lg:top-[-200px] xl:top-[-200px] mx-auto w-20"
+              className="relative my-5 lg:top-[-200px] 2xl:top-[-1000px] 2xl:left-[350px] 3xl:left-[450px] 3xl:w-24 mx-auto w-20"
               src={idea}
               alt=""
             />
-            <div className="lg:relative lg:top-[-170px] font-semibold text-xl">
+            <div className="lg:relative my-5 lg:top-[-170px] 2xl:top-[-990px] 2xl:left-[350px] 3xl:left-[450px] 3xl:text-2xl font-semibold text-xl">
               <p>une idée</p>
               <p>un besoin</p>
               <p>une solution</p>
@@ -245,7 +242,7 @@ const MainPage = () => {
           </div>
           <img
             className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[20%] mx-auto"
-            src={arrowMH}
+            src={arrow}
             alt="arrow"
           />
           <div className="relative lg:top-[20%]">
@@ -256,7 +253,7 @@ const MainPage = () => {
           </div>
           <img
             className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[48%] mx-auto"
-            src={arrowH}
+            src={arrow}
             alt="arrow"
           />
           <div className="relative lg:top-[50%]">
@@ -279,12 +276,12 @@ const MainPage = () => {
             pour améliorer leur quotidien
           </p>
           <Swipers />
-          <p className="text-4xl mt-[200px]" data-loc="imagetest">
+          {/* <p className="text-4xl mt-[200px]" data-loc="imagetest">
             Réalisons votre projet
-          </p>
+          </p> */}
           <Link to="/contact">
-            <button className="text-3xl font-semibold buttonContact shadow-xl shadow-blue-200/100 my-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500">
-              Allons-Y
+            <button className="text-3xl font-semibold buttonContact shadow-2xl shadow-cyan-200/100 my-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500">
+              Réalisons votre projet
             </button>
           </Link>
         </div>
