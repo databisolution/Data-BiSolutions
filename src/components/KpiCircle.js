@@ -27,19 +27,22 @@ const KpiCircle = () => {
   return (
     <>
       <div
-        className="h-0 2xl:h-[500px] flex flex-col justify-around 2xl:w-[1440px] mx-auto z-30 w-0 collapse 2xl:visible 2xl:mt-20 2xl:my-20"
-        data-aos="fade-zoom-in"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out-cubic"
+        className=" h-0 2xl:h-[500px] flex flex-col justify-around 2xl:w-[1440px] mx-auto z-30 w-0 collapse 2xl:visible 2xl:mt-20 2xl:my-20"
+        // data-aos="fade-zoom-in"
+        // data-aos-duration="500"
+        // data-aos-easing="ease-in-out"
       >
         <div
           style={{ left: `${position.x}px`, top: `${position.y}px` }}
           className="cursor"
         ></div>
         <Paraph>
-          <span className="text-2xl font-extrabold collapse 2xl:visible">
-            TEMPS DE PRODUCTIONS / EFFECTIF
-          </span>
+          <div className="titleText text-3xl font-extrabold collapse 2xl:visible relative -top-20 text-cyan-800"
+           data-aos="zoom-in-down"
+           data-aos-duration="300"
+          >
+            Temps De Productions par Effectif
+          </div>
           <div className="img-cont">
             {/* <img
               className="imgHover pl-[430px]"
@@ -49,11 +52,14 @@ const KpiCircle = () => {
           </div>
         </Paraph>
         <div className="flex flex-row justify-between">
-          <div className="flex flex-col w-0 2xl:w-[440px] h-[300px] justify-between collapse 2xl:visible">
+          <div className="flex flex-col w-0 2xl:w-[440px] h-[500px] justify-between collapse 2xl:visible">
             <Paraph>
-              <span className="text-2xl font-extrabold">
-                Délai de production / article
-              </span>
+              <div className="titleText text-3xl font-extrabold relative left-10 text-cyan-700"
+              data-aos="zoom-out-right"
+              data-aos-duration="700"
+              >
+                Délai de production par article
+              </div>
               <div className="img-cont">
                 {/* <img
                   className="imgHover pl-[430px] -mt-[100px]"
@@ -63,9 +69,12 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <span className="text-2xl font-extrabold">
-                MARGE NETTE / COMMERCIAL
-              </span>
+              <div className="titleText text-3xl font-extrabold relative right-20 text-cyan-600"
+               data-aos="zoom-out-right"
+               data-aos-duration="800"
+              >
+                Marge Nette par Commercial
+              </div>
               <div className="img-cont">
                 {/* <img
                   className="imgHover pl-[430px] -mt-[200px]"
@@ -75,9 +84,12 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <span className="text-2xl font-extrabold">
-                TOP 10 Fournisseurs
-              </span>
+              <div className="titleText text-3xl font-extrabold relative right-44 text-cyan-500"
+               data-aos="zoom-out-right"
+               data-aos-duration="900"
+              >
+                Top 10 Fournisseurs
+              </div>
               <div className="img-cont">
                 {/* <img
                   className="imgHover pl-[430px] -mt-[200px]"
@@ -87,9 +99,12 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <span className="text-2xl font-extrabold">
+              <div className="titleText text-3xl font-extrabold relative right-28 text-cyan-400"
+               data-aos="zoom-out-right"
+               data-aos-duration="1000"
+              >
                 Taux de conversion
-              </span>
+              </div>
               <div className="img-cont">
                 {/* <img
                   className="imgHover pl-[430px] -mt-[300px]"
@@ -99,9 +114,12 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <span className="text-2xl font-extrabold">
+              <div className="titleText text-3xl font-extrabold relative right-2 text-cyan-400"
+               data-aos="zoom-out-right"
+               data-aos-duration="1100"
+              >
                 Coût moyen par embauche
-              </span>
+              </div>
               <div className="img-cont">
                 {/* <img
                   className="imgHover pl-[430px] -mt-[400px]"
@@ -113,16 +131,19 @@ const KpiCircle = () => {
           </div>
           <div className="">
             <img
-              className="xl:w-[400px] z-0 w-0 rounded-3xl shadow-2xl"
+              className="xl:w-[450px] z-0 w-0 rounded-3xl relative top-10 left-5 shadow-2xl"
               alt="Kpi"
               src={Kpi}
             />
           </div>
-          <div className="flex flex-col w-0 xl:w-[440px] h-[300px] justify-between collapse 2xl:visible">
+          <div className="flex flex-col w-0 xl:w-[440px] h-[500px] justify-between collapse 2xl:visible">
             <Paraph>
-              <span className="text-2xl font-extrabold">
-                EVOLUTION MENSUELLE DU RESULTAT
-              </span>
+              <div className="titleText text-3xl font-extrabold relative left-5 text-cyan-700"
+               data-aos="zoom-out-left"
+               data-aos-duration="700"
+              >
+                Evolution mensuelle du résultat
+              </div>
               <div className="img-cont">
                 {/* <img
                   className="imgHover -mt-[200px]"
@@ -132,9 +153,12 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <span className="text-2xl font-extrabold">
-                Ticket moyen / dépense frais
-              </span>
+              <div className="titleText text-3xl font-extrabold relative left-24 text-cyan-600"
+              data-aos="zoom-out-left"
+              data-aos-duration="800"
+              >
+                Ticket moyen par dépense
+              </div>
               <div className="img-cont">
                 {/* <img
                   className="imgHover -mt-[300px]"
@@ -144,7 +168,10 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <span className="text-2xl font-extrabold">MARGE / ARTICLE</span>
+              <div className="titleText text-3xl font-extrabold relative left-44 text-cyan-500"
+              data-aos="zoom-out-left"
+              data-aos-duration="900"
+              >Marge par Article</div>
               <div className="img-cont">
                 {/* <img
                   className="imgHover -mt-[300px]"
@@ -154,7 +181,10 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <span className="text-2xl font-extrabold">Taux de rotation</span>
+              <div className="titleText text-3xl font-extrabold relative left-20 text-cyan-400"
+              data-aos="zoom-out-left"
+              data-aos-duration="1000"
+              >Taux de rotation</div>
               <div className="img-cont">
                 {/* <img
                   className="imgHover -mt-[300px]"
@@ -164,7 +194,10 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <span className="text-2xl font-extrabold">Age moyen / poste</span>
+              <div className="titleText text-3xl font-extrabold relative right-10 text-cyan-400"
+              data-aos="zoom-out-left"
+              data-aos-duration="1100"
+              >Age moyen par poste</div>
               <div className="img-cont">
                 {/* <img
                   className="imgHover -mt-[300px]"
@@ -175,23 +208,26 @@ const KpiCircle = () => {
             </Paraph>
           </div>
         </div>
-        <div className="flex justify-around w-0 2xl:w-[800px] xl:mx-auto collapse 2xl:visible">
-          <Paraph>
+        <div className="flex justify-around w-0 2xl:w-[800px] xl:mx-auto collapse 2xl:visible relative top-10">
+          {/* <Paraph>
             <span className="text-2xl font-extrabold">
              Evolution de la trésorerie
             </span>
             <div className="img-cont">
-              {/* <img
+              <img
                 className="imgHover -mt-[800px]"
                 alt="lorem picsum"
                 src="https://picsum.photos/600/900?random=15"
-              /> */}
+              />
             </div>
-          </Paraph>
+          </Paraph> */}
           <Paraph>
-            <span className="text-2xl font-extrabold">
-              % répartition des charges
-            </span>
+            <div className="titleText text-3xl font-extrabold relative top-10 text-cyan-300"
+            data-aos="zoom-in-up"
+            data-aos-duration="1200"
+            >
+              % Répartition des Charges
+            </div>
             <div className="img-cont">
               {/* <img
                 className="imgHover -mt-[600px]"

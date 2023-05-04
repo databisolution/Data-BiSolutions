@@ -40,7 +40,7 @@ const Technologies = () => {
           classTech={"text-3xl mt-5 font-extrabold text-yellow-500"}
           techLogo={pbi}
           classNameTitle={
-            "text-2xl text-yellow-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[100px] xl:w-[300px] xl:w-[400px] z-10"
+            "text-2xl text-yellow-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[130px] xl:w-[300px] xl:ml-7 z-10"
           }
           techDesc={
             "Power bi permet d’accompagner le corps dirigeant et les équipes de production dans leurs choix stratégiques"
@@ -55,7 +55,7 @@ const Technologies = () => {
             cardTitle={"Microsoft AZURE SYNAPSE ANALYTICS"}
             classTech={"text-3xl mt-5 font-extrabold text-blue-400"}
             classNameTitle={
-              "text-2xl text-blue-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[140px] xl:w-[300px] xl:w-[400px] z-10"
+              "text-2xl text-blue-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[150px] xl:w-[300px] xl:ml-3 z-10"
             }
             techLogo={Azure}
             techTitle={"AZURE"}
@@ -73,7 +73,7 @@ const Technologies = () => {
             techTitle={"POWER Automate"}
             classTech={"text-3xl mt-5 font-extrabold text-blue-400"}
             classNameTitle={
-              "text-2xl text-blue-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[150px] xl:w-[300px] xl:w-[400px] z-10"
+              "text-2xl text-blue-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[150px] xl:w-[300px] xl:ml-3 z-10"
             }
             cardTitle={"Microsoft Power Automate"}
             techLogo={Automate}
@@ -91,22 +91,22 @@ const Technologies = () => {
             techTitle={"Report Builder"}
             classTech={"text-3xl mt-5 font-extrabold text-yellow-500"}
             classNameTitle={
-              "text-2xl text-yellow-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[150px] xl:w-[300px] xl:w-[400px] z-10"
+              "text-2xl text-yellow-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[150px] xl:w-[400px] xl:ml-2 z-10"
             }
             cardTitle={"Power BI Report Builder"}
             techLogo={Rbuilder}
             techDesc={
-              "Power Bi Report Builder est un outil qui permet de créer des rapports et des tableaux de bords paginés concus pour être imprimés ou partagés avec une mise en page définie au besoin."
+              "Report Builder permet de créer et imprimer des mises en pages dédiées"
             }
             imgDesc={Rpb}
             techObjectif={
-              "Consacré aux rapports personnalisés pour le partage et l'impression des données. Report Builder présente également d'autres atouts pour vous permettre de concevoir et d'éditer tout types de documents indisponibles et nécessaires à l'organisation (Courrier de relance, Echéancier, Factures avec détail dynamique, formulaires...). Allié à Power Automate, il vous permettra d'historiser vos opérations et de transférer rapidement vos flux documentaires."
+              "En plus de la conception et l’édition de tous types de documents nécessaires à l’entreprise (Courrier de relance, Echéanciers, Factures, formulaires, tableaux...), il pourra s’allier à Power Automate et Azure Synapse afin d’historiser les opérations, les traiter et les afficher en temps réel dans Power BI"
             }
           />
         </div>
         <Link to="/contact">
           <button
-            className="text-3xl buttonContact font-semibold bg-blue-500 shadow-lg shadow-blue-500/50 mb-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
+            className="text-3xl buttonContact font-semibold  shadow-cyan-500/50 mb-32 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
             data-aos="zoom-out"
             data-aos-duration="1200"
           >

@@ -166,7 +166,7 @@ const ContactForm = () => {
             <textarea
               {...register("message", { required: true, minLength: 2 })}
               rows={10}
-              className="font-semibold border-2 resize-none rounded-md w-[230px] h-10 2xl:h-[275px] text-black 2xl:absolute 2xl:right-[100px] 2xl:top-[100px] 2xl:py-14 2xl:w-[350px] xl:w-[200px] 2xls:w-[430px]"
+              className="font-semibold border-2 resize-none rounded-md w-[240px] h-44 2xl:h-[275px] text-black 2xl:absolute 2xl:right-[100px] 2xl:top-[100px] 2xl:py-14 2xl:w-[350px] xl:w-[240px] 2xls:w-[430px]"
               type="text"
               name="message"
               id="message"

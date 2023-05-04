@@ -5,7 +5,10 @@ import dashlogo from "../containers/assets/images/dashlogo.png";
 import rpa from "../containers/assets/images/rpa.png";
 import info from "../containers/assets/images/information.png";
 import idea from "../containers/assets/images/idea.png";
-import arrow from "../containers/assets/images/arrow.png";
+import arrowL from "../containers/assets/images/arrow-light.png";
+import arrowLM from "../containers/assets/images/arrow-light-medium.png";
+import arrowM from "../containers/assets/images/arrow-medium.png";
+import arrowMH from "../containers/assets/images/arrow-medium-hard.png";
 import db from "../containers/assets/images/db.png";
 import smart from "../containers/assets/images/intelligence.png";
 import board from "../containers/assets/images/board.png";
@@ -209,7 +212,7 @@ const MainPage = () => {
           </div>
           <img
             className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:-rotate-45 lg:relative top-[45%] mx-auto"
-            src={arrow}
+            src={arrowL}
             alt=""
           />
           <div className="relative lg:top-[20%]">
@@ -220,7 +223,7 @@ const MainPage = () => {
           </div>
           <img
             className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:relative lg:top-[18%] lg:-rotate-45 mx-auto"
-            src={arrow}
+            src={arrowLM}
             alt="arrow"
           />
 
@@ -242,7 +245,7 @@ const MainPage = () => {
           </div>
           <img
             className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[20%] mx-auto"
-            src={arrow}
+            src={arrowM}
             alt="arrow"
           />
           <div className="relative lg:top-[20%]">
@@ -253,7 +256,7 @@ const MainPage = () => {
           </div>
           <img
             className="h-[50px] w-[50px] lg:h-[50px] rotate-90 lg:rotate-45 relative lg:top-[48%] mx-auto"
-            src={arrow}
+            src={arrowMH}
             alt="arrow"
           />
           <div className="relative lg:top-[50%]">
@@ -271,7 +274,7 @@ const MainPage = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <p className="text-xl my-20 font-semibold">
+          <p className="text-4xl mt-[300px] font-semibold">
             Des entreprises comme la vôtre réalise chaque jour des projets BI
             pour améliorer leur quotidien
           </p>
@@ -280,7 +283,7 @@ const MainPage = () => {
             Réalisons votre projet
           </p> */}
           <Link to="/contact">
-            <button className="text-3xl font-semibold buttonContact shadow-2xl shadow-cyan-200/100 my-10 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500">
+            <button className="text-3xl font-semibold buttonContact shadow-2xl shadow-cyan-200/100 my-20 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500">
               Réalisons votre projet
             </button>
           </Link>
