@@ -8,6 +8,7 @@ const TechnoCard = ({
   techObjectif,
   imgDesc,
   cardTitle,
+  classTech,
 }) => {
   return (
     <>
@@ -20,10 +21,8 @@ const TechnoCard = ({
             src={techLogo}
             alt="pbi"
           />
-          <h2 className="text-xl mt-5 font-extrabold text-yellow-300">
-            {techTitle}
-          </h2>
-          <p className="mt-10 text-xl m-2 font-semibold leading-[30px] policeTech lg:leading-[40px]">
+          <h2 className={classTech}>{techTitle}</h2>
+          <p className="mt-10 text-2xl m-2 font-semibold leading-[30px] policeTech lg:leading-[40px] text-slate-600">
             {techDesc}
           </p>
         </div>
@@ -36,7 +35,7 @@ const TechnoCard = ({
             data-aos="zoom-in-down"
             data-aos-duration="1800"
           />
-          <p className="2xl:w-[1000px] 2xl:text-left lg:text-2xl font-semibold leading-[50px]">
+          <p className="2xl:w-[1000px] 2xl:text-left lg:text-3xl xl:leading-[60px] policeTech">
             {techObjectif}
           </p>
         </div>

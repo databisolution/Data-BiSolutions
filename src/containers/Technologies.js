@@ -11,7 +11,6 @@ import TechnoGroup from "../components/TechnoGroup";
 import Asa from "./assets/images/asa.png";
 import Mpa from "./assets/images/mpa.png";
 import Rpb from "./assets/images/rpb.png";
-// import TechDescription from "../components/TechDescription";
 import Header from "../components/Header";
 
 const Technologies = () => {
@@ -38,41 +37,23 @@ const Technologies = () => {
         <TechnoCard
           cardTitle={"Microsoft Power BI"}
           techTitle={"POWER BI"}
+          classTech={"text-3xl mt-5 font-extrabold text-yellow-500"}
           techLogo={pbi}
           classNameTitle={
             "text-2xl text-yellow-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[100px] xl:w-[300px] xl:w-[400px] z-10"
           }
           techDesc={
-            // "Les avantages de Power BI sont nombreux pour aider les équipes de direction à faire des choix rapides sans compromettre la rentabilité de leur entreprise. Power BI facilite la visualisation des données."
-           "Power bi permet d’accompagner le corps dirigeant et les équipes de production dans leurs choix stratégiques"
+            "Power bi permet d’accompagner le corps dirigeant et les équipes de production dans leurs choix stratégiques"
           }
           techObjectif={
             "Une palette variée et étoffée de tableaux, diagrammes, jauges ou cartes permettront une présentation optimale des données de l’entreprise et une prise de décision adaptée"
           }
           imgDesc={PowerBi}
         />
-        {/* <p className="mx-auto py-4 text-3xl">
-            Grâce à l’accessibilité et la présentation visuelle, Power BI est un
-            outil de taille d’aide à la décision qui fera la différence pour
-            votre entreprise . La BI permettra une plus grande agilité et réactivité.
-          </p> */}
-        {/* <div>
-          <TechDescription
-            imgDesc={PowerBi}
-            techObjectif={
-              "Avec ces options de présentation sous forme de tableaux, de diagrammes ou encore de jauges ou de cartes, ils donnent une vision complète des données de l’entreprise sous forme visuelle pour faciliter l’utilisation des données en équipe."
-            }
-          />
-          <p className="mx-auto py-4 text-3xl">
-            Power BI est une plateforme unique disponible depuis l’ensemble de
-            ces appareils avec une seule connexion.
-          </p>
-          
-        </div> */}
         <div>
           <TechnoCard
             cardTitle={"Microsoft AZURE SYNAPSE ANALYTICS"}
-            
+            classTech={"text-3xl mt-5 font-extrabold text-blue-400"}
             classNameTitle={
               "text-2xl text-blue-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[140px] xl:w-[300px] xl:w-[400px] z-10"
             }
@@ -83,41 +64,32 @@ const Technologies = () => {
             }
             imgDesc={Asa}
             techObjectif={
-              "Des connexions sécurisées à vos sources de données (SAP, SALES FORCES, Oracle, Sharepoint, Google…), une architecture adaptée et une actualisation a intervalle régulier en fonction des besoins utilisateurs permettront un traitement optimisé de vos informations"
+              "Des connexions sécurisées à vos sources de données (SAP, SALES FORCES, Oracle, Sharepoint, Google…), une architecture adaptée et une actualisation à intervalle régulier en fonction des besoins utilisateurs permettront un traitement optimisé de vos informations"
             }
           />
-
-          {/* <p
-            className="mx-auto py-6 text-3xl"
-            data-aos="zoom-in-down"
-            data-aos-duration="1800"
-          >
-            Il n’existe pas de méthode unique pour réaliser un projet BI. Le
-            choix des outils et de l’architecture à mettre en place repose sur
-            un diagnostic de l’Organisation. Notre expérience nous permet de
-            vous conseiller et vous proposer le modèle adapté à votre structure.
-          </p> */}
         </div>
         <div>
           <TechnoCard
             techTitle={"POWER Automate"}
+            classTech={"text-3xl mt-5 font-extrabold text-blue-400"}
             classNameTitle={
               "text-2xl text-blue-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[150px] xl:w-[300px] xl:w-[400px] z-10"
             }
             cardTitle={"Microsoft Power Automate"}
             techLogo={Automate}
             techDesc={
-              "Fiabiliser l'information et optimiser le temps de ses équipes est primordial. Power automate est une Solution pour automatiser les processus métier et les tâches récurrentes du quotidien."
+              "Power Automate permet d’automatiser des processus métier et faciliter le travail des utilisateurs"
             }
             imgDesc={Mpa}
             techObjectif={
-              "Microsoft Power Automate permet à vos collaborateurs de se concentrer sur un travail à plus forte valeur ajoutée en automatisant des processus manuels chronophages grâce à des flux. Il propose une palette limportante de connecteurs d'intégration et vous pourrez automatiser selon votre besoin : Flux automatisé, instantané ou planifié..."
+              "L’automatisation des taches chronophages et l’envoi sécurisé des données sur l’environnement Azure Synapse permettra à l’utilisateur de se focaliser sur des éléments à plus forte valeur ajoutée en s’appuyant sur des visuels dédiés, actualisés en temps réel dans Power BI"
             }
           />
         </div>
         <div>
           <TechnoCard
             techTitle={"Report Builder"}
+            classTech={"text-3xl mt-5 font-extrabold text-yellow-500"}
             classNameTitle={
               "text-2xl text-yellow-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[150px] xl:w-[300px] xl:w-[400px] z-10"
             }
@@ -128,7 +100,7 @@ const Technologies = () => {
             }
             imgDesc={Rpb}
             techObjectif={
-              "Consacré aux rapports personnalisés pour le partage et l'impression des données. Report Builder présente également d'autres atouts pour vous permettre de concevoir et d'éditer tout types de documents indisponibles et nécessaires à l'organisation (Courrier de relance, Echeancier, Factures avec détail dynamique, formulaires...). Allié à Power Automate, il vous permettra d'historiser vos opérations et de transférer rapidement vos flux documentaires."
+              "Consacré aux rapports personnalisés pour le partage et l'impression des données. Report Builder présente également d'autres atouts pour vous permettre de concevoir et d'éditer tout types de documents indisponibles et nécessaires à l'organisation (Courrier de relance, Echéancier, Factures avec détail dynamique, formulaires...). Allié à Power Automate, il vous permettra d'historiser vos opérations et de transférer rapidement vos flux documentaires."
             }
           />
         </div>

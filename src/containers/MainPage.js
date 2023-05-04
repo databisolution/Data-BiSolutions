@@ -271,7 +271,7 @@ const MainPage = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <p className="text-xl my-20">
+          <p className="text-xl my-20 font-semibold">
             Des entreprises comme la vôtre réalise chaque jour des projets BI
             pour améliorer leur quotidien
           </p>

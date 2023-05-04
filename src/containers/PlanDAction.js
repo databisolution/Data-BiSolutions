@@ -21,7 +21,7 @@ const PlanDAction = () => {
         <div className="h-[400px] mt-64">
           <p className="text-4xl">Page en construction</p>
         </div>
-        {/* <div className="w-[500px] h-[400px] bg-oraounded-md mt-20">
+        {/* <div className="w-[500px] h-[400px] bg-orange rounded-md mt-20">
             <p>zsedrf-tgèyhuisedrft-gyhuji</p>
           </div>
           <div className="w-[200px] h-[300px] bg-sky-300 rounded-md mt-10">
