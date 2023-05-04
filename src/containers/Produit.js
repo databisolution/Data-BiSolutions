@@ -6,7 +6,7 @@ const Produit = () => {
   return (
     <section className="pt-10" data-aos="zoom-in-out">
        <Header namePage={"Produits"} />
-        <button className="productBanner p-10 mt-10 text-xl leading-[30px] font-semibold w-[300px] shadow-lg shadow-green-200/50 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500">
+        <button className="productBanner p-10 mt-10 text-xl leading-[30px] font-semibold w-[300px] rounded-lg shadow-inner shadow-green-200/50 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500">
           <a
             className="w-full"
             target="_blank"

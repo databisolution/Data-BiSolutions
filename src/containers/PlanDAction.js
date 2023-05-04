@@ -14,14 +14,14 @@ const PlanDAction = () => {
       <div className="w-full mx-auto z-0 mt-28">
         <Title
           titleDesc={
-            "Nos réalisations s’appuient sur un process avec un plan d’action pour assurer la réalisation de votre projet BI"
+            // "Nos réalisations s’appuient sur un process avec un plan d’action pour assurer la réalisation de votre projet BI"
+            "Notre expérience nous permet de vous conseiller et vous proposer le modèle adapté à votre structure"
           }
         />
         <div className="h-[400px] mt-64">
           <p className="text-4xl">Page en construction</p>
         </div>
-        {/* <div className="w-[500px] h-[400px] bg-orange-400 flex justify-between">
-          <div className="w-[200px] h-[200px] bg-lime-500 rounded-md mt-20">
+        {/* <div className="w-[500px] h-[400px] bg-oraounded-md mt-20">
             <p>zsedrf-tgèyhuisedrft-gyhuji</p>
           </div>
           <div className="w-[200px] h-[300px] bg-sky-300 rounded-md mt-10">

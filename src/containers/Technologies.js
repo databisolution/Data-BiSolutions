@@ -43,13 +43,19 @@ const Technologies = () => {
             "text-2xl text-yellow-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[100px] xl:w-[300px] xl:w-[400px] z-10"
           }
           techDesc={
-            "Les avantages de Power BI sont nombreux pour aider les équipes de direction à faire des choix rapides sans compromettre la rentabilité de leur entreprise. Power BI facilite la visualisation des données."
+            // "Les avantages de Power BI sont nombreux pour aider les équipes de direction à faire des choix rapides sans compromettre la rentabilité de leur entreprise. Power BI facilite la visualisation des données."
+           "Power bi permet d’accompagner le corps dirigeant et les équipes de production dans leurs choix stratégiques"
           }
           techObjectif={
-            "Avec ces options de présentation sous forme de tableaux, de diagramme ou encore de jauges ou de cartes, il donne une vision complète des données de l’entreprise sous forme visuelle pour faciliter l’utilisation des données en équipe."
+            "Une palette variée et étoffée de tableaux, diagrammes, jauges ou cartes permettront une présentation optimale des données de l’entreprise et une prise de décision adaptée"
           }
           imgDesc={PowerBi}
         />
+        {/* <p className="mx-auto py-4 text-3xl">
+            Grâce à l’accessibilité et la présentation visuelle, Power BI est un
+            outil de taille d’aide à la décision qui fera la différence pour
+            votre entreprise . La BI permettra une plus grande agilité et réactivité.
+          </p> */}
         {/* <div>
           <TechDescription
             imgDesc={PowerBi}
@@ -61,11 +67,7 @@ const Technologies = () => {
             Power BI est une plateforme unique disponible depuis l’ensemble de
             ces appareils avec une seule connexion.
           </p>
-          <p className="mx-auto py-4 text-3xl">
-            Grâce à l’accessibilité et la présentation visuelle, Power BI est un
-            outil de taille d’aide à la décision qui fera la différence pour
-            votre entreprise . La BI permettra une plus grande agilité et réactivité.
-          </p>
+          
         </div> */}
         <div>
           <TechnoCard
@@ -77,15 +79,15 @@ const Technologies = () => {
             techLogo={Azure}
             techTitle={"AZURE"}
             techDesc={
-              "Azure facilite le circuit de traitement de la donnée. Il permettra de synchroniser l’ensemble de vos sources de données et de réaliser avec précision les calculs pour préparer la donnée à diffuser dans POWER BI."
+              "Azure synapse permet d’organiser les données et de flexibiliser leurs traitements afin de faciliter leurs présentations dans Power BI"
             }
             imgDesc={Asa}
             techObjectif={
-              "Avec ces options de présentation sous forme de tableaux, de diagramme ou encore de jauges ou de cartes, il donne une vision complète des données de l’entreprise sous forme visuelle pour faciliter l’utilisation des données en équipe."
+              "Des connexions sécurisées à vos sources de données (SAP, SALES FORCES, Oracle, Sharepoint, Google…), une architecture adaptée et une actualisation a intervalle régulier en fonction des besoins utilisateurs permettront un traitement optimisé de vos informations"
             }
           />
 
-          <p
+          {/* <p
             className="mx-auto py-6 text-3xl"
             data-aos="zoom-in-down"
             data-aos-duration="1800"
@@ -94,7 +96,7 @@ const Technologies = () => {
             choix des outils et de l’architecture à mettre en place repose sur
             un diagnostic de l’Organisation. Notre expérience nous permet de
             vous conseiller et vous proposer le modèle adapté à votre structure.
-          </p>
+          </p> */}
         </div>
         <div>
           <TechnoCard

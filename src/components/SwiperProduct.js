@@ -30,7 +30,7 @@ const SwiperProduct = () => {
         slideShadows: false,
       }}
       pagination={true}
-      modules={[EffectCoverflow, Pagination,Autoplay]}
+      modules={[EffectCoverflow, Pagination, Autoplay]}
       className="mySwiper"
     >
       <SwiperSlide>
