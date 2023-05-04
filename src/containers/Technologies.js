@@ -106,7 +106,7 @@ const Technologies = () => {
         </div>
         <Link to="/contact">
           <button
-            className="text-3xl buttonContact font-semibold  shadow-cyan-500/50 mb-32 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
+            className="text-3xl buttonContact font-semibold shadow-2xl shadow-cyan-200/100 mb-32 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
             data-aos="zoom-out"
             data-aos-duration="1200"
           >

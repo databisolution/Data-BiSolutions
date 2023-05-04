@@ -13,7 +13,7 @@ const TechnoCard = ({
   return (
     <>
       <h1 className={classNameTitle}>{cardTitle}</h1>
-      <div className="bgPolygone h-[600px]"></div>
+      <div className="bgPolygone h-[600px] relative"></div>
       <div className="flex 2xl:justify-evenly 2xl:flex-row flex-col relative -top-[250px]">
         <div className="2xl:w-[400px] 2xl:h-[500px] w-[320px] md:w-[450px] xl:w-[600px] max-2xl:mx-auto relative -top-[150px] border-4 border-none rounded-xl backdrop-blur-2xl bg-white/60 shadow-gray-50 shadow-md">
           <img

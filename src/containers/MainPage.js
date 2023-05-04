@@ -57,7 +57,7 @@ const MainPage = () => {
         />
         <div className="h-full w-full mx-auto mt-10 sm:-top-[220px] md:-top-[320px] lg:-top-[300px] relative 2xl:-top-[400px] 2xl:left-[200px] 3xl:left-[400px] -mb-32">
           <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
-            <div className="flex flex-wrap h-[1250px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10 shadow-lg rounded-md">
+            <div className="flex flex-wrap h-[1250px] sx:h-[600px] xm:h-[1200px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10 shadow-lg rounded-md">
               <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
                 <p className="mt-10 relative bottom-5  text-zinc-600 text-2xl font-bold">
                   Trésorerie
@@ -203,11 +203,12 @@ const MainPage = () => {
         />
         <div
           className="evol w-[300px] md:w-[650px] h-[1000px] lg:w-full xl:w-[1280px] lg:h-[600px] flex flex-col lg:flex-row justify-evenly  mx-auto my-10"
-          data-aos="fade-zoom-in"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out-cubic"
         >
-          <div className="relative lg:top-[50%]">
+          <div className="relative lg:top-[50%]"
+          data-aos="fade-up-right"
+          data-aos-duration="800"
+          data-aos-delay="600"
+          >
             <EvolutionLogo imgEvo={db} txtEvo={"Centralisation des données"} />
           </div>
           <img
@@ -215,7 +216,11 @@ const MainPage = () => {
             src={arrowL}
             alt=""
           />
-          <div className="relative lg:top-[20%]">
+          <div className="relative lg:top-[20%]"
+          data-aos="fade-up-right"
+          data-aos-duration="1200"
+          data-aos-delay="600"
+          >
             <EvolutionLogo
               imgEvo={auto}
               txtEvo={"Automatisation des données"}
@@ -227,7 +232,11 @@ const MainPage = () => {
             alt="arrow"
           />
 
-          <div className="">
+          <div className=""
+          data-aos="fade-down-right"
+          data-aos-duration="1400"
+          data-aos-delay="600"
+          >
             <EvolutionLogo
               imgEvo={smart}
               txtEvo={"Transformation des données"}
@@ -248,7 +257,11 @@ const MainPage = () => {
             src={arrowM}
             alt="arrow"
           />
-          <div className="relative lg:top-[20%]">
+          <div className="relative lg:top-[20%]"
+          data-aos="fade-down-right"
+          data-aos-duration="1600"
+          data-aos-delay="600"
+          >
             <EvolutionLogo
               imgEvo={board}
               txtEvo={"Visualisation des données"}
@@ -259,7 +272,11 @@ const MainPage = () => {
             src={arrowMH}
             alt="arrow"
           />
-          <div className="relative lg:top-[50%]">
+          <div className="relative lg:top-[50%]"
+           data-aos="fade-down-right"
+           data-aos-duration="1800"
+           data-aos-delay="600"
+          >
             <EvolutionLogo imgEvo={decision} txtEvo={"Prise de décision"} />
           </div>
         </div>
@@ -271,10 +288,11 @@ const MainPage = () => {
         <KpiCircle />
         <div
           className="h-full mx-auto"
-          data-aos="fade-up"
-          data-aos-duration="1000"
         >
-          <p className="text-4xl mt-[300px] font-semibold">
+          <p className="text-4xl mt-[300px] font-semibold"
+           data-aos="fade-up"
+           data-aos-duration="600"
+          >
             Des entreprises comme la vôtre réalise chaque jour des projets BI
             pour améliorer leur quotidien
           </p>
@@ -283,7 +301,10 @@ const MainPage = () => {
             Réalisons votre projet
           </p> */}
           <Link to="/contact">
-            <button className="text-3xl font-semibold buttonContact shadow-2xl shadow-cyan-200/100 my-20 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500">
+            <button className="text-3xl font-semibold buttonContact shadow-2xl shadow-cyan-200/100 my-20 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
+                       data-aos="fade-up"
+                       data-aos-duration="1500"
+            >
               Réalisons votre projet
             </button>
           </Link>

@@ -40,6 +40,7 @@ const KpiCircle = () => {
           <div className="titleText text-3xl font-extrabold collapse 2xl:visible relative -top-20 text-cyan-800"
            data-aos="zoom-in-down"
            data-aos-duration="300"
+           data-aos-delay="800"
           >
             Temps De Productions par Effectif
           </div>
@@ -57,6 +58,7 @@ const KpiCircle = () => {
               <div className="titleText text-3xl font-extrabold relative left-10 text-cyan-700"
               data-aos="zoom-out-right"
               data-aos-duration="700"
+              data-aos-delay="800"
               >
                 Délai de production par article
               </div>
@@ -72,6 +74,7 @@ const KpiCircle = () => {
               <div className="titleText text-3xl font-extrabold relative right-20 text-cyan-600"
                data-aos="zoom-out-right"
                data-aos-duration="800"
+               data-aos-delay="800"
               >
                 Marge Nette par Commercial
               </div>
@@ -87,6 +90,7 @@ const KpiCircle = () => {
               <div className="titleText text-3xl font-extrabold relative right-44 text-cyan-500"
                data-aos="zoom-out-right"
                data-aos-duration="900"
+               data-aos-delay="800"
               >
                 Top 10 Fournisseurs
               </div>
@@ -102,6 +106,7 @@ const KpiCircle = () => {
               <div className="titleText text-3xl font-extrabold relative right-28 text-cyan-400"
                data-aos="zoom-out-right"
                data-aos-duration="1000"
+               data-aos-delay="800"
               >
                 Taux de conversion
               </div>
@@ -117,6 +122,7 @@ const KpiCircle = () => {
               <div className="titleText text-3xl font-extrabold relative right-2 text-cyan-400"
                data-aos="zoom-out-right"
                data-aos-duration="1100"
+               data-aos-delay="800"
               >
                 Coût moyen par embauche
               </div>
@@ -141,6 +147,7 @@ const KpiCircle = () => {
               <div className="titleText text-3xl font-extrabold relative left-5 text-cyan-700"
                data-aos="zoom-out-left"
                data-aos-duration="700"
+               data-aos-delay="800"
               >
                 Evolution mensuelle du résultat
               </div>
@@ -156,6 +163,7 @@ const KpiCircle = () => {
               <div className="titleText text-3xl font-extrabold relative left-24 text-cyan-600"
               data-aos="zoom-out-left"
               data-aos-duration="800"
+              data-aos-delay="800"
               >
                 Ticket moyen par dépense
               </div>
@@ -171,6 +179,7 @@ const KpiCircle = () => {
               <div className="titleText text-3xl font-extrabold relative left-44 text-cyan-500"
               data-aos="zoom-out-left"
               data-aos-duration="900"
+              data-aos-delay="800"
               >Marge par Article</div>
               <div className="img-cont">
                 {/* <img
@@ -184,6 +193,7 @@ const KpiCircle = () => {
               <div className="titleText text-3xl font-extrabold relative left-20 text-cyan-400"
               data-aos="zoom-out-left"
               data-aos-duration="1000"
+              data-aos-delay="1000"
               >Taux de rotation</div>
               <div className="img-cont">
                 {/* <img
@@ -197,6 +207,7 @@ const KpiCircle = () => {
               <div className="titleText text-3xl font-extrabold relative right-10 text-cyan-400"
               data-aos="zoom-out-left"
               data-aos-duration="1100"
+              data-aos-delay="800"
               >Age moyen par poste</div>
               <div className="img-cont">
                 {/* <img
@@ -225,6 +236,7 @@ const KpiCircle = () => {
             <div className="titleText text-3xl font-extrabold relative top-10 text-cyan-300"
             data-aos="zoom-in-up"
             data-aos-duration="1200"
+            data-aos-delay="800"
             >
               % Répartition des Charges
             </div>

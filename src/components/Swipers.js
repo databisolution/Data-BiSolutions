@@ -9,43 +9,46 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 
 const Swipers = () => {
   return (
-    <div className="w-[300px] xm:w-[500px] md:w-[800px] mx-auto grayscale-carousel z-0 mt-[150px]">
-    <Swiper
-      effect={"coverflow"}
-      grabCursor={true}
-      centeredSlides={true}
-      slidesPerView={"2"}
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
-      }}
-      loop={true}
-      coverflowEffect={{
-        rotate: 72,
-        stretch: 3,
-        depth: 100,
-        modifier: 1,
-        slideShadows: false,
-      }}
-      pagination={true}
-      modules={[EffectCoverflow, Pagination,Autoplay]}
-      className="mySwiper"
+    <div
+      className="w-[300px] xm:w-[500px] md:w-[800px] mx-auto grayscale-carousel z-0 mt-[150px]"
+      data-aos="fade-up"
+      data-aos-duration="1000"
     >
-      <SwiperSlide>
-        <img className="mx-auto my-auto"src={Guerin} alt="cabinet guerin"/>
-      </SwiperSlide>
-      <SwiperSlide >
-        <img className="mx-auto my-auto" src={Jdc} alt="jdc"/>
-      </SwiperSlide>
-      <SwiperSlide >
-        <img className="mx-auto my-auto" src={Altis} alt="altis"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <img className="mx-auto my-auto" src={Prefiloc} alt="prefiloc"/>
-      </SwiperSlide>
-      
-    </Swiper>
-  </div>
+      <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"2"}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        loop={true}
+        coverflowEffect={{
+          rotate: 72,
+          stretch: 3,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination, Autoplay]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img className="mx-auto my-auto hover:scale-110 transition ease-in-out delay-450 hover:-translate-y-0.1" src={Guerin} alt="cabinet guerin"/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="mx-auto my-auto hover:scale-110 transition ease-in-out delay-450 hover:-translate-y-0.1" src={Jdc} alt="jdc" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="mx-auto my-auto hover:scale-110 transition ease-in-out delay-450 hover:-translate-y-0.1" src={Altis} alt="altis" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className="mx-auto my-auto hover:scale-110 transition ease-in-out delay-450 hover:-translate-y-0.1" src={Prefiloc} alt="prefiloc" />
+        </SwiperSlide>
+      </Swiper>
+    </div>
   );
 };
 
