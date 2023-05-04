@@ -27,7 +27,7 @@ const Technologies = () => {
         />
         <TechnoGroup />
         <h2
-          className="text-3xl"
+          className="text-3xl font-semibold"
           data-aos="zoom-in-down"
           data-aos-duration="2100"
         >

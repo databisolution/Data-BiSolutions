@@ -33,10 +33,14 @@ const TechnoCard = ({
             src={imgDesc}
             alt="imgDesc"
             data-aos="zoom-in-down"
-            data-aos-duration="1800"
+            data-aos-duration="1500"
           />
-          <p className="2xl:w-[1000px] 2xl:text-left lg:text-3xl xl:leading-[60px] policeTech">
+          <p className="2xl:w-[1000px] 2xl:text-left lg:text-3xl xl:leading-[60px] policeTech"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+          >
             {techObjectif}
+            
           </p>
         </div>
       </div>
