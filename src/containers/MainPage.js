@@ -14,16 +14,16 @@ import smart from "../containers/assets/images/intelligence.png";
 import board from "../containers/assets/images/board.png";
 import auto from "../containers/assets/images/automatisation.png";
 import decision from "../containers/assets/images/decision.png";
-import logo from "./assets/images/logo.PNG";
 import Swipers from "../components/Swipers";
 import OrgCard from "../components/OrgCard";
 import Title from "../components/Title";
 import EvolutionLogo from "../components/EvolutionLogo";
 import Header from "../components/Header";
+import Sources from "../components/Sources";
 
 const MainPage = () => {
   return (
-    <main>
+    <main id="home">
       <div className=" mx-auto z-0 w-full px-1 flex flex-col ">
         <Header
           namePage={"Data & BI Solutions"}
@@ -55,156 +55,16 @@ const MainPage = () => {
             "Des informations multi-sources, multi-formats collectées et centralisées pour une analyse précise et globale de votre activité"
           }
         />
-        <div className="h-full w-full mx-auto mt-10 sm:-top-[220px] md:-top-[320px] lg:-top-[300px] relative 2xl:-top-[400px] 2xl:left-[200px] 3xl:left-[400px] -mb-32">
-          <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
-            <div className="flex flex-wrap h-[1250px] sx:h-[600px] xm:h-[1200px] lg:h-[600px] xl:w-[1100px] mx-auto my-5 p-10 shadow-lg rounded-md">
-              <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
-                <p className="mt-10 relative bottom-5  text-zinc-600 text-2xl font-bold">
-                  Trésorerie
-                </p>
-                <p
-                  className=" relative mr-[120px] text-2xl text-zinc-600 font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="1200"
-                  data-aos-duration="500"
-                >
-                  Fournisseurs
-                </p>
-                <p
-                  className=" relative mt-[20px] text-blue-900 text-2xl font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="500"
-                  data-aos-duration="500"
-                >
-                  Clients
-                </p>
-                <p
-                  className="relative md:ml-[70px] mt-[30px] text-zinc-600 text-xl xm:text-2xl font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="1500"
-                  data-aos-duration="500"
-                >
-                  Financement
-                </p>
-              </div>
-              <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
-                <p
-                  className=" mt-10 relative bottom-5 right-10 text-zinc-600 text-2xl font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="900"
-                  data-aos-duration="500"
-                >
-                  Achats
-                </p>
-                <p
-                  className=" relative mr-[100px] text-2xl text-zinc-600 font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="1300"
-                  data-aos-duration="500"
-                >
-                  Stocks
-                </p>
-                <p
-                  className=" relative mt-[20px] text-blue-900 text-2xl font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="600"
-                  data-aos-duration="500"
-                >
-                  Charges
-                </p>
-                <p
-                  className=" relative md:ml-[70px] mt-[30px] text-zinc-600 text-xl xm:text-2xl font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="1600"
-                  data-aos-duration="500"
-                >
-                  Délais de Rotation
-                </p>
-              </div>
-              <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5 bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
-                <p
-                  className=" mt-10 relative bottom-5 left-8 text-zinc-600 text-2xl font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="1000"
-                  data-aos-duration="500"
-                >
-                  CA
-                </p>
-                <p
-                  className=" relative mr-[120px] text-2xl text-zinc-600 font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="1400"
-                  data-aos-duration="500"
-                >
-                  Marge
-                </p>
-                <p
-                  className=" relative mt-[20px] text-blue-900 text-2xl font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="700"
-                  data-aos-duration="500"
-                >
-                  Résultats
-                </p>
-                <p
-                  className=" relative ml-[20px] mt-[30px] xm:ml-[150px] text-zinc-600 xm:text-2xl font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="1700"
-                  data-aos-duration="500"
-                >
-                  Part de marché
-                </p>
-              </div>
-              <div className="h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] border-5 mt-5  bg-slate-100 opacity-75 mx-auto rounded z-20 backdrop-blur/10 shadow-md">
-                <p
-                  className=" mt-10 relative bottom-5 right-8 text-zinc-600 text-2xl font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="1100"
-                  data-aos-duration="500"
-                >
-                  Frais
-                </p>
-                <p
-                  className=" relative ml-[120px] text-2xl text-zinc-600 font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="1500"
-                  data-aos-duration="500"
-                >
-                  Salaires
-                </p>
-                <p
-                  className=" relative mt-[20px] text-blue-900 text-2xl font-bold"
-                  data-aos="zoom-in"
-                  data-aos-delay="800"
-                  data-aos-duration="500"
-                >
-                  Social
-                </p>
-                <p
-                  className=" relative mr-[90px] mt-[30px] text-zinc-600 xm:text-2xl font-bold"
-                  data-aos-delay="1800"
-                  data-aos-duration="500"
-                >
-                  Turn-Over
-                </p>
-              </div>
-              <img
-                alt="logo"
-                src={logo}
-                className=" collapse xl:visible z-30 w-[100px] h-[100px] absolute lg:ml-[460px] lg:mt-[210px] rounded-lg opacity-70"
-              />
-            </div>
-          </div>
-        </div>
+    <Sources />
         <Title
           titleDesc={
             "Faisons interagir vos données pour vous mettre à disposition des rapports précis. Développons ensemble les outils dédiés à votre activité et vos besoins."
           }
         />
         <div
-          className="evol w-[300px] md:w-[650px] h-[1000px] lg:w-full xl:w-[1280px] lg:h-[600px] flex flex-col lg:flex-row justify-evenly  mx-auto my-10"
+          className="evol w-[300px] md:w-[550px] h-[1000px] lg:w-full xl:w-[1280px] lg:h-[600px] flex flex-col lg:flex-row justify-evenly  mx-auto my-10"
         >
-          <div className="relative lg:top-[50%]"
+          <div className="relative lg:top-[50%] lg:left-10"
           data-aos="fade-up-right"
           data-aos-duration="800"
           data-aos-delay="600"
@@ -234,19 +94,19 @@ const MainPage = () => {
 
           <div className=""
           data-aos="fade-down-right"
-          data-aos-duration="1400"
-          data-aos-delay="600"
+          data-aos-duration="1000"
+          data-aos-delay="200"
           >
             <EvolutionLogo
               imgEvo={smart}
               txtEvo={"Transformation des données"}
             />
             <img
-              className="relative my-5 lg:top-[-200px] 2xl:top-[-1000px] 2xl:left-[350px] 3xl:left-[450px] 3xl:w-24 mx-auto w-20"
+              className="relative my-5 lg:top-[-200px] 2xl:top-[-880px] 2xl:left-[350px] 3xl:left-[450px] 3xl:-top-[990px] 3xl:w-24 mx-auto w-20"
               src={idea}
-              alt=""
+              alt="idea"
             />
-            <div className="lg:relative my-5 lg:top-[-170px] 2xl:top-[-990px] 2xl:left-[350px] 3xl:left-[450px] 3xl:text-2xl font-semibold text-xl">
+            <div className="lg:relative my-5 lg:top-[-170px] 2xl:top-[-880px] 2xl:left-[350px] 3xl:top-[-1000px] 3xl:left-[450px] 3xl:text-2xl font-semibold text-xl">
               <p>une idée</p>
               <p>un besoin</p>
               <p>une solution</p>
@@ -272,7 +132,7 @@ const MainPage = () => {
             src={arrowMH}
             alt="arrow"
           />
-          <div className="relative lg:top-[50%]"
+          <div className="relative lg:top-[50%] lg:right-5"
            data-aos="fade-down-right"
            data-aos-duration="1800"
            data-aos-delay="600"
@@ -289,7 +149,7 @@ const MainPage = () => {
         <div
           className="h-full mx-auto"
         >
-          <p className="text-4xl mt-[300px] font-semibold"
+          <p className="3xl:text-4xl xm:text-lg lg:text-xl xlx:text-2xl text-md 2xl:mt-[300px] mx-auto w-[300px] sx:w-[600px] lg:w-[900px] xlx:w-[1300px] font-semibold"
            data-aos="fade-up"
            data-aos-duration="600"
           >
@@ -297,9 +157,6 @@ const MainPage = () => {
             pour améliorer leur quotidien
           </p>
           <Swipers />
-          {/* <p className="text-4xl mt-[200px]" data-loc="imagetest">
-            Réalisons votre projet
-          </p> */}
           <Link to="/contact">
             <button className="text-3xl font-semibold buttonContact shadow-2xl shadow-cyan-200/100 my-20 p-8 px-20 transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 hover:text-white duration-500"
                        data-aos="fade-up"

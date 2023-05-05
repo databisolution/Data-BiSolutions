@@ -27,7 +27,7 @@ const KpiCircle = () => {
   return (
     <>
       <div
-        className=" h-0 2xl:h-[500px] flex flex-col justify-around 2xl:w-[1440px] mx-auto z-30 w-0 collapse 2xl:visible 2xl:mt-20 2xl:my-20"
+        className=" h-0 2xl:h-[500px] flex flex-col justify-around 2xl:w-[1300px] mx-auto z-30 w-0 collapse 2xl:visible 2xl:mt-20 2xl:my-20"
         // data-aos="fade-zoom-in"
         // data-aos-duration="500"
         // data-aos-easing="ease-in-out"

@@ -10,7 +10,7 @@ import Rapport from "../containers/assets/images/Rapport Frais du personnel.png"
 
 const SwiperProduct = () => {
   return (
-    <div className="w-[300px] xm:w-[500px] md:w-[800px] mx-auto grayscale-carousel z-0 my-[300px] lg:hover:scale-150 transition ease-in-out delay-450 hover:-translate-y-0.2">
+    <div className="w-[300px] sm:w-[320px] sx:w-[500px] xm:w-[580px] md:w-[800px] mx-auto grayscale-carousel z-0 my-[100px] xl:my-[200px] lg:hover:scale-150 transition ease-in-out delay-450 hover:-translate-y-0.2">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
