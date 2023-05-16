@@ -4,7 +4,7 @@ import logo from "../containers/assets/images/logo.PNG";
 const Sources = () => {
   return (
     <>
-    <div className="h-full w-full mx-auto mt-10 relative 3xl:left-[400px] 3xl:-top-[500px] 2xl:-top-[350px] 2xl:left-[200px]  sm:-top-[220px] md:-top-[320px] lg:-top-[300px] -mb-32">
+    <div className="h-full w-full mx-auto mt-10 relative 3xl:left-[400px] 3xl:-top-[500px] 2xl:-top-[350px] 2xl:left-[200px]  sm:-top-[220px] md:-top-[320px] lg:-top-[300px] -mb-72">
           <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
             <div className="flex flex-wrap h-[1250px] 3xl:w-[1300px] 3xl:h-[600px] 2xl:w-[900px] 2xl:h-[400px] xl:w-[1100px] sx:h-[600px] xm:h-[1200px] lg:h-[600px] mx-auto my-5 p-10 shadow-lg rounded-md">
               <div className="flex flex-col justify-evenly h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] 2xl:w-[400px] 2xl:h-[150px] 3xl:w-[600px] 3xl:h-[250px]  border-5 mt-5 2xl:my-auto bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
@@ -140,7 +140,7 @@ const Sources = () => {
               <img
                 alt="logo"
                 src={logo}
-                className=" collapse xl:visible z-30 w-[100px] h-[100px] absolute lg:ml-[460px] lg:mt-[210px] 2xl:ml-[370px] 2xl:mt-[150px] 2xl:w-[70px] 2xl:h-[70px] 3xl:mt-[225px] 3xl:ml-[575px] rounded-lg opacity-70"
+                className=" collapse xl:visible z-30 w-[100px] h-[100px] absolute lg:ml-[460px] lg:mt-[210px] 2xl:ml-[375px] 2xl:mt-[130px] 2xl:w-[70px] 2xl:h-[70px] 3xl:mt-[225px] 3xl:ml-[575px] rounded-lg opacity-70"
               />
             </div>
           </div>

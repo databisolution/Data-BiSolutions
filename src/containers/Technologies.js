@@ -40,7 +40,7 @@ const Technologies = () => {
           classTech={"text-3xl mt-5 font-extrabold text-yellow-500"}
           techLogo={pbi}
           classNameTitle={
-            "text-2xl text-yellow-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[130px] xl:w-[300px] xl:ml-7 z-10"
+            "text-2xl text-yellow-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[130px] xl:w-[300px] 2xl:xl:top-[110px] 2xl:w-[200px] 3xl:xl:top-[130px] 3xl:w-[300px] xl:ml-7 z-10"
           }
           techDesc={
             "Power bi permet d’accompagner le corps dirigeant et les équipes de production dans leurs choix stratégiques"
@@ -55,7 +55,7 @@ const Technologies = () => {
             cardTitle={"Microsoft AZURE SYNAPSE ANALYTICS"}
             classTech={"text-3xl mt-5 font-extrabold text-blue-400"}
             classNameTitle={
-              "text-2xl text-blue-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[150px] xl:w-[300px] xl:ml-3 z-10"
+              "text-2xl text-blue-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative 2xl:xl:top-[140px] 2xl:w-[200px] 3xl:xl:top-[130px] 3xl:w-[300px] xl:top-[150px] xl:w-[300px] xl:ml-3 z-10"
             }
             techLogo={Azure}
             techTitle={"AZURE"}
@@ -73,7 +73,7 @@ const Technologies = () => {
             techTitle={"POWER Automate"}
             classTech={"text-3xl mt-5 font-extrabold text-blue-400"}
             classNameTitle={
-              "text-2xl text-blue-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[150px] xl:w-[300px] xl:ml-3 z-10"
+              "text-2xl text-blue-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative 2xl:xl:top-[140px] 2xl:w-[200px] 3xl:xl:top-[130px] 3xl:w-[300px] xl:top-[150px] xl:w-[300px] xl:ml-3 z-10"
             }
             cardTitle={"Microsoft Power Automate"}
             techLogo={Automate}
@@ -91,7 +91,7 @@ const Technologies = () => {
             techTitle={"Report Builder"}
             classTech={"text-3xl mt-5 font-extrabold text-yellow-500"}
             classNameTitle={
-              "text-2xl text-yellow-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[150px] xl:w-[400px] xl:ml-2 z-10"
+              "text-2xl text-yellow-500 font-semibold mt-20 xl:py-4 xl:mt-20 relative 2xl:xl:top-[140px] 2xl:w-[200px] 3xl:xl:top-[130px] 3xl:w-[300px] xl:top-[150px] xl:w-[400px] xl:ml-2 z-10"
             }
             cardTitle={"Power BI Report Builder"}
             techLogo={Rbuilder}

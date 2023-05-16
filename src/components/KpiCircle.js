@@ -27,7 +27,7 @@ const KpiCircle = () => {
   return (
     <>
       <div
-        className=" h-0 2xl:h-[500px] flex flex-col justify-around 2xl:w-[1300px] mx-auto z-30 w-0 collapse 2xl:visible 2xl:mt-20 2xl:my-20"
+        className=" h-0 2xl:h-[350px] flex flex-col justify-evenly 2xl:w-[1300px] mx-auto z-30 w-0 collapse 2xl:visible 2xl:mt-20 relative -top-[380px] left-[200px]"
         // data-aos="fade-zoom-in"
         // data-aos-duration="500"
         // data-aos-easing="ease-in-out"
@@ -37,10 +37,10 @@ const KpiCircle = () => {
           className="cursor"
         ></div>
         <Paraph>
-          <div className="titleText text-3xl font-extrabold collapse 2xl:visible relative -top-20 text-cyan-800"
+          <div className="titleText text-xl font-extrabold collapse 2xl:visible relative -top-5 text-cyan-800"
            data-aos="zoom-in-down"
            data-aos-duration="300"
-           data-aos-delay="800"
+           
           >
             Temps De Productions par Effectif
           </div>
@@ -53,12 +53,12 @@ const KpiCircle = () => {
           </div>
         </Paraph>
         <div className="flex flex-row justify-between">
-          <div className="flex flex-col w-0 2xl:w-[440px] h-[500px] justify-between collapse 2xl:visible">
+          <div className="flex flex-col w-0 2xl:w-[440px] h-[300px] justify-between collapse 2xl:visible">
             <Paraph>
-              <div className="titleText text-3xl font-extrabold relative left-10 text-cyan-700"
+              <div className="titleText text-xl font-extrabold relative left-52 text-cyan-700"
               data-aos="zoom-out-right"
-              data-aos-duration="700"
-              data-aos-delay="800"
+              data-aos-duration="300"
+              
               >
                 Délai de production par article
               </div>
@@ -71,10 +71,10 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-3xl font-extrabold relative right-20 text-cyan-600"
+              <div className="titleText text-xl font-extrabold relative left-36 text-cyan-600"
                data-aos="zoom-out-right"
-               data-aos-duration="800"
-               data-aos-delay="800"
+               data-aos-duration="300"
+               
               >
                 Marge Nette par Commercial
               </div>
@@ -87,10 +87,9 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-3xl font-extrabold relative right-44 text-cyan-500"
+              <div className="titleText text-xl font-extrabold relative left-24 text-cyan-500"
                data-aos="zoom-out-right"
-               data-aos-duration="900"
-               data-aos-delay="800"
+               data-aos-duration="300"
               >
                 Top 10 Fournisseurs
               </div>
@@ -103,10 +102,9 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-3xl font-extrabold relative right-28 text-cyan-400"
+              <div className="titleText text-xl font-extrabold relative left-36 text-cyan-400"
                data-aos="zoom-out-right"
-               data-aos-duration="1000"
-               data-aos-delay="800"
+               data-aos-duration="300"
               >
                 Taux de conversion
               </div>
@@ -119,10 +117,9 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-3xl font-extrabold relative right-2 text-cyan-400"
+              <div className="titleText text-xl font-extrabold relative left-52 text-cyan-400"
                data-aos="zoom-out-right"
-               data-aos-duration="1100"
-               data-aos-delay="800"
+               data-aos-duration="300"
               >
                 Coût moyen par embauche
               </div>
@@ -137,17 +134,16 @@ const KpiCircle = () => {
           </div>
           <div className="">
             <img
-              className="xl:w-[450px] z-0 w-0 rounded-3xl relative top-10 left-5 shadow-2xl"
+              className="xl:w-[230px] z-0 w-0 rounded-3xl relative top-10 left-5 shadow-2xl"
               alt="Kpi"
               src={Kpi}
             />
           </div>
-          <div className="flex flex-col w-0 xl:w-[440px] h-[500px] justify-between collapse 2xl:visible">
+          <div className="flex flex-col w-0 xl:w-[440px] h-[300px] justify-between collapse 2xl:visible">
             <Paraph>
-              <div className="titleText text-3xl font-extrabold relative left-5 text-cyan-700"
+              <div className="titleText text-xl font-extrabold relative right-44 text-cyan-700"
                data-aos="zoom-out-left"
-               data-aos-duration="700"
-               data-aos-delay="800"
+               data-aos-duration="300"
               >
                 Evolution mensuelle du résultat
               </div>
@@ -160,10 +156,9 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-3xl font-extrabold relative left-24 text-cyan-600"
+              <div className="titleText text-xl font-extrabold relative right-28 text-cyan-600"
               data-aos="zoom-out-left"
-              data-aos-duration="800"
-              data-aos-delay="800"
+              data-aos-duration="300"
               >
                 Ticket moyen par dépense
               </div>
@@ -176,10 +171,9 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-3xl font-extrabold relative left-44 text-cyan-500"
+              <div className="titleText text-xl font-extrabold relative right-20 text-cyan-500"
               data-aos="zoom-out-left"
-              data-aos-duration="900"
-              data-aos-delay="800"
+              data-aos-duration="300"          
               >Marge par Article</div>
               <div className="img-cont">
                 {/* <img
@@ -190,10 +184,9 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-3xl font-extrabold relative left-20 text-cyan-400"
+              <div className="titleText text-xl font-extrabold relative right-32 text-cyan-400"
               data-aos="zoom-out-left"
-              data-aos-duration="1000"
-              data-aos-delay="1000"
+              data-aos-duration="300"
               >Taux de rotation</div>
               <div className="img-cont">
                 {/* <img
@@ -204,10 +197,10 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-3xl font-extrabold relative right-10 text-cyan-400"
+              <div className="titleText text-xl font-extrabold relative right-44 text-cyan-400"
               data-aos="zoom-out-left"
-              data-aos-duration="1100"
-              data-aos-delay="800"
+              data-aos-duration="300"
+
               >Age moyen par poste</div>
               <div className="img-cont">
                 {/* <img
@@ -233,10 +226,10 @@ const KpiCircle = () => {
             </div>
           </Paraph> */}
           <Paraph>
-            <div className="titleText text-3xl font-extrabold relative top-10 text-cyan-300"
+            <div className="titleText text-xl font-extrabold relative left-6 -top-7 text-cyan-300"
             data-aos="zoom-in-up"
-            data-aos-duration="1200"
-            data-aos-delay="800"
+            data-aos-duration="300"
+
             >
               % Répartition des Charges
             </div>
@@ -254,7 +247,7 @@ const KpiCircle = () => {
         <img
           className="visible 2xl:collapse my-20 2xl:my-0 mx-auto 2xl:h-0"
           src={kpi}
-          alt=""
+          alt="kpi"
         />
       </div>
     </>

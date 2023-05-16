@@ -15,7 +15,9 @@ const Apropos = () => {
       <Header namePage={"À PROPOS"}/>
     <div className="my-20">
 
-        <Title titleDesc={"Notre entreprise est le résultat d’une association de compétences et d’une approche commune."}/>
+        <Title
+         titleStyle={"lg:mx-auto lg:w-[1000px] font-semibold 2xl:leading-[45px] 3xl:leading-[60px] relative text-lg leading-[30px] 3xl:w-[550px] lg:text-2xl 2xl:text-lg 3xl:text-3xl top-[10px] sm:top-10 md:top-44 lg:top-44 2xl:right-[550px] 3xl:right-[750px] 2xl:w-[400px] 2xl:-top-[20px] 3xl:top-[10px]"}
+        titleDesc={"Notre entreprise est le résultat d’une association de compétences et d’une approche commune."}/>
     </div>
         <div className="h-[1200px] md:h-[600px] flex flex-col justify-evenly my-20 md:flex-row lg:w-[800px] mx-auto md:justify-around">
           <div className="card my-20">
