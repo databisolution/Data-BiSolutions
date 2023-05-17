@@ -27,6 +27,7 @@ const MainPage = () => {
       <div className=" mx-auto z-0 w-full px-1 flex flex-col ">
         <Header
           namePage={"Data & BI Solutions"}
+          textStyle={"header text-slate-100 top-[390px] lg:top-[320px] 2xl:text-3xl xl:text-2xl text-left absolute w-[300px] lg:w-[500px] 2xl:w-[590px] 2xl:h-[268px] -right-[40px] m-10 2xl:leading-[40px] rounded-lg backdrop-blur-[1.5px] bg-black/30"}
           desc={
             "Une entreprise créée avec une volonté de répondre aux besoins uniques à chaque activité et d’apporter des solutions dédiées en analyse BI et en applications automatisées pour les dirigeants et leurs équipes."
           }
@@ -64,7 +65,7 @@ const MainPage = () => {
           }
         />
         <div
-          className="evol w-[300px] md:w-[550px] h-[1000px] lg:w-full xl:w-[1100px] xl:h-[400px] lg:h-[600px] flex flex-col lg:flex-row justify-evenly mx-auto relative -top-[250px] lg:-mb-44"
+          className="evol w-[300px] md:w-[550px] h-[1000px] 3xl:w-[1300px] lg:w-full xl:w-[1100px] xl:h-[400px] lg:h-[600px] flex flex-col lg:flex-row justify-evenly mx-auto relative -top-[250px] sm:-top-[50px] 3xl:-top-[350px] lg:-mb-44"
         >
           <div className="relative lg:top-[50%] lg:left-10"
           data-aos="fade-up-right"
@@ -103,11 +104,11 @@ const MainPage = () => {
               txtEvo={"Transformation des données"}
             />
             <img
-              className="relative my-5 lg:top-[-200px] 2xl:top-[-550px] 2xl:left-[600px] 3xl:left-[750px] 3xl:-top-[700px] 3xl:w-24 mx-auto w-20"
+              className="relative my-5 lg:top-[-200px] 2xl:top-[-550px] 2xl:left-[600px] 3xl:left-[900px] 3xl:-top-[550px] 3xl:w-24 mx-auto w-20"
               src={idea}
               alt="idea"
             />
-            <div className="lg:relative my-5 lg:top-[-170px] 2xl:top-[-550px] 2xl:left-[600px] 3xl:-top-[700px] 3xl:left-[750px] 2xl:text-[14px] 3xl:text-2xl font-semibold text-xl relative">
+            <div className="lg:relative my-5 lg:top-[-170px] 2xl:top-[-550px] 2xl:left-[600px] 3xl:-top-[550px] 3xl:left-[900px] 2xl:text-[14px] 3xl:text-2xl font-semibold text-xl relative">
               <p>une idée</p>
               <p>un besoin</p>
               <p>une solution</p>
@@ -153,7 +154,7 @@ const MainPage = () => {
         >
           <p className="3xl:text-4xl xm:text-lg lg:text-xl xlx:text-2xl text-md 2xl:-mt-[200px] mx-auto w-[300px] sx:w-[600px] lg:w-[900px] xlx:w-[1300px] font-semibold"
            data-aos="fade-up"
-           data-aos-duration="100"
+           data-aos-duration="500"
           >
             Des entreprises comme la vôtre réalise chaque jour des projets BI
             pour améliorer leur quotidien

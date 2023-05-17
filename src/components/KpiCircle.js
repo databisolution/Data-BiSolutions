@@ -27,19 +27,16 @@ const KpiCircle = () => {
   return (
     <>
       <div
-        className=" h-0 2xl:h-[350px] flex flex-col justify-evenly 2xl:w-[1300px] mx-auto z-30 w-0 collapse 2xl:visible 2xl:mt-20 relative -top-[380px] left-[200px]"
-        // data-aos="fade-zoom-in"
-        // data-aos-duration="500"
-        // data-aos-easing="ease-in-out"
+        className="h-0 2xl:h-[350px] flex flex-col justify-evenly 2xl:w-[1300px] mx-auto z-30 w-0 collapse 2xl:visible 2xl:mt-20 relative -top-[380px] left-[200px]"
       >
         <div
           style={{ left: `${position.x}px`, top: `${position.y}px` }}
           className="cursor"
         ></div>
         <Paraph>
-          <div className="titleText text-xl font-extrabold collapse 2xl:visible relative -top-5 text-cyan-800"
-           data-aos="zoom-in-down"
-           data-aos-duration="300"
+          <div className="titleText text-xl font-extrabold collapse 2xl:visible relative -top-5 3xl:-top-10 3xl:left-[320px] 3xl:text-3xl text-cyan-800"
+          //  data-aos="zoom-in-down"
+          //  data-aos-duration="300"
            
           >
             Temps De Productions par Effectif
@@ -53,12 +50,11 @@ const KpiCircle = () => {
           </div>
         </Paraph>
         <div className="flex flex-row justify-between">
-          <div className="flex flex-col w-0 2xl:w-[440px] h-[300px] justify-between collapse 2xl:visible">
+          <div className="flex flex-col w-0 2xl:w-[440px] h-[300px] 3xl:h-[400px] 3xl:relative 3xl:left-[180px] justify-between collapse 2xl:visible">
             <Paraph>
-              <div className="titleText text-xl font-extrabold relative left-52 text-cyan-700"
+              <div className="titleText text-xl 3xl:text-3xl font-extrabold relative left-52 text-cyan-700"
               data-aos="zoom-out-right"
               data-aos-duration="300"
-              
               >
                 Délai de production par article
               </div>
@@ -71,7 +67,7 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-xl font-extrabold relative left-36 text-cyan-600"
+              <div className="titleText text-xl 3xl:text-3xl font-extrabold relative left-36 text-cyan-600"
                data-aos="zoom-out-right"
                data-aos-duration="300"
                
@@ -87,7 +83,7 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-xl font-extrabold relative left-24 text-cyan-500"
+              <div className="titleText text-xl 3xl:text-3xl font-extrabold relative left-24 text-cyan-500"
                data-aos="zoom-out-right"
                data-aos-duration="300"
               >
@@ -102,7 +98,7 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-xl font-extrabold relative left-36 text-cyan-400"
+              <div className="titleText text-xl 3xl:text-3xl font-extrabold relative left-36 text-cyan-400"
                data-aos="zoom-out-right"
                data-aos-duration="300"
               >
@@ -117,7 +113,7 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-xl font-extrabold relative left-52 text-cyan-400"
+              <div className="titleText text-xl 3xl:text-3xl font-extrabold relative left-52 text-cyan-400"
                data-aos="zoom-out-right"
                data-aos-duration="300"
               >
@@ -132,16 +128,19 @@ const KpiCircle = () => {
               </div>
             </Paraph>
           </div>
-          <div className="">
+          <div
+           data-aos="zoom-in"
+           data-aos-duration="500"
+          >
             <img
-              className="xl:w-[230px] z-0 w-0 rounded-3xl relative top-10 left-5 shadow-2xl"
+              className="xl:w-[230px] 3xl:w-[350px] z-0 w-0 rounded-3xl relative top-10 left-5 3xl:left-80 shadow-2xl"
               alt="Kpi"
               src={Kpi}
             />
           </div>
-          <div className="flex flex-col w-0 xl:w-[440px] h-[300px] justify-between collapse 2xl:visible">
+          <div className="flex flex-col w-0 xl:w-[440px] h-[300px] 3xl:h-[400px] 3xl:relative 3xl:left-[430px] justify-between collapse 2xl:visible">
             <Paraph>
-              <div className="titleText text-xl font-extrabold relative right-44 text-cyan-700"
+              <div className="titleText text-xl 3xl:text-3xl font-extrabold relative right-44 text-cyan-700"
                data-aos="zoom-out-left"
                data-aos-duration="300"
               >
@@ -156,7 +155,7 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-xl font-extrabold relative right-28 text-cyan-600"
+              <div className="titleText text-xl 3xl:text-3xl font-extrabold relative right-28 text-cyan-600"
               data-aos="zoom-out-left"
               data-aos-duration="300"
               >
@@ -171,7 +170,7 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-xl font-extrabold relative right-20 text-cyan-500"
+              <div className="titleText text-xl 3xl:text-3xl font-extrabold relative right-20 text-cyan-500"
               data-aos="zoom-out-left"
               data-aos-duration="300"          
               >Marge par Article</div>
@@ -184,7 +183,7 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-xl font-extrabold relative right-32 text-cyan-400"
+              <div className="titleText text-xl 3xl:text-3xl font-extrabold relative right-32 text-cyan-400"
               data-aos="zoom-out-left"
               data-aos-duration="300"
               >Taux de rotation</div>
@@ -197,7 +196,7 @@ const KpiCircle = () => {
               </div>
             </Paraph>
             <Paraph>
-              <div className="titleText text-xl font-extrabold relative right-44 text-cyan-400"
+              <div className="titleText text-xl 3xl:text-3xl font-extrabold relative right-44 text-cyan-400"
               data-aos="zoom-out-left"
               data-aos-duration="300"
 
@@ -226,7 +225,7 @@ const KpiCircle = () => {
             </div>
           </Paraph> */}
           <Paraph>
-            <div className="titleText text-xl font-extrabold relative left-6 -top-7 text-cyan-300"
+            <div className="titleText text-xl 3xl:text-3xl font-extrabold relative left-6 -top-7 3xl:-top-2 3xl:left-80 text-cyan-300"
             data-aos="zoom-in-up"
             data-aos-duration="300"
 

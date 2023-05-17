@@ -5,7 +5,7 @@ import Guerin from "../containers/assets/images/Guerin.PNG";
 import Altis from "../containers/assets/images/altis.PNG";
 import Jdc from "../containers/assets/images/jdc.PNG";
 import Prefiloc from "../containers/assets/images/Prefiloc.PNG";
-import { EffectCoverflow, Pagination, Autoplay } from "swiper";
+import { EffectCoverflow, Autoplay } from "swiper";
 
 const Swipers = () => {
   return (
@@ -31,8 +31,7 @@ const Swipers = () => {
           modifier: 1,
           slideShadows: false,
         }}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination, Autoplay]}
+        modules={[EffectCoverflow, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>

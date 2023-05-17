@@ -16,6 +16,7 @@ const Produit = () => {
            Consulter notre rapport interactif
           </a>
           </button>
+          <p className="mt-28 text-2xl font-bold -mb-32">Quelques autres exemples de nos réalisations:</p>
       <SwiperProduct />
     </section>
   );
