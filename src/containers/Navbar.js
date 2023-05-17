@@ -6,13 +6,9 @@ import MenuItems from "../containers/MenuItems";
 const Navbar = () => {
   const [active, setActive] = useState(false);
 
-  //   const showMenu = () => {
-  //     setActive(!active);
-  //   };
-
   return (
     <div className="fixed w-full flex justify-between items-center border-b-[1px] bg-white/95 z-50 shadow-lg navbar">
-      <Link to="/">
+      <Link to="/" href="home">
         <div className="font-bold uppercase flex items-center">
           <img alt="logo" src={logo} className="w-12 h-12 shadow-2xl rounded-xl opacity-80"/>
           <h1 className="text-sm">
