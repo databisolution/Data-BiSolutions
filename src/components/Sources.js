@@ -23,7 +23,7 @@ const Sources = () => {
                   className="  text-blue-900 2xl:text-base text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
                   data-aos="zoom-in"
                   data-aos-delay="500"
-                  data-aos-duration="500"
+                  data-aos-duration="400"
                 >
                   Clients
                 </p>
