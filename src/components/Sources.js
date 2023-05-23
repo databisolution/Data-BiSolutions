@@ -8,7 +8,7 @@ const Sources = () => {
           <div className="" data-aos="zoom-in-down" data-aos-duration="2000">
             <div className="flex flex-wrap h-[1250px] 3xl:w-[1300px] 3xl:h-[600px] 2xl:w-[900px] 2xl:h-[400px] xl:w-[1100px] sx:h-[600px] xm:h-[1200px] lg:h-[600px] mx-auto my-5 p-10 shadow-lg rounded-md">
               <div className="flex flex-col justify-evenly h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] 2xl:w-[400px] 2xl:h-[150px] 3xl:w-[600px] 3xl:h-[250px]  border-5 mt-5 2xl:my-auto bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
-                <p className="text-zinc-600 text-2xl font-bold xm:flex xm:justify-end xm:mr-12">
+                <p className="text-zinc-600 2xl:text-base text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-end xm:mr-12">
                   Trésorerie
                 </p>
                 <p
