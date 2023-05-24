@@ -21,9 +21,6 @@ const PlanDAction = () => {
   return (
     <section
       id="planDAction"
-      className="pt-10"
-      data-aos="zoom-in-down"
-      data-aos-duration="1800"
     >
       <Header namePage={"Plan D'Action"} />
       <div className="w-full mx-auto z-0 mt-28">

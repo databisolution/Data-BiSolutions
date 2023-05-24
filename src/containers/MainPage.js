@@ -23,7 +23,7 @@ import Sources from "../components/Sources";
 
 const MainPage = () => {
   return (
-    <main id="home">
+    <main>
       <div className=" mx-auto z-0 w-full px-1 flex flex-col ">
         <Header
           namePage={"Data & BI Solutions"}

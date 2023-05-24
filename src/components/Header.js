@@ -4,7 +4,7 @@ import MainImage from "../containers/assets/images/accueil.jpg";
 const Header = ({ namePage,desc,textStyle }) => {
   return (
     <div className="pt-32 flex flex-col" 
-    data-aos="zoom-in" data-aos-duration="1000"
+    data-aos="fade-down" data-aos-duration="700"
     >
       <img
         src={MainImage}

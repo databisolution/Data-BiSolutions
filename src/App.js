@@ -12,12 +12,14 @@ import NotFound from "./containers/NotFound";
 import Footer from "./containers/Footer";
 import Mentions from "./containers/Mentions";
 import { posthog } from 'posthog-js'
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/planAction" element={<PlanDActions />}></Route>

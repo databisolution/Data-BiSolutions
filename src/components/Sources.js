@@ -12,7 +12,7 @@ const Sources = () => {
                   Trésorerie
                 </p>
                 <p
-                  className="  text-2xl 2xl:text-base 3xl:text-2xl text-zinc-600 font-bold"
+                  className="text-zinc-600 text-2xl 2xl:text-base 3xl:text-2xl  font-bold"
                   data-aos="zoom-in"
                   data-aos-delay="1200"
                   data-aos-duration="500"
@@ -20,7 +20,7 @@ const Sources = () => {
                   Fournisseurs
                 </p>
                 <p
-                  className="  text-blue-900 2xl:text-base text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
+                  className="text-blue-900 2xl:text-base text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
                   data-aos="zoom-in"
                   data-aos-delay="500"
                   data-aos-duration="400"
@@ -28,7 +28,7 @@ const Sources = () => {
                   Clients
                 </p>
                 <p
-                  className=" 2xl:text-base text-zinc-600 text-xl xm:text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-end xm:mr-16"
+                  className="text-zinc-600 2xl:text-base  text-xl xm:text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-end xm:mr-16"
                   data-aos="zoom-in"
                   data-aos-delay="1500"
                   data-aos-duration="500"
@@ -38,7 +38,7 @@ const Sources = () => {
               </div>
               <div className="flex flex-col justify-evenly h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] 2xl:w-[400px] 2xl:h-[150px] 3xl:w-[600px] 3xl:h-[250px] border-5 mt-5 2xl:my-auto bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
                 <p
-                  className="  text-zinc-600 text-2xl 2xl:text-base 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
+                  className="text-zinc-600 text-2xl 2xl:text-base 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
                   data-aos="zoom-in"
                   data-aos-delay="900"
                   data-aos-duration="500"
@@ -46,7 +46,7 @@ const Sources = () => {
                   Achats
                 </p>
                 <p
-                  className="  text-2xl 2xl:text-base 3xl:text-2xl text-zinc-600 font-bold"
+                  className="text-zinc-600 text-2xl 2xl:text-base 3xl:text-2xl  font-bold"
                   data-aos="zoom-in"
                   data-aos-delay="1300"
                   data-aos-duration="500"
@@ -54,7 +54,7 @@ const Sources = () => {
                   Stocks
                 </p>
                 <p
-                  className=" text-blue-900 2xl:text-base text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-end xm:mr-16"
+                  className="text-blue-900 2xl:text-base text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-end xm:mr-16"
                   data-aos="zoom-in"
                   data-aos-delay="600"
                   data-aos-duration="500"
@@ -62,7 +62,7 @@ const Sources = () => {
                   Charges
                 </p>
                 <p
-                  className="  text-zinc-600 2xl:text-base text-xl xm:text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
+                  className="text-zinc-600 2xl:text-base text-xl xm:text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
                   data-aos="zoom-in"
                   data-aos-delay="1600"
                   data-aos-duration="500"
@@ -72,7 +72,7 @@ const Sources = () => {
               </div>
               <div className="flex flex-col justify-evenly h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] 2xl:w-[400px] 2xl:h-[150px] 3xl:w-[600px] 3xl:h-[250px] border-5 mt-5 2xl:my-auto bg-slate-100 opacity-75 mx-auto rounded z-20 shadow-md">
                 <p
-                  className="  text-zinc-600 2xl:text-base text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-end xm:mr-16"
+                  className="text-zinc-600 2xl:text-base text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-end xm:mr-16"
                   data-aos="zoom-in"
                   data-aos-delay="1000"
                   data-aos-duration="500"
@@ -80,7 +80,7 @@ const Sources = () => {
                   CA
                 </p>
                 <p
-                  className="  text-2xl 2xl:text-base 3xl:text-2xl text-zinc-600 font-bold"
+                  className="text-zinc-600 text-2xl 2xl:text-base 3xl:text-2xl  font-bold"
                   data-aos="zoom-in"
                   data-aos-delay="1400"
                   data-aos-duration="500"
@@ -88,7 +88,7 @@ const Sources = () => {
                   Marge
                 </p>
                 <p
-                  className="  text-blue-900 2xl:text-base text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
+                  className="text-blue-900 2xl:text-base text-2xl 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
                   data-aos="zoom-in"
                   data-aos-delay="700"
                   data-aos-duration="500"
@@ -96,7 +96,7 @@ const Sources = () => {
                   Résultats
                 </p>
                 <p
-                  className="  text-zinc-600 xm:text-2xl 2xl:text-base 3xl:text-2xl font-bold xm:flex xm:justify-end xm:mr-16"
+                  className="text-zinc-600 xm:text-2xl 2xl:text-base 3xl:text-2xl font-bold xm:flex xm:justify-end xm:mr-16"
                   data-aos="zoom-in"
                   data-aos-delay="1700"
                   data-aos-duration="500"
@@ -106,7 +106,7 @@ const Sources = () => {
               </div>
               <div className="flex flex-col justify-evenly h-[230px] w-[250px] xm:w-[500px] md:w-[750px] lg:w-[450px] 2xl:w-[400px] 2xl:h-[150px] 3xl:w-[600px] 3xl:h-[250px] border-5 mt-5 2xl:my-auto bg-slate-100 opacity-75 mx-auto rounded z-20 backdrop-blur/10 shadow-md">
                 <p
-                  className="  text-zinc-600 text-2xl 2xl:text-base 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
+                  className="text-zinc-600 text-2xl 2xl:text-base 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
                   data-aos="zoom-in"
                   data-aos-delay="1100"
                   data-aos-duration="500"
@@ -114,7 +114,7 @@ const Sources = () => {
                   Frais
                 </p>
                 <p
-                  className="  text-2xl 2xl:text-base 3xl:text-2xl text-zinc-600 font-bold"
+                  className="text-zinc-600 text-2xl 2xl:text-base 3xl:text-2xl  font-bold"
                   data-aos="zoom-in"
                   data-aos-delay="1500"
                   data-aos-duration="500"
@@ -122,7 +122,7 @@ const Sources = () => {
                   Salaires
                 </p>
                 <p
-                  className=" text-blue-900 text-2xl 2xl:text-base 3xl:text-2xl font-bold xm:flex xm:justify-end xm:mr-16"
+                  className="text-blue-900 text-2xl 2xl:text-base 3xl:text-2xl font-bold xm:flex xm:justify-end xm:mr-16"
                   data-aos="zoom-in"
                   data-aos-delay="800"
                   data-aos-duration="500"
@@ -130,7 +130,7 @@ const Sources = () => {
                   Social
                 </p>
                 <p
-                  className="  text-zinc-600 xm:text-2xl 2xl:text-base 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
+                  className="text-zinc-600 xm:text-2xl 2xl:text-base 3xl:text-2xl font-bold xm:flex xm:justify-start xm:ml-16"
                   data-aos-delay="1800"
                   data-aos-duration="500"
                 >
