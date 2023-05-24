@@ -39,10 +39,10 @@ const Apropos = () => {
                 <h3 className="mt-5 font-bold text-lg translate-y-1 transition duration-[1500ms] delay-100 py-6">
                   Jérémy Griet
                 </h3>
-                <p className="translate-y-1 transition duration-[1500ms] delay-100 h-[358px]">
+                <p className="translate-y-1 transition duration-[1500ms] delay-100 h-[358px] titleText text-lg">
                   « Ancien directeur de cabinet comptable et directeur d’une{" "}
-                    société de financement, mon  <span className="blur-[2px]">
-                    approche des besoins économiques
+                    société de financement, mon  
+                    approche des<span className="blur-[2px] titleText"> besoins économiques
                     et financiers de mes clients m’ont conduit à prendre de la
                     hauteur sur les solutions existantes du marché. Rompu au
                     traitement de la donnée, je souhaitais apporter aux
@@ -69,7 +69,7 @@ const Apropos = () => {
                 <h3 className=" py-14 font-bold text-lg -translate-y-72 transition duration-[1500ms] delay-100 bg-black/80 text-white">
                   Jérémy Griet
                 </h3>
-                <p className=" -translate-y-72 transition duration-[1500ms] h-[358px] delay-100 bg-black/80 text-white">
+                <p className=" -translate-y-72 transition duration-[1500ms] h-[358px] delay-100 bg-black/80 text-white titleText text-lg">
                   « Ancien directeur de cabinet comptable et directeur d’une
                   société de financement, mon approche des besoins économiques
                   et financiers de mes clients m’ont conduit à prendre de la
@@ -100,10 +100,10 @@ const Apropos = () => {
                 <h3 className="mt-5 font-bold text-lg translate-y-1 transition duration-[1500ms] delay-100 py-6">
                   Grégory Ramu
                 </h3>
-                <p className="translate-y-1 transition duration-[1500ms] delay-100 h-[358px]">
+                <p className="translate-y-1 transition duration-[1500ms] delay-100 h-[358px] titleText text-lg">
                   « Des expériences accomplies dans le pilotage de la trésorerie{" "}
-                    et l’analyse de gestion m’ont <span className="blur-[2px]">
-                    permis de développer mes
+                    et l’analyse de gestion m’ont permis de développer
+                    <span className="blur-[2px] titleText"> mes
                     facultés dans la maitrise de l’information. Comprendre les
                     particularités de chaque activité et environnement sont pour
                     moi primordiales. Associer cela à l’analyse de données me
@@ -130,7 +130,7 @@ const Apropos = () => {
                 <h3 className="py-14 font-bold text-lg -translate-y-72 transition duration-[1500ms] delay-100 bg-black/80 text-white">
                   Grégory Ramu
                 </h3>
-                <p className="-translate-y-72 transition duration-[1500ms] h-[358px] delay-100 bg-black/80 text-white">
+                <p className="-translate-y-72 transition duration-[1500ms] h-[358px] delay-100 bg-black/80 text-white titleText text-lg">
                   « Des expériences accomplies dans le pilotage de la trésorerie
                   et l’analyse de gestion m’ont permis de développer mes
                   facultés dans la maitrise de l’information. Comprendre les
