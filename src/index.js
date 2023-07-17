@@ -1,17 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import './card.css'
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import posthog from 'posthog-js'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import "./card.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import posthog from "posthog-js";
+import { HelmetProvider } from "react-helmet-async";
 
-posthog.init('phc_ooU4VAPx8aUKdHijmOXVzQ9b0g7vOHvoLLEBEsQlfTY', { api_host: 'https://eu.posthog.com' })
+posthog.init("phc_ooU4VAPx8aUKdHijmOXVzQ9b0g7vOHvoLLEBEsQlfTY", {
+  api_host: "https://eu.posthog.com",
+});
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <HelmetProvider>
+      <App />
+    </HelmetProvider>
   </React.StrictMode>
 );
 
