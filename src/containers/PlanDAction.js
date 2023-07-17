@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Title from "../components/Title.js";
-
+import { Helmet } from "react-helmet-async";
 //image
 import planAction from "./assets/images/PlanAction.PNG"
 
@@ -19,9 +19,18 @@ import arrow from "./assets/images/arrow-light-medium.png";
 
 const PlanDAction = () => {
   return (
+    <>
+     <Helmet>
+        <title>Plan d'Action</title>
+        <meta
+          name="description"
+          content="Notre expérience nous permet de vous conseiller et vous proposer le modèle adapté à votre structure."
+        />
+        <link rel="canonical" href="/planAction" />
+      </Helmet>
     <section
       id="planDAction"
-    >
+      >
       <Header namePage={"Plan D'Action"} />
       <div className="w-full mx-auto z-0 mt-28">
         <Title
@@ -31,7 +40,7 @@ const PlanDAction = () => {
           titleDesc={
             "Notre expérience nous permet de vous conseiller et vous proposer le modèle adapté à votre structure"
           }
-        />
+          />
       </div>
       <div>
         <img className="mx-auto lg:collapse lg:h-0 my-32" src={planAction} alt="plan d'action"/>
@@ -66,7 +75,7 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={arrow}
                 alt=""
-              />
+                />
             </div>
 
             <div className="my-auto">
@@ -74,7 +83,7 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={customer}
                 alt=""
-              />
+                />
             </div>
           </div>
         </div>
@@ -86,7 +95,7 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={search}
                 alt=""
-              />
+                />
             </div>
 
             <div className="my-auto">
@@ -94,7 +103,7 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px] rotate-180"
                 src={arrow}
                 alt=""
-              />
+                />
             </div>
 
             <div className="w-[200px] h-[150px] bg-sky-400 rounded-md my-auto shadow-xl">
@@ -108,7 +117,7 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={arrow}
                 alt="fleche"
-              />
+                />
             </div>
             <div className="w-[210px] h-[220px] border-sky-300 border-2 bg-slate-200 rounded-md my-auto text-left shadow-xl">
               <ul className=" list-decimal list-inside ml-2">
@@ -145,7 +154,7 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px] rotate-180"
                 src={arrow}
                 alt="fleche"
-              />
+                />
             </div>
             <div className="w-[200px] h-[150px] bg-sky-500 rounded-md my-auto shadow-xl">
               <p className="mt-12 text-white">
@@ -157,14 +166,14 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={arrow}
                 alt="fleche"
-              />
+                />
             </div>
             <div className="my-auto">
               <img
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={solution}
                 alt="solution"
-              />
+                />
             </div>
           </div>
         </div>
@@ -176,14 +185,14 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={antenna}
                 alt="réseau"
-              />
+                />
             </div>
             <div className="my-auto">
               <img
                 className="mx-auto mt-10 w-[70px] h-[70px] rotate-180"
                 src={arrow}
                 alt=""
-              />
+                />
             </div>
             <div className="w-[200px] h-[150px] bg-sky-600 rounded-md my-auto shadow-xl">
               <p className="mt-12 text-white">
@@ -195,14 +204,14 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={arrow}
                 alt="fleche"
-              />
+                />
             </div>
             <div className="my-auto">
               <img
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={intelligence}
                 alt="intelligence"
-              />
+                />
             </div>
           </div>
         </div>
@@ -214,14 +223,14 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={checked}
                 alt="validate"
-              />
+                />
             </div>
             <div className="my-auto">
               <img
                 className="mx-auto mt-10 w-[70px] h-[70px] rotate-180"
                 src={arrow}
                 alt="fleche"
-              />
+                />
             </div>
             <div className="w-[200px] h-[150px] bg-sky-700 rounded-md my-auto shadow-xl">
               <p className="mt-10 text-white">
@@ -233,14 +242,14 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={arrow}
                 alt="fleche"
-              />
+                />
             </div>
             <div className=" my-auto">
               <img
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={devis}
                 alt="devis"
-              />
+                />
             </div>
           </div>
         </div>
@@ -252,14 +261,14 @@ const PlanDAction = () => {
                 className="w-[70px] h-[70px] mx-auto mt-10"
                 src={prod}
                 alt="production"
-              />
+                />
             </div>
             <div className="my-auto">
               <img
                 className="mx-auto mt-10 w-[70px] h-[70px] rotate-180"
                 src={arrow}
                 alt="fleche"
-              />
+                />
             </div>
             <div className="w-[200px] h-[150px] bg-sky-800 rounded-md my-auto shadow-xl">
               <p className="mt-16 text-white">5. Production</p>
@@ -301,7 +310,7 @@ const PlanDAction = () => {
                 className="mx-auto mt-10 w-[70px] h-[70px]"
                 src={arrow}
                 alt="fleche"
-              />
+                />
             </div>
             <div className="my-auto">
               <img
@@ -314,6 +323,7 @@ const PlanDAction = () => {
         </div>
       </div>
     </section>
+                </>
   );
 };
 
