@@ -7,8 +7,8 @@ import mail from "./assets/images/message.png";
 
 const Footer = () => {
   return (
-    <section className="w-full smd:h-[700px] h-[915px] md:h-[600px] xlx:h-[440px] bg-black/70 inset-x-0 bottom-0">
-      <div className="w-full xlx:w-[950px] md:w-2/3 sm:mx-auto flex flex-wrap justify-evenly pt-20">
+    <section className="w-full smd:h-[680px] h-[915px] md:h-[760px] xls:h-[440px] bg-black/70 inset-x-0 bottom-0">
+      <div className="w-full xlx:w-[930px] md:w-2/3 sm:mx-auto flex flex-wrap justify-evenly pt-20">
         <div className="flex flex-col max-xlx:mb-5 h-[180px]">
           <img
             className="w-28 h-26 rounded-lg max-md:mx-auto"
@@ -21,11 +21,11 @@ const Footer = () => {
             src={mail}
             alt="mail"
             />
-            <span className=" text-white">contact@databisolutions.fr</span>
+            <span className=" text-white text-sm">contact@databisolutions.fr</span>
             </div>
         </div>
         <div className="text-white flex max-md:flex-col sm:mb-10">
-          <span className="border-r h-56 max-xl:h-0"></span>
+          <span className="border-r h-56 max-md:h-0"></span>
           <ul className="px-10 text-left">
             <li className="mb-5 font-semibold">Plan du site</li>
             <li className="mb-2 transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-110 duration-150"><Link to="/">ACCUEIL</Link></li>
@@ -35,7 +35,7 @@ const Footer = () => {
             <li className="mb-2 transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-110 duration-150"><Link to="/contact">CONTACT</Link></li>
             <li className="mb-2 transition ease-in-out delay-150 hover:-translate-y-0.5 hover:scale-110 duration-150"><Link to="/aPropos">À PROPOS</Link></li>
           </ul>
-          <span className="border-r h-56 max-xl:h-0"></span>
+          <span className="border-r h-56 max-md:h-0"></span>
 
         </div>
           <div className="flex max-slg:flex-col text-white">
@@ -47,7 +47,7 @@ const Footer = () => {
               </Link>
             </button>
           </ul>
-          <span className="border-r h-56 text-left max-xl:h-0"></span>
+          <span className="border-r h-56 text-left max-md:h-0"></span>
           <ul className="px-10">
             <li className="font-semibold">Liens Sociaux</li>
             <button className="py-6 text-white transition ease-in-out delay-250 hover:-translate-y-0.5 hover:scale-105 hover:text-white duration-500">
