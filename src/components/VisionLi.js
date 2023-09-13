@@ -1,6 +1,5 @@
 import React from "react";
-import Vision3List from "./Vision3List";
-import Vision4List from "./Vision4List";
+
 
 const VisionLi = ({ MainDiv, title, img, el1, el2, el3, el4 }) => {
   return (
