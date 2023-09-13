@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+
 
 
 const VisionRi = ({MainDiv, title, img, el1, el2, el3, el4}) => {
