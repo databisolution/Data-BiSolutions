@@ -39,6 +39,12 @@ const MenuItems = ({ setActive, active }) => {
             className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 font-semibold"
             onClick={() => setActive(!active)}
           >
+            <Link to="/notreVision">Pourquoi Data & Bi?</Link>
+          </li>
+          <li
+            className="transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 font-semibold"
+            onClick={() => setActive(!active)}
+          >
             <Link to="/planAction">PLAN D'ACTION</Link>
           </li>
           <li

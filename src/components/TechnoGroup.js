@@ -9,6 +9,7 @@ import Automate from "../containers/assets/images/powerAutomate.png";
 import verizon from "../containers/assets/images/verizon.png";
 import oracle from "../containers/assets/images/oracle.png";
 import Azure from "../containers/assets/images/Azure.png";
+import pApps from "../containers/assets/images/microsoft-power-apps.png";
 import Rbuilder from "../containers/assets/images/reportBuilder1.png";
 import mooncard from "../containers/assets/images/mooncard.png";
 
@@ -138,6 +139,17 @@ const TechnoGroup = () => {
             <img className="max-xlx:h-[0px]" src={mooncard} alt="mooncard" />
             <p className="max-xlx:collapse text-blue-400 font-semibold text-xl">
               Mooncard
+            </p>
+          </div>
+          <div
+            className="xlx:h-[150px] w-[150px] top-20 relative"
+            data-aos="zoom-in"
+            data-aos-delay="1250"
+            data-aos-duration="500"
+          >
+            <img className="max-xlx:h-[0px]" src={pApps} alt="power apps" />
+            <p className="max-xlx:collapse text-pink-400 font-semibold text-xl">
+              Power Apps
             </p>
           </div>
           <div

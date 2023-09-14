@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import Techno from "./assets/images/technologies.PNG";
 import pbi from "./assets/images/Pbi.png";
 import PowerBi from "./assets/images/PowerBi.png";
+import pApps from "./assets/images/microsoft-power-apps.png";
 import TechnoCard from "../components/TechnoCard";
 import Automate from "./assets/images/powerAutomate.png";
+import PowerAppsExemple from "./assets/images/powerAppExemple.png";
 import Azure from "./assets/images/Azure.png";
 import Rbuilder from "./assets/images/reportBuilder.png";
 import TechnoGroup from "../components/TechnoGroup";
@@ -58,6 +60,22 @@ const Technologies = () => {
               "Une palette variée et étoffée de tableaux, diagrammes, jauges ou cartes permettront une présentation optimale des données de l’entreprise et une prise de décision adaptée"
             }
             imgDesc={PowerBi}
+          />
+          <TechnoCard
+            cardTitle={"Microsoft Power Apps"}
+            techTitle={"POWER Apps"}
+            classTech={"text-3xl mt-5 font-extrabold text-pink-400"}
+            techLogo={pApps}
+            classNameTitle={
+              "text-2xl text-pink-400 font-semibold mt-20 xl:py-4 xl:mt-20 relative xl:top-[130px] xl:w-[300px] 2xl:xl:top-[110px] 2xl:w-[200px] 3xl:xl:top-[130px] 3xl:w-[300px] xl:ml-7 z-10"
+            }
+            techDesc={
+              "PowerApps permet de concevoir des applications métiers connectées"
+            }
+            techObjectif={
+              "Une liberté de conception et un environnement de développement rapide pour concevoir des applications personnalisées et adaptées à vos besoins métier. Toutes vos idées pourront être mise en oeuvre et isolées ou intégrées à votre rapport PowerBI (formulaire de saisie d'intervention, plateforme de ticketing, application pour la gestion des CP, Plateforme pour la gestion des stocks...)"
+            }
+            imgDesc={PowerAppsExemple}
           />
           <div>
             <TechnoCard
