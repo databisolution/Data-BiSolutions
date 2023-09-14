@@ -35,7 +35,7 @@ const PlanDAction = () => {
       <div className="w-full mx-auto z-0 mt-28">
         <Title
           titleStyle={
-            "lg:mx-auto lg:w-[1000px] font-semibold 2xl:leading-[40px] 3xl:leading-[60px] relative text-lg leading-[30px] 3xl:w-[550px] lg:text-2xl 2xl:text-lg 3xl:text-3xl top-[10px] sm:top-10 md:top-44 lg:top-44 2xl:right-[550px] 3xl:right-[750px] 2xl:w-[400px] 2xl:-top-[50px] 3xl:-top-[15px]"
+            "lg:mx-auto lg:w-[1000px] font-semibold 2xl:leading-[40px] 3xl:leading-[60px] relative text-lg leading-[30px] 3xl:w-[550px] lg:text-2xl 2xl:text-lg 3xl:text-3xl top-[10px] sm:top-10 md:top-44 lg:top-44 2xl:right-[550px] 3xl:right-[750px] 2xl:w-[400px] 2xl:-top-[-10px] 3xl:-top-[-25px]"
           }
           titleDesc={
             "Notre expérience nous permet de vous conseiller et vous proposer le modèle adapté à votre structure"
