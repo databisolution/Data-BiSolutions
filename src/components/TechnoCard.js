@@ -17,7 +17,7 @@ const TechnoCard = ({
       <div className="flex 2xl:justify-evenly 2xl:flex-row flex-col relative 3xl:-top-[250px] 2xl:-top-[100px] -top-[250px]">
         <div className="3xl:w-[400px] 3xl:h-[500px] 2xl:w-[300px] 2xl:h-[400px] w-[320px] md:w-[450px] xl:w-[600px] max-2xl:mx-auto relative -top-[150px] border-4 border-none rounded-xl backdrop-blur-2xl bg-white/60 shadow-gray-50 shadow-md">
           <img
-            className="w-[300px] lg:w-[300px] xl:w-[250px] mx-auto mt-5 object-fit"
+            className="w-[300px] lg:w-[300px] xl:w-[240px] mx-auto mt-5 object-fit"
             src={techLogo}
             alt="pbi"
           />

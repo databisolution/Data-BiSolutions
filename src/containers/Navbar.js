@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link to="/">ACCUEIL</Link>
           </li>
           <li className="underlined transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 text-sm xl:text-md 3xl:xl font-semibold ">
-            <Link to="/notreVision">Pourquoi Data & Bi?</Link>
+            <Link to="/notreVision">Pourquoi Data & Bi</Link>
           </li>
           <li className="underlined xl:text-md text-sm 3xl:xl font-semibold transition ease-in-out delay-350 hover:-translate-y-0.5 hover:scale-110 duration-500">
             <Link to="/planAction">PLAN D'ACTION</Link>
