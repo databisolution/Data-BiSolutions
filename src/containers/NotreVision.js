@@ -17,7 +17,7 @@ const NotreVision = () => {
       <section className="h-[3750px]">
         <div>
           <h2 className="my-5 sx:mt-20 font-extrabold text-3xl">
-            Utilisez une solution dédié pour votre stratégie
+            Utilisez une Solution dédié pour votre stratégie
           </h2>
         </div>
         <div className="sx:my-10 w-44 h-1 bg-cyan-500 mx-auto rounded-md"></div>
