@@ -7,17 +7,26 @@ import plateforme from "./assets/images/plateforme.jpg";
 import centralised from "./assets/images/centralised.jpg";
 import auto from "./assets/images/auto.jpg";
 import Header from "../components/Header";
+import { Helmet } from "react-helmet-async";
 
 import React from "react";
 
 const NotreVision = () => {
   return (
     <>
-      <Header namePage={"Pourquoi Data BI Solutions"} />
+      <Helmet>
+        <title>Pourquoi Data & BI Solutions</title>
+        <meta
+          name="description"
+          content="Utilisez une solution dédiée pour votre stratégie"
+        />
+        <link rel="canonical" href="/notreVision" />
+      </Helmet>
+      <Header namePage={"Pourquoi Data & BI Solutions"} />
       <section className="h-[3750px]">
         <div>
           <h2 className="my-5 sx:mt-20 font-extrabold text-3xl">
-            Utilisez une solution dédié pour votre stratégie
+            Utilisez une solution dédiée pour votre stratégie
           </h2>
         </div>
         <div className="sx:my-10 w-44 h-1 bg-cyan-500 mx-auto rounded-md"></div>
@@ -144,7 +153,7 @@ const NotreVision = () => {
         </div>
 
         <h2 className="relative top-[180px] sx:top-[1080px]  xl:top-[1080px] 2xl:top-[1130px] font-extrabold text-2xl text-black">
-          Optimisez le temps de vos équipes et améliorer les process avec des
+          Optimisez le temps de vos équipes et améliorez les process avec des
           applications métiers
         </h2>
 

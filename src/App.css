@@ -150,6 +150,35 @@ E1BC29 */
   border-radius: 50%;
 }
 
+/* ###############- COULEUR CARD PLAN ACTION -################ */
+
+.expClient{
+  background-image: linear-gradient(359deg, rgb(188,237,251),rgb(242,251,255));
+}
+ 
+.diagData{
+  background-image: linear-gradient(359deg, rgb(108,192,241),rgb(188,237,251));
+}
+
+.propSolution{
+  background-image: linear-gradient(359deg, rgb(42,142,220),rgb(108,192,241));
+}
+
+.readapt{
+  background-image: linear-gradient(359deg, rgb(63,108,255),rgb(42,142,220));
+}
+
+.propDevis{
+  background-image: linear-gradient(359deg, rgb(30, 24, 189),rgb(42,142,220));
+}
+
+.prod{
+  background-image: linear-gradient(359deg, rgb(17, 10, 120),rgb(30, 24, 189));
+}
+
+.def{
+  background-image: linear-gradient(359deg, rgb(21, 11, 165),rgb(17, 10, 120));
+}
 /* ###############- POURQUOI DBIS -################ */
 
 @media (min-width: 588px) {
