@@ -9,6 +9,7 @@ const TechnoCard = ({
   imgDesc,
   cardTitle,
   classTech,
+  classObj
 }) => {
   return (
     <div className="-mb-52 2xl:-mb-72">
@@ -22,20 +23,22 @@ const TechnoCard = ({
             alt="pbi"
           />
           <h2 className={classTech}>{techTitle}</h2>
-          <p className="mt-10 text-2xl 2xl:text-lg 3xl:text-2xl m-2 font-semibold leading-[30px] policeTech lg:leading-[40px] text-slate-600">
+          <p className="mt-10 2xl:mt-2 3xl:mt-10 text-2xl 2xl:text-lg 3xl:text-2xl m-2 font-semibold leading-[30px] policeTech lg:leading-[40px] text-slate-600">
             {techDesc}
           </p>
         </div>
 
         <div>
           <img
-            className="mx-auto w-[1000px] 2xl:w-[600px] 3xl:w-[1000px] relative 2xl:-top-[130px] 3xl:top-0 shadow-2xl rounded-xl object-cover mb-10"
+            className="mx-auto w-[1000px] 2xl:w-[600px] 3xl:w-[1000px] relative 2xl:-top-[130px] 3xl:top-0 shadow-3xl rounded-xl object-cover mb-10"
             src={imgDesc}
             alt="imgDesc"
           />
-          <p className="3xl:w-[1000px] 2xl:w-[600px] 2xl:text-left lg:text-3xl 3xl:text-3xl 2xl:text-xl 2xl:leading-[40px] xl:leading-[60px] relative 2xl:-top-[140px] 3xl:top-0 policeTech">
+          <div className={classObj}>
+          <p className="2xl:text-left lg:text-3xl 3xl:text-3xl 2xl:text-lg 2xl:leading-[40px] xl:leading-[40px] policeTech m-6">
             {techObjectif}
           </p>
+          </div>
         </div>
       </div>
     </div>

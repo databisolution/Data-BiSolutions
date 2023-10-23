@@ -150,3 +150,69 @@ E1BC29 */
   border-radius: 50%;
 }
 
+/* ###############- COULEUR CARD PLAN ACTION -################ */
+
+.expClient{
+  background-image: linear-gradient(359deg, rgb(188,237,251),rgb(220, 231, 236));
+}
+ 
+.diagData{
+  background-image: linear-gradient(359deg, rgb(108,192,241),rgb(188,237,251));
+}
+
+.propSolution{
+  background-image: linear-gradient(359deg, rgb(42,142,220),rgb(108,192,241));
+}
+
+.readapt{
+  background-image: linear-gradient(359deg, rgba(63, 108, 255, 0.776),rgb(42,142,220));
+}
+
+.propDevis{
+  background-image: linear-gradient(359deg, rgba(11, 22, 140, 0.719),rgb(42,142,220));
+}
+
+.prod{
+  background-image: linear-gradient(359deg, #044469,rgb(30, 24, 189));
+}
+
+.def{
+  background-image: linear-gradient(359deg, #07314a,#126a9de0);
+}
+/* ###############- POURQUOI DBIS -################ */
+
+@media (min-width: 588px) {
+  .bgImg {
+    background-image: repeating-linear-gradient(
+        67.5deg,
+        hsla(145, 0%, 97%, 0.2) 0px,
+        hsla(145, 0%, 97%, 0.2) 0px,
+        transparent 0px,
+        transparent 1px,
+        hsla(145, 0%, 97%, 0.2) 1px,
+        hsla(145, 0%, 97%, 0.2) 4px,
+        transparent 4px,
+        transparent 5px,
+        hsla(145, 0%, 97%, 0.2) 5px,
+        hsla(145, 0%, 97%, 0.2) 8px
+      ),
+      repeating-linear-gradient(
+        180deg,
+        hsla(145, 0%, 97%, 0.2) 0px,
+        hsla(145, 0%, 97%, 0.2) 0px,
+        transparent 0px,
+        transparent 1px,
+        hsla(145, 0%, 97%, 0.2) 1px,
+        hsla(145, 0%, 97%, 0.2) 4px,
+        transparent 4px,
+        transparent 5px,
+        hsla(145, 0%, 97%, 0.2) 5px,
+        hsla(145, 0%, 97%, 0.2) 8px
+      ),
+      linear-gradient(
+        315deg,
+        rgba(237, 237, 237, 0.35),
+        rgba(26, 117, 135, 0.25)
+      );
+  }
+}
