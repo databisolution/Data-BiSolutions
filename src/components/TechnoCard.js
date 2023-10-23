@@ -35,7 +35,7 @@ const TechnoCard = ({
             alt="imgDesc"
           />
           <div className={classObj}>
-          <p className="2xl:text-left lg:text-3xl 3xl:text-3xl 2xl:text-lg 2xl:leading-[40px] xl:leading-[40px] policeTech m-6">
+          <p className="2xl:text-left lg:text-3xl 3xl:text-3xl 2xl:text-lg 2xl:leading-[40px] xl:leading-[40px] policeTech m-2">
             {techObjectif}
           </p>
           </div>
