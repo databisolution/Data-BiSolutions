@@ -77,7 +77,7 @@ const Technologies = () => {
               "Une liberté de conception et un environnement de développement rapide pour concevoir des applications personnalisées et adaptées à vos besoins métier. Toutes vos idées pourront être mise en oeuvre et isolées ou intégrées à votre rapport PowerBI (formulaire de saisie d'intervention, plateforme de ticketing, application pour la gestion des CP, Plateforme pour la gestion des stocks...)"
             }
             imgDesc={PowerAppsExemple}
-            classObj="3xl:w-[600px] 2xl:w-[340px] xl:h-[370px] sm:w-[290px] 2xl:h-[430px] lg:h-[400px] sm:h-[270px] xm:w-[400px] lg:w-[600px] xl:w-[700px] h-[250px] mx-auto relative 3xl:-top-[100px] 2xl:-top-[200px] 3xl:left-[380px] sm:-top-[60px] rounded-lg backdrop-blur-2xl bg-white/60 shadow-gray-50 shadow-md"
+            classObj="3xl:w-[600px] 3xl:h-[430px] 2xl:w-[340px] xl:h-[370px] sm:w-[290px] 2xl:h-[500px] lg:h-[400px] sm:h-[270px] xm:w-[400px] lg:w-[600px] xl:w-[700px] h-[250px] mx-auto relative 3xl:-top-[100px] 2xl:-top-[200px] 3xl:left-[380px] sm:-top-[60px] rounded-lg backdrop-blur-2xl bg-white/60 shadow-gray-50 shadow-md"
           />
           <div>
             <TechnoCard
@@ -95,7 +95,7 @@ const Technologies = () => {
               techObjectif={
                 "Des connexions sécurisées à vos sources de données (SAP, SALES FORCES, Oracle, Sharepoint, Google…), une architecture adaptée et une actualisation à intervalle régulier en fonction des besoins utilisateurs permettront un traitement optimisé de vos informations"
               }
-              classObj="3xl:w-[600px] 2xl:w-[340px] xl:h-[410px] sm:w-[290px] 2xl:h-[300px] sm:h-[200px] xm:w-[400px] lg:h-[230px] lg:w-[700px] xl:w-[600px] h-[250px] mx-auto relative 3xl:-top-[100px] 2xl:-top-[200px] 3xl:left-[380px] sm:-top-[60px] rounded-lg backdrop-blur-2xl bg-white/60 shadow-gray-50 shadow-md"
+              classObj="3xl:w-[600px] 3xl:h-[300px] 2xl:w-[340px] xl:h-[410px] sm:w-[290px] 2xl:h-[380px] sm:h-[200px] xm:w-[400px] lg:h-[230px] lg:w-[700px] xl:w-[600px] h-[250px] mx-auto relative 3xl:-top-[100px] 2xl:-top-[200px] 3xl:left-[380px] sm:-top-[60px] rounded-lg backdrop-blur-2xl bg-white/60 shadow-gray-50 shadow-md"
             />
           </div>
           <div>
@@ -114,7 +114,7 @@ const Technologies = () => {
               techObjectif={
                 "L’automatisation des taches chronophages et l’envoi sécurisé des données sur l’environnement Azure Synapse permettra à l’utilisateur de se focaliser sur des éléments à plus forte valeur ajoutée en s’appuyant sur des visuels dédiés, actualisés en temps réel dans Power BI"
               }
-              classObj="3xl:w-[600px] 2xl:w-[340px] xl:h-[410px] sm:w-[290px] 2xl:h-[300px] sm:h-[200px] xm:w-[400px] lg:h-[230px] lg:w-[700px] xl:w-[600px] h-[250px] mx-auto relative 3xl:-top-[100px] 2xl:-top-[200px] 3xl:left-[380px] sm:-top-[60px] rounded-lg backdrop-blur-2xl bg-white/60 shadow-gray-50 shadow-md"
+              classObj="3xl:w-[600px] 3xl:h-[330px] 2xl:w-[340px] xl:h-[410px] sm:w-[290px] 2xl:h-[350px] sm:h-[200px] xm:w-[400px] lg:h-[230px] lg:w-[700px] xl:w-[600px] h-[250px] mx-auto relative 3xl:-top-[100px] 2xl:-top-[200px] 3xl:left-[380px] sm:-top-[60px] rounded-lg backdrop-blur-2xl bg-white/60 shadow-gray-50 shadow-md"
             />
           </div>
           <div>
@@ -133,7 +133,7 @@ const Technologies = () => {
               techObjectif={
                 "En plus de la conception et l’édition de tous types de documents nécessaires à l’entreprise (Courrier de relance, Echéanciers, Factures, formulaires, tableaux...), il pourra s’allier à Power Automate et Azure Synapse afin d’historiser les opérations, les traiter et les afficher en temps réel dans Power BI"
               }
-              classObj="3xl:w-[600px] 2xl:w-[340px] xl:h-[480px] sm:w-[290px] 2xl:h-[340px] sm:h-[200px] xm:w-[400px] lg:h-[230px] lg:w-[700px] xl:w-[600px] h-[250px] mx-auto relative 3xl:-top-[100px] 2xl:-top-[200px] 3xl:left-[380px] sm:-top-[60px] rounded-lg backdrop-blur-2xl bg-white/60 shadow-gray-50 shadow-md"
+              classObj="3xl:w-[600px] 3xl:h-[330px] 2xl:w-[340px] xl:h-[480px] sm:w-[290px] 2xl:h-[390px] sm:h-[200px] xm:w-[400px] lg:h-[230px] lg:w-[700px] xl:w-[600px] h-[250px] mx-auto relative 3xl:-top-[100px] 2xl:-top-[200px] 3xl:left-[380px] sm:-top-[60px] rounded-lg backdrop-blur-2xl bg-white/60 shadow-gray-50 shadow-md"
             />
           </div>
           <Link to="/contact">
