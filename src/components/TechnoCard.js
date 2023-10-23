@@ -30,12 +30,12 @@ const TechnoCard = ({
 
         <div>
           <img
-            className="mx-auto w-[1000px] 2xl:w-[600px] 3xl:w-[1000px] relative 2xl:-top-[130px] 3xl:top-0 shadow-2xl rounded-xl object-cover mb-10"
+            className="mx-auto w-[1000px] 2xl:w-[600px] 3xl:w-[1000px] relative 2xl:-top-[130px] 3xl:top-0 shadow-3xl rounded-xl object-cover mb-10"
             src={imgDesc}
             alt="imgDesc"
           />
           <div className={classObj}>
-          <p className="2xl:text-left lg:text-3xl 3xl:text-3xl 2xl:text-xl 2xl:leading-[40px] xl:leading-[60px] policeTech">
+          <p className="2xl:text-left lg:text-3xl 3xl:text-3xl 2xl:text-lg 2xl:leading-[40px] xl:leading-[40px] policeTech m-6">
             {techObjectif}
           </p>
           </div>
@@ -46,4 +46,3 @@ const TechnoCard = ({
 };
 
 export default TechnoCard;
-// 3xl:w-[1000px] 2xl:w-[600px]
