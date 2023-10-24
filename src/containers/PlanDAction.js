@@ -47,7 +47,7 @@ const PlanDAction = () => {
                 data-aos="fade-down-right"
                 className="relative max-smd:w-[300px] max-smd:left-[240px] max-smd:right-[30px] max-xm:left-[290px] max-md:left-[200px] max-lg:left-[190px] 2xl:right-[120px] max-xl:top-[150px] max-xl:left-[90px] max-3xl:left-[200px] w-[410px] h-[300px] bg-slate-200 rounded-md my-auto xl:text-left shadow-xl"
               >
-                <ul className="list-disc list-inside xl:ml-2 max-xl:mt-[180px]">
+                <ul className="list-disc list-inside xl:ml-2 max-xl:mt-[160px]">
                   <li className="mt-3 titleText">
                     Récurrence de l'actualisation des données
                   </li>
@@ -91,7 +91,7 @@ const PlanDAction = () => {
                 data-aos="fade-down-left"
                 className="relative max-smd:w-[300px] max-smd:left-[-170px] max-xm:left-[-190px] max-md:left-[-200px] max-lg:left-[-190px] 2xl:top-[-60px] 2xl:right-[450px] 3xl:right-[500px] max-xl:top-[250px] max-xl:right-[190px] max-2xl:top-[-70px] max-2xl:right-[430px] w-[410px] h-[320px] rounded-md my-auto text-left backdrop-blur-sm bg-white/50 shadow-gray-50 shadow-md"
               >
-                <ul className="list-disc list-inside xl:ml-2 max-xl:mt-[180px] max-xl:text-center">
+                <ul className="list-disc list-inside xl:ml-2 max-xl:mt-[160px] max-xl:text-center">
                   <li className="titleText mt-3">
                     Etude de la structure de la base de données
                   </li>
@@ -109,7 +109,7 @@ const PlanDAction = () => {
                 data-aos="fade-down-right"
                 className="relative max-smd:w-[300px] max-smd:left-[240px] max-smd:right-[30px] max-xm:left-[290px] max-md:left-[200px] max-lg:left-[190px] 3xl:left-[-120px] 2xl:left-[200px] max-2xl:left-[200px] max-2xl:top-[-125px] 2xl:top-[-100px] max-xl:top-[400px] max-xl:left-[100px] w-[410px] h-[320px] bg-slate-200 rounded-md my-auto text-left shadow-xl"
               >
-                <ul className="leading-7 list-disc list-inside xl:ml-3 max-xl:mt-[150px] max-xl:text-center">
+                <ul className="leading-7 list-disc list-inside xl:ml-3 max-xl:mt-[130px] max-xl:text-center">
                   <li className="titleText mt-3">
                     Définition des conditions de réalisation
                   </li>
@@ -206,9 +206,9 @@ const PlanDAction = () => {
               </div>
               <div
                 data-aos="fade-down-left"
-                className="relative max-smd:w-[300px] max-smd:left-[-310px] max-xm:left-[-350px] max-md:left-[-265px] max-lg:left-[-260px] 2xl:right-[280px] 3xl:left-[100px] 2xl:top-[-250px] max-2xl:top-[-291px] max-2xl:right-[260px] max-xl:top-[850px] max-xl:right-[120px] w-[410px] h-[320px] bg-slate-200 rounded-md my-auto text-left shadow-xl"
+                className="relative max-smd:w-[300px] max-smd:left-[-310px] max-xm:left-[-350px] max-md:left-[-265px] max-lg:left-[-260px] 2xl:right-[280px] 3xl:left-[100px] 2xl:top-[-250px] max-2xl:top-[-291px] max-2xl:right-[260px] max-xl:top-[850px] max-xl:right-[120px] w-[410px] h-[320px] backdrop-blur-sm bg-white/50 shadow-gray-50 rounded-sm my-auto text-left shadow-xl"
               >
-                <ul className="list-disc list-inside xl:ml-3 max-xl:mt-[150px] max-xl:text-center text-sm">
+                <ul className="list-disc list-inside xl:ml-3 max-xl:mt-[130px] max-xl:text-center text-sm">
                   <li className="titleText mt-3">
                     Communication avec les intervenants
                   </li>
