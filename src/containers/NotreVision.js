@@ -5,7 +5,7 @@ import rpa from "./assets/images/rpa_concept.jpg";
 import security from "./assets/images/security.jpg";
 import plateforme from "./assets/images/plateforme.jpg";
 import centralised from "./assets/images/centralised.jpg";
-import auto from "./assets/images/auto.jpg";
+import auto from "./assets/images/centralised.png";
 import Header from "../components/Header";
 import { Helmet } from "react-helmet-async";
 
