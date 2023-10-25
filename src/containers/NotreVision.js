@@ -182,7 +182,7 @@ const NotreVision = () => {
           MainDiv={
             "mt-[1080px] sx:mt-[1100px] relative w-full sx:w-[500px] md:w-[600px] lg:w-[800px] 2xl:w-[1000px] mx-auto"
           }
-          img={auto}
+          img={centralised}
           title={"Processus automatisés"}
           el1={"Automatisés vos opérations d'entreprise manuels"}
           el2={"Obtenir rapidement des applications spécifiques à votre métier"}
@@ -198,7 +198,7 @@ const NotreVision = () => {
             >
             <img
               className="object-cover w-[290px] slg:w-[300px] md:w-[350px] lg:w-[500px] 2xl:w-[700px] 2xl:h-[420px] h-[320px] rounded-md"
-              src={centralised}
+              src={auto}
               alt=""
             />
           </div>
