@@ -26,7 +26,7 @@ const CookieBanner = () => {
           z-50"
         >
           <p className="my-auto text-xl font-extrabold">
-            Nous utilisions les cookies pour améliorez votre experience.
+            Nous utilisions les cookies pour améliorer votre experience.
           </p>
           <div className="w-[320px] mx-auto flex justify-around mb-5">
             <button
