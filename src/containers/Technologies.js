@@ -34,7 +34,7 @@ const Technologies = () => {
             src={Techno}
             alt="technologies"
             data-aos="zoom-in-down"
-            data-aos-duration="1800"
+            data-aos-duration="1810"
           />
           <TechnoGroup />
           <h2
