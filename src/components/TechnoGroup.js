@@ -57,7 +57,7 @@ const TechnoGroup = () => {
         <div
           className="flex justify-evenly w-full relative"
           data-aos="zoom-in"
-          data-aos-delay="1550"
+          data-aos-delay="1600"
           data-aos-duration="500"
         >
           <div className="xlx:h-[150px] xl:w-[150px]  relative">
